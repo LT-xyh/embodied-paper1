@@ -19,3 +19,4 @@
 | 2026-09-20 20:38 | armnet-p0 | p0-armnet/results.md | bounded-admission | Human-readable P0-B baseline and evaluator consequence summary |
 | 2026-09-20 20:38 | armnet-p0 | idea-stage/ARMNET_P0_RESULT.md | bounded-admission | Final verdict P0 SURVIVES — LEVEL 1; implementation remains unauthorized |
 | 2026-09-20 19:06 | reviewer-governance | idea-stage/ARMNET_P0_ADMISSION.md | scientific-admission | Authorize one bounded CPU/offline Armnet P0 artifact-truth and leakage sanity test; full implementation remains unauthorized |
+| 2026-09-20 21:26 | reviewer-governance | idea-stage/ARMNET_P05_GENERALIZATION_ADMISSION.md | paper-admission | Authorize bounded leakage isolation, bimanual internal replication, and independent replication search; full implementation remains unauthorized |
