@@ -1,0 +1,13 @@
+version	1
+repo_root	/public/home/xuyinghao/aris_repo
+project_root	/public/home/xuyinghao/workspace/embodied-paper1
+generated	2026-09-20T06:57:48Z
+packages	skills-codex
+kind	name	source_rel	target_rel	mode
+skill	idea-creator	skills/skills-codex/idea-creator	.agents/skills/idea-creator	symlink
+skill	idea-discovery-robot	skills/skills-codex/idea-discovery-robot	.agents/skills/idea-discovery-robot	symlink
+skill	novelty-check	skills/skills-codex/novelty-check	.agents/skills/novelty-check	symlink
+skill	research-lit	skills/skills-codex/research-lit	.agents/skills/research-lit	symlink
+skill	research-review	skills/skills-codex/research-review	.agents/skills/research-review	symlink
+skill	research-wiki	skills/skills-codex/research-wiki	.agents/skills/research-wiki	symlink
+support	shared-references	skills/skills-codex/shared-references	.agents/skills/shared-references	symlink
