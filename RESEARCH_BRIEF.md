@@ -90,6 +90,23 @@ Do NOT automatically continue ReplayVLA.
 
 Existing ShiftVLA code may be reused only when reuse materially shortens the newly selected scientific route.
 
+## Accumulated Negative Evidence
+
+The following directions have already been investigated and are not default continuation routes:
+
+* **ReplayVLA / closed-loop corruption persistence**: the scientific hypothesis was not falsified, but LIBERO runtime/provenance/bootstrap cost prevented timely scientific validation.
+* **Segment/state-action mixed-quality demonstration filtering**: crowded by S2I, SCIZOR, DataMIL, and adjacent 2025-2026 work.
+* **Counterfactual visual/language shortcut diagnostics**: crowded by LIBERO-CF, LIBERO-VIFO, and adjacent work.
+* **Generic VLA safety benchmarking**: crowded by LIBERO-Safety, LIBERO-VIFO, and related 2026 evaluation work.
+* **Generic world-model evaluator calibration, shift degradation, ranking, or action-following diagnosis**: crowded by WorldEval, WorldGym, WorldEcho/WorldSync, IRASim, and decision-centric evaluation work.
+* **Common-random-number coupling for world-model policy comparison as the primary contribution**: estimator-level variance reduction is too generic and historically established to carry the main robotics contribution by itself.
+* **Generic recovery/retry, adaptive action-chunk horizons, and active factor evaluation**: direct 2026 prior work substantially covers these claims.
+* **Contact-topology/contact-flow/contact-graph cross-embodiment transfer as the main novelty**: KITE, ContactFlow, TopoRetarget, C2Dex, and adjacent 2026 work substantially narrow the novelty gap. The stronger contact-feasibility-boundary claim also lacks a clean public DCU/CPU-compatible 1-3 day falsification path.
+
+Future direction discovery must not repackage these routes unless genuinely new evidence changes either the novelty assessment or the execution assessment.
+
+The next reselection pass must use a **substrate-first** process: verify executable public artifacts before promoting a scientific idea to the final shortlist.
+
 ## Engineering Stop Rules
 
 1. Define a minimal falsifiable pilot before substantial implementation.
@@ -147,28 +164,26 @@ For Paper-1, do not prioritize:
 * simulator infrastructure as the main contribution;
 * continuing ReplayVLA solely because existing code already exists.
 
-## Desired First Output
+## Current Next Output
 
-Perform research-direction discovery from scratch.
+Perform a **substrate-first research-direction reselection** under the separate authority in `idea-stage/SUBSTRATE_FIRST_RESELECTION.md`.
 
-Produce:
+The next pass must first identify public datasets, released trajectories, checkpoints, simulator-state logs, evaluation traces, or lightweight runtimes that can produce scientific evidence under the current hardware constraints. Only after static execution admission may research ideas be generated from those substrates.
 
-* a current literature landscape;
-* important crowded or low-value directions that should be eliminated;
-* the strongest Top-3 candidates;
-* novelty assessment for each;
-* minimum falsifiable pilot for each;
-* implementation and runtime risk;
-* compute/DCU compatibility;
-* strongest rejection risk;
-* publication potential;
-* longer-term research extension.
+The final shortlist may contain Top-3, Top-2, Top-1, or zero candidates. Do not retain weak candidates merely to fill a quota.
+
+Every retained candidate must pass both:
+
+* **scientific admission**: a precise falsifiable claim with a non-overlapping 2025-2026 novelty gap;
+* **static execution admission**: an exact public substrate and a credible 1-3 day pilot that does not require CUDA-specific porting, runtime reconstruction, real-robot data, or large-model training before scientific evidence.
 
 Do NOT implement methods.
 
 Do NOT install benchmark runtimes.
 
-Do NOT launch GPU experiments.
+Do NOT download large datasets or checkpoints.
 
-STOP after the Top-3 research-direction report.
+Do NOT launch simulator, GPU, or real-robot experiments.
+
+STOP after the substrate-grounded shortlist and static execution admission.
 
