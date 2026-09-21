@@ -1,13 +1,27 @@
 version	1
 repo_root	/public/home/xuyinghao/aris_repo
 project_root	/public/home/xuyinghao/workspace/embodied-paper1
-generated	2026-09-20T06:57:48Z
+generated	2026-09-21T12:37:24Z
 packages	skills-codex
 kind	name	source_rel	target_rel	mode
+skill	ablation-planner	skills/skills-codex/ablation-planner	.agents/skills/ablation-planner	symlink
+skill	auto-review-loop	skills/skills-codex/auto-review-loop	.agents/skills/auto-review-loop	symlink
+skill	experiment-bridge	skills/skills-codex/experiment-bridge	.agents/skills/experiment-bridge	symlink
+skill	experiment-plan	skills/skills-codex/experiment-plan	.agents/skills/experiment-plan	symlink
+skill	experiment-queue	skills/skills-codex/experiment-queue	.agents/skills/experiment-queue	symlink
 skill	idea-creator	skills/skills-codex/idea-creator	.agents/skills/idea-creator	symlink
+skill	idea-discovery	skills/skills-codex/idea-discovery	.agents/skills/idea-discovery	symlink
 skill	idea-discovery-robot	skills/skills-codex/idea-discovery-robot	.agents/skills/idea-discovery-robot	symlink
+skill	monitor-experiment	skills/skills-codex/monitor-experiment	.agents/skills/monitor-experiment	symlink
 skill	novelty-check	skills/skills-codex/novelty-check	.agents/skills/novelty-check	symlink
+skill	render-html	skills/skills-codex/render-html	.agents/skills/render-html	symlink
 skill	research-lit	skills/skills-codex/research-lit	.agents/skills/research-lit	symlink
+skill	research-pipeline	skills/skills-codex/research-pipeline	.agents/skills/research-pipeline	symlink
+skill	research-refine	skills/skills-codex/research-refine	.agents/skills/research-refine	symlink
+skill	research-refine-pipeline	skills/skills-codex/research-refine-pipeline	.agents/skills/research-refine-pipeline	symlink
 skill	research-review	skills/skills-codex/research-review	.agents/skills/research-review	symlink
 skill	research-wiki	skills/skills-codex/research-wiki	.agents/skills/research-wiki	symlink
+skill	result-to-claim	skills/skills-codex/result-to-claim	.agents/skills/result-to-claim	symlink
+skill	run-experiment	skills/skills-codex/run-experiment	.agents/skills/run-experiment	symlink
 support	shared-references	skills/skills-codex/shared-references	.agents/skills/shared-references	symlink
+skill	training-check	skills/skills-codex/training-check	.agents/skills/training-check	symlink
