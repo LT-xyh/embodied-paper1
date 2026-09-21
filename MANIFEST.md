@@ -28,3 +28,4 @@
 | 2026-09-21 18:23 | reviewer-governance | idea-stage/SUBSTRATE_FIRST_WAVE2.md | direction-reselection | Raise candidate bar after Armnet/SocNav pivots: require non-audit contribution plus independent replication path before shortlist |
 | 2026-09-21 19:03 | /idea-discovery-robot | idea-stage/SUBSTRATE_FIRST_WAVE2_REPORT_20260921_184927.md | direction-reselection | Wave-2 substrate-first reselection report; zero survivors after novelty, replication, and execution gates |
 | 2026-09-21 19:03 | /idea-discovery-robot | idea-stage/SUBSTRATE_FIRST_WAVE2_REPORT.md | direction-reselection | Latest Wave-2 report; final shortlist zero; next P0 NO CANDIDATE |
+| 2026-09-21 19:39 | reviewer-governance | idea-stage/BASELINE_FIRST_METHOD_SEARCH.md | strategy-reset | Switch from exhausted substrate-first discovery to mature-baseline-first method search; allow only low-risk lightweight simulators |

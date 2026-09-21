@@ -109,6 +109,20 @@ Future direction discovery must not repackage these routes unless genuinely new 
 
 The next reselection pass must use a **substrate-first** process: verify executable public artifacts before promoting a scientific idea to the final shortlist.
 
+## Strategy Reset After Wave 2
+
+Two substrate-first waves failed to produce a Paper-1 candidate under the previous hard gates. This is evidence that continuing to mine public datasets for small offline effects is unlikely to be the fastest path.
+
+The next search therefore changes strategy:
+
+* move from **substrate-first phenomenon discovery** to **baseline-first method discovery**;
+* start from a mature robot-learning training/evaluation stack that is actually executable on the available hardware;
+* seek a small method or mechanism contribution that changes policy learning or control performance, rather than another benchmark audit;
+* permit a lightweight mature simulator when it is self-contained, CPU-compatible or standard-PyTorch-compatible, and does not require NVIDIA-specific kernels or substantial runtime reconstruction;
+* keep the first falsification pilot bounded to 1-3 days.
+
+The previous "avoid simulator" rule is relaxed only for mature, low-risk simulators with a simple reset/step/evaluate path. LIBERO-style bootstrap/provenance reconstruction remains strongly disfavored.
+
 ## Engineering Stop Rules
 
 1. Define a minimal falsifiable pilot before substantial implementation.
@@ -168,24 +182,12 @@ For Paper-1, do not prioritize:
 
 ## Current Next Output
 
-Perform the next **high-bar substrate-first research-direction reselection** under `idea-stage/SUBSTRATE_FIRST_WAVE2.md`.
+Perform a **baseline-first / method-first research-direction search** under `idea-stage/BASELINE_FIRST_METHOD_SEARCH.md`.
 
-The next pass must first identify public datasets, released trajectories, checkpoints, simulator-state logs, evaluation traces, or lightweight runtimes that can produce scientific evidence under the current hardware constraints. Only after static execution admission may research ideas be generated from those substrates.
+The next pass must first identify one or more mature training/evaluation stacks that can realistically support a small policy-learning experiment on the current Hygon DCU / CPU environment. Only then should it search for method-level scientific gaps around those executable baselines.
 
-The final shortlist may contain Top-3, Top-2, Top-1, or zero candidates. Do not retain weak candidates merely to fill a quota.
+Do not return to another generic substrate-first scan.
 
-Every retained candidate must pass both:
+Do NOT start full experiments or paper-scale training.
 
-* **scientific admission**: a precise falsifiable claim with a non-overlapping 2025-2026 novelty gap;
-* **static execution admission**: an exact public substrate and a credible 1-3 day pilot that does not require CUDA-specific porting, runtime reconstruction, real-robot data, or large-model training before scientific evidence.
-
-Do NOT implement methods.
-
-Do NOT install benchmark runtimes.
-
-Do NOT download large datasets or checkpoints.
-
-Do NOT launch simulator, GPU, or real-robot experiments.
-
-STOP after the substrate-grounded shortlist and static execution admission.
-
+STOP after the baseline-admission and method-candidate report.
