@@ -20,3 +20,8 @@
 | 2026-09-20 20:38 | armnet-p0 | idea-stage/ARMNET_P0_RESULT.md | bounded-admission | Final verdict P0 SURVIVES — LEVEL 1; implementation remains unauthorized |
 | 2026-09-20 19:06 | reviewer-governance | idea-stage/ARMNET_P0_ADMISSION.md | scientific-admission | Authorize one bounded CPU/offline Armnet P0 artifact-truth and leakage sanity test; full implementation remains unauthorized |
 | 2026-09-20 21:26 | reviewer-governance | idea-stage/ARMNET_P05_GENERALIZATION_ADMISSION.md | paper-admission | Authorize bounded leakage isolation, bimanual internal replication, and independent replication search; full implementation remains unauthorized |
+| 2026-09-21 | armnet-p05 | p0-armnet/p05_analysis.py | paper-admission | CPU normalized-full-trajectory probes and cluster uncertainty; no method implementation |
+| 2026-09-21 | armnet-p05 | p0-armnet/p05_results.json | paper-admission | Single-arm and prematurely computed bimanual numerical evidence; execution deviation disclosed |
+| 2026-09-21 | armnet-p05 | p0-armnet/p05_results.md | paper-admission | Human-readable bounded P0.5 numerical results |
+| 2026-09-21 | armnet-p05 | p0-armnet/p05_replication_search.md | paper-admission | Gate C NONE, not entered after hard kill; no independent search or download |
+| 2026-09-21 | armnet-p05 | idea-stage/ARMNET_P05_RESULT.md | paper-admission | PIVOT: weak ranking consequence and non-specific bimanual calibration gain; stop at P0.5 |

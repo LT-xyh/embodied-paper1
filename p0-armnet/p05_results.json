@@ -1,0 +1,1655 @@
+{
+  "bimanual": {
+    "gate_a": {
+      "content_only": {
+        "leave_policy_out": {
+          "auc": 0.9244550770866561,
+          "balanced_accuracy": 0.8296886998641384,
+          "brier": 0.0938053071562985,
+          "ece": 0.05383884773861629,
+          "folds": [
+            {
+              "auc": 0.7664399092970522,
+              "brier": 0.04631986893265341,
+              "ece": 0.07483564390684501,
+              "held_out": "act",
+              "n": 150,
+              "positive": 3
+            },
+            {
+              "auc": 0.9305345816973724,
+              "brier": 0.10964791103286745,
+              "ece": 0.08612956817311139,
+              "held_out": "diffusion",
+              "n": 120,
+              "positive": 43
+            },
+            {
+              "auc": 0.9681757059614523,
+              "brier": 0.05771322522988556,
+              "ece": 0.07440003798283025,
+              "held_out": "grootn1.7",
+              "n": 120,
+              "positive": 23
+            },
+            {
+              "auc": 0.8595346814524897,
+              "brier": 0.11695958532135618,
+              "ece": 0.14486722102403551,
+              "held_out": "molmoact2",
+              "n": 240,
+              "positive": 21
+            },
+            {
+              "auc": 0.9237100348211459,
+              "brier": 0.11890520306640892,
+              "ece": 0.0857948895480217,
+              "held_out": "pi0",
+              "n": 120,
+              "positive": 39
+            },
+            {
+              "auc": 0.9309564233163554,
+              "brier": 0.12532533142398114,
+              "ece": 0.09488942469273204,
+              "held_out": "pi0.5",
+              "n": 119,
+              "positive": 62
+            },
+            {
+              "auc": 0.9255050505050505,
+              "brier": 0.07535768010860991,
+              "ece": 0.05901786032283092,
+              "held_out": "smolvla",
+              "n": 150,
+              "positive": 18
+            }
+          ],
+          "n_scored": 1019
+        },
+        "leave_task_out": {
+          "auc": 0.7159312422470318,
+          "balanced_accuracy": 0.5598942642802293,
+          "brier": 0.2047373787160593,
+          "ece": 0.1960187640396709,
+          "folds": [
+            {
+              "auc": 0.8256477821695213,
+              "brier": 0.19984217441339064,
+              "ece": 0.19899894510302724,
+              "held_out": "Fold the brown tea towel",
+              "n": 300,
+              "positive": 69
+            },
+            {
+              "auc": 0.8500597371565114,
+              "brier": 0.19715903851777708,
+              "ece": 0.2003092872804518,
+              "held_out": "Hold the pink lamp still with your left arm and open the door with your right gripper",
+              "n": 240,
+              "positive": 54
+            },
+            {
+              "auc": 0.23201763173712683,
+              "brier": 0.10022109865008207,
+              "ece": 0.09705117503291792,
+              "held_out": "Insert the candle inside the lantern and close the door",
+              "n": 240,
+              "positive": 23
+            },
+            {
+              "auc": 0.6571067821067821,
+              "brier": 0.3234456220391675,
+              "ece": 0.3201839650382632,
+              "held_out": "Transfer the cube between your arms and drop it into the white basket",
+              "n": 239,
+              "positive": 63
+            }
+          ],
+          "n_scored": 1019
+        }
+      },
+      "content_plus_length": {
+        "leave_policy_out": {
+          "auc": 0.9257309941520467,
+          "balanced_accuracy": 0.8303059838147557,
+          "brier": 0.09293698671767557,
+          "ece": 0.05244781518267567,
+          "folds": [
+            {
+              "auc": 0.780045351473923,
+              "brier": 0.04485612347607116,
+              "ece": 0.08026013559127981,
+              "held_out": "act",
+              "n": 150,
+              "positive": 3
+            },
+            {
+              "auc": 0.93083660525521,
+              "brier": 0.10957510199277337,
+              "ece": 0.09810614861651079,
+              "held_out": "diffusion",
+              "n": 120,
+              "positive": 43
+            },
+            {
+              "auc": 0.9695203944419543,
+              "brier": 0.055492411188224906,
+              "ece": 0.06653403970866047,
+              "held_out": "grootn1.7",
+              "n": 120,
+              "positive": 23
+            },
+            {
+              "auc": 0.8604044357469015,
+              "brier": 0.11688858524116803,
+              "ece": 0.14430753732901136,
+              "held_out": "molmoact2",
+              "n": 240,
+              "positive": 21
+            },
+            {
+              "auc": 0.9265590376701488,
+              "brier": 0.1178298008698399,
+              "ece": 0.08715061374677995,
+              "held_out": "pi0",
+              "n": 120,
+              "positive": 39
+            },
+            {
+              "auc": 0.932937181663837,
+              "brier": 0.12386979788099362,
+              "ece": 0.11055357639481161,
+              "held_out": "pi0.5",
+              "n": 119,
+              "positive": 62
+            },
+            {
+              "auc": 0.9255050505050505,
+              "brier": 0.07488617901387729,
+              "ece": 0.0634365227336588,
+              "held_out": "smolvla",
+              "n": 150,
+              "positive": 18
+            }
+          ],
+          "n_scored": 1019
+        },
+        "leave_task_out": {
+          "auc": 0.7214129600094512,
+          "balanced_accuracy": 0.5665308051272964,
+          "brier": 0.20137079942886996,
+          "ece": 0.1933238932617893,
+          "folds": [
+            {
+              "auc": 0.8217579521927348,
+              "brier": 0.19975580522249195,
+              "ece": 0.1961981007189257,
+              "held_out": "Fold the brown tea towel",
+              "n": 300,
+              "positive": 69
+            },
+            {
+              "auc": 0.8558343289526085,
+              "brier": 0.19394395893153152,
+              "ece": 0.1975843791038391,
+              "held_out": "Hold the pink lamp still with your left arm and open the door with your right gripper",
+              "n": 240,
+              "positive": 54
+            },
+            {
+              "auc": 0.23562412342215988,
+              "brier": 0.10065403889058468,
+              "ece": 0.10021135843331888,
+              "held_out": "Insert the candle inside the lantern and close the door",
+              "n": 240,
+              "positive": 23
+            },
+            {
+              "auc": 0.6712662337662337,
+              "brier": 0.3119940735312259,
+              "ece": 0.3103210920317483,
+              "held_out": "Transfer the cube between your arms and drop it into the white basket",
+              "n": 239,
+              "positive": 63
+            }
+          ],
+          "n_scored": 1019
+        }
+      },
+      "length_added_brier_difference_content_minus_plus": {
+        "leave_policy_out_bootstrap": [
+          0.0008683204386229354,
+          0.0003751707869026743,
+          0.0014971899921123592
+        ],
+        "leave_task_out_bootstrap": [
+          0.0033665792871893363,
+          -0.00014443500083519205,
+          0.008471112458175
+        ]
+      },
+      "ranking_consequence": {
+        "metrics_vs_human": {
+          "content_only": {
+            "kendall_tau_a": 0.3333333333333333,
+            "order_high_to_low": [
+              "pi0",
+              "pi0.5",
+              "grootn1.7",
+              "molmoact2",
+              "act",
+              "diffusion",
+              "smolvla"
+            ],
+            "pairwise_disagreement_vs_human": 7,
+            "spearman": 0.39285714285714296
+          },
+          "content_plus_length": {
+            "kendall_tau_a": 0.3333333333333333,
+            "order_high_to_low": [
+              "pi0",
+              "pi0.5",
+              "grootn1.7",
+              "molmoact2",
+              "act",
+              "diffusion",
+              "smolvla"
+            ],
+            "pairwise_disagreement_vs_human": 7,
+            "spearman": 0.39285714285714296
+          }
+        },
+        "policy_scores": [
+          {
+            "content_only": 0.14114445600593314,
+            "content_plus_length": 0.13834989821459198,
+            "human_strict_success_rate": 0.02,
+            "n": 150,
+            "policy_type": "act"
+          },
+          {
+            "content_only": 0.07799754612639749,
+            "content_plus_length": 0.07654787665685205,
+            "human_strict_success_rate": 0.35833333333333334,
+            "n": 120,
+            "policy_type": "diffusion"
+          },
+          {
+            "content_only": 0.1725638244126228,
+            "content_plus_length": 0.1731420254683928,
+            "human_strict_success_rate": 0.19166666666666668,
+            "n": 120,
+            "policy_type": "grootn1.7"
+          },
+          {
+            "content_only": 0.14315958266393067,
+            "content_plus_length": 0.13967999962542446,
+            "human_strict_success_rate": 0.0875,
+            "n": 240,
+            "policy_type": "molmoact2"
+          },
+          {
+            "content_only": 0.21536016662075383,
+            "content_plus_length": 0.21165941672508454,
+            "human_strict_success_rate": 0.325,
+            "n": 120,
+            "policy_type": "pi0"
+          },
+          {
+            "content_only": 0.20858973052298707,
+            "content_plus_length": 0.21121226523590614,
+            "human_strict_success_rate": 0.5210084033613446,
+            "n": 119,
+            "policy_type": "pi0.5"
+          },
+          {
+            "content_only": 0.044525246615965804,
+            "content_plus_length": 0.041909247809141306,
+            "human_strict_success_rate": 0.12,
+            "n": 150,
+            "policy_type": "smolvla"
+          }
+        ],
+        "task_cluster_bootstrap_95ci": {
+          "content_only": {
+            "kendall_tau_a": [
+              -0.23809523809523808,
+              0.5238095238095238
+            ],
+            "pairwise_disagreement_vs_human": [
+              5.0,
+              13.0
+            ],
+            "spearman": [
+              -0.3571428571428572,
+              0.7142857142857144
+            ]
+          },
+          "content_plus_length": {
+            "kendall_tau_a": [
+              -0.14285714285714285,
+              0.6190476190476191
+            ],
+            "pairwise_disagreement_vs_human": [
+              4.0,
+              12.0
+            ],
+            "spearman": [
+              -0.21428571428571433,
+              0.7142857142857144
+            ]
+          }
+        }
+      },
+      "within_task_policy_permuted_length": {
+        "auc": 0.7199539252170831,
+        "balanced_accuracy": 0.5588132789887176,
+        "brier": 0.2008769943646775,
+        "ece": 0.1899469386297885,
+        "folds": [
+          {
+            "auc": 0.8245184766923898,
+            "brier": 0.20079310999816907,
+            "ece": 0.19730907460216024,
+            "held_out": "Fold the brown tea towel",
+            "n": 300,
+            "positive": 69
+          },
+          {
+            "auc": 0.8574273197929112,
+            "brier": 0.19293603206306315,
+            "ece": 0.19686053030509823,
+            "held_out": "Hold the pink lamp still with your left arm and open the door with your right gripper",
+            "n": 240,
+            "positive": 54
+          },
+          {
+            "auc": 0.2314165497896213,
+            "brier": 0.09942102579869012,
+            "ece": 0.09682019102868786,
+            "held_out": "Insert the candle inside the lantern and close the door",
+            "n": 240,
+            "positive": 23
+          },
+          {
+            "auc": 0.6582792207792207,
+            "brier": 0.31083694716039695,
+            "ece": 0.30224202070672024,
+            "held_out": "Transfer the cube between your arms and drop it into the white basket",
+            "n": 239,
+            "positive": 63
+          }
+        ],
+        "n_scored": 1019
+      }
+    },
+    "relative_horizon": {
+      "all_strata_have_shorter_success": true,
+      "mixed_strata": 25,
+      "pooled_relative_horizon_auc": 0.14225478468899522,
+      "strata": [
+        {
+          "n": 60,
+          "non_successful": 57,
+          "policy_type": "act",
+          "relative_horizon_auc": 0.24561403508771928,
+          "relative_horizon_non_success_mean": 0.04888143947262318,
+          "relative_horizon_success_mean": -0.9287473499798383,
+          "successful": 3,
+          "task": "Fold the brown tea towel"
+        },
+        {
+          "n": 30,
+          "non_successful": 15,
+          "policy_type": "diffusion",
+          "relative_horizon_auc": 0.024444444444444446,
+          "relative_horizon_non_success_mean": 0.8495966847098735,
+          "relative_horizon_success_mean": -0.849596684709874,
+          "successful": 15,
+          "task": "Fold the brown tea towel"
+        },
+        {
+          "n": 30,
+          "non_successful": 26,
+          "policy_type": "grootn1.7",
+          "relative_horizon_auc": 0.019230769230769232,
+          "relative_horizon_non_success_mean": 0.3127190188844836,
+          "relative_horizon_success_mean": -2.0326736227491384,
+          "successful": 4,
+          "task": "Fold the brown tea towel"
+        },
+        {
+          "n": 60,
+          "non_successful": 54,
+          "policy_type": "molmoact2",
+          "relative_horizon_auc": 0.07716049382716049,
+          "relative_horizon_non_success_mean": 0.17701765306966186,
+          "relative_horizon_success_mean": -1.5931588776269614,
+          "successful": 6,
+          "task": "Fold the brown tea towel"
+        },
+        {
+          "n": 30,
+          "non_successful": 15,
+          "policy_type": "pi0",
+          "relative_horizon_auc": 0.34444444444444444,
+          "relative_horizon_non_success_mean": 0.4451172052905142,
+          "relative_horizon_success_mean": -0.4451172052905143,
+          "successful": 15,
+          "task": "Fold the brown tea towel"
+        },
+        {
+          "n": 30,
+          "non_successful": 9,
+          "policy_type": "pi0.5",
+          "relative_horizon_auc": 0.5238095238095238,
+          "relative_horizon_non_success_mean": 0.2786281130126823,
+          "relative_horizon_success_mean": -0.11941204843400621,
+          "successful": 21,
+          "task": "Fold the brown tea towel"
+        },
+        {
+          "n": 60,
+          "non_successful": 55,
+          "policy_type": "smolvla",
+          "relative_horizon_auc": 0.08181818181818182,
+          "relative_horizon_non_success_mean": 0.15063011040073987,
+          "relative_horizon_success_mean": -1.6569312144081405,
+          "successful": 5,
+          "task": "Fold the brown tea towel"
+        },
+        {
+          "n": 30,
+          "non_successful": 8,
+          "policy_type": "diffusion",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 1.6342073284599818,
+          "relative_horizon_success_mean": -0.5942572103490844,
+          "successful": 22,
+          "task": "Hold the pink lamp still with your left arm and open the door with your right gripper"
+        },
+        {
+          "n": 30,
+          "non_successful": 26,
+          "policy_type": "grootn1.7",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.3683623189472049,
+          "relative_horizon_success_mean": -2.3943550731568277,
+          "successful": 4,
+          "task": "Hold the pink lamp still with your left arm and open the door with your right gripper"
+        },
+        {
+          "n": 60,
+          "non_successful": 50,
+          "policy_type": "molmoact2",
+          "relative_horizon_auc": 0.012,
+          "relative_horizon_non_success_mean": 0.38626750781624225,
+          "relative_horizon_success_mean": -1.9313375390812122,
+          "successful": 10,
+          "task": "Hold the pink lamp still with your left arm and open the door with your right gripper"
+        },
+        {
+          "n": 30,
+          "non_successful": 28,
+          "policy_type": "pi0",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.22397460238914,
+          "relative_horizon_success_mean": -3.1356444334479603,
+          "successful": 2,
+          "task": "Hold the pink lamp still with your left arm and open the door with your right gripper"
+        },
+        {
+          "n": 30,
+          "non_successful": 23,
+          "policy_type": "pi0.5",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.5180808979905323,
+          "relative_horizon_success_mean": -1.702265807683178,
+          "successful": 7,
+          "task": "Hold the pink lamp still with your left arm and open the door with your right gripper"
+        },
+        {
+          "n": 30,
+          "non_successful": 21,
+          "policy_type": "smolvla",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.6344172619581849,
+          "relative_horizon_success_mean": -1.480306944569098,
+          "successful": 9,
+          "task": "Hold the pink lamp still with your left arm and open the door with your right gripper"
+        },
+        {
+          "n": 30,
+          "non_successful": 28,
+          "policy_type": "diffusion",
+          "relative_horizon_auc": 0.32142857142857145,
+          "relative_horizon_non_success_mean": 0.026172339947113068,
+          "relative_horizon_success_mean": -0.3664127592595837,
+          "successful": 2,
+          "task": "Insert the candle inside the lantern and close the door"
+        },
+        {
+          "n": 30,
+          "non_successful": 29,
+          "policy_type": "grootn1.7",
+          "relative_horizon_auc": 0.3793103448275862,
+          "relative_horizon_non_success_mean": 0.014641764931186388,
+          "relative_horizon_success_mean": -0.4246111830044103,
+          "successful": 1,
+          "task": "Insert the candle inside the lantern and close the door"
+        },
+        {
+          "n": 60,
+          "non_successful": 59,
+          "policy_type": "molmoact2",
+          "relative_horizon_auc": 0.1016949152542373,
+          "relative_horizon_non_success_mean": 0.01426673412888451,
+          "relative_horizon_success_mean": -0.8417373136041832,
+          "successful": 1,
+          "task": "Insert the candle inside the lantern and close the door"
+        },
+        {
+          "n": 30,
+          "non_successful": 22,
+          "policy_type": "pi0",
+          "relative_horizon_auc": 0.29261363636363635,
+          "relative_horizon_non_success_mean": 0.2639726960330922,
+          "relative_horizon_success_mean": -0.725924914091003,
+          "successful": 8,
+          "task": "Insert the candle inside the lantern and close the door"
+        },
+        {
+          "n": 30,
+          "non_successful": 21,
+          "policy_type": "pi0.5",
+          "relative_horizon_auc": 0.16666666666666666,
+          "relative_horizon_non_success_mean": 0.3763270543286456,
+          "relative_horizon_success_mean": -0.8780964601001737,
+          "successful": 9,
+          "task": "Insert the candle inside the lantern and close the door"
+        },
+        {
+          "n": 30,
+          "non_successful": 28,
+          "policy_type": "smolvla",
+          "relative_horizon_auc": 0.23214285714285715,
+          "relative_horizon_non_success_mean": 0.061398522336824635,
+          "relative_horizon_success_mean": -0.8595793127155462,
+          "successful": 2,
+          "task": "Insert the candle inside the lantern and close the door"
+        },
+        {
+          "n": 30,
+          "non_successful": 26,
+          "policy_type": "diffusion",
+          "relative_horizon_auc": 0.04326923076923077,
+          "relative_horizon_non_success_mean": 0.28830420880140795,
+          "relative_horizon_success_mean": -1.8739773572091494,
+          "successful": 4,
+          "task": "Transfer the cube between your arms and drop it into the white basket"
+        },
+        {
+          "n": 30,
+          "non_successful": 16,
+          "policy_type": "grootn1.7",
+          "relative_horizon_auc": 0.18973214285714285,
+          "relative_horizon_non_success_mean": 0.4915990158428062,
+          "relative_horizon_success_mean": -0.5618274466774928,
+          "successful": 14,
+          "task": "Transfer the cube between your arms and drop it into the white basket"
+        },
+        {
+          "n": 60,
+          "non_successful": 56,
+          "policy_type": "molmoact2",
+          "relative_horizon_auc": 0.20089285714285715,
+          "relative_horizon_non_success_mean": 0.07426600728744173,
+          "relative_horizon_success_mean": -1.0397241020241845,
+          "successful": 4,
+          "task": "Transfer the cube between your arms and drop it into the white basket"
+        },
+        {
+          "n": 30,
+          "non_successful": 16,
+          "policy_type": "pi0",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.8830381560777418,
+          "relative_horizon_success_mean": -1.0091864640888477,
+          "successful": 14,
+          "task": "Transfer the cube between your arms and drop it into the white basket"
+        },
+        {
+          "n": 29,
+          "non_successful": 4,
+          "policy_type": "pi0.5",
+          "relative_horizon_auc": 0.06,
+          "relative_horizon_non_success_mean": 1.8700220270610237,
+          "relative_horizon_success_mean": -0.299203524329764,
+          "successful": 25,
+          "task": "Transfer the cube between your arms and drop it into the white basket"
+        },
+        {
+          "n": 30,
+          "non_successful": 28,
+          "policy_type": "smolvla",
+          "relative_horizon_auc": 0.017857142857142856,
+          "relative_horizon_non_success_mean": 0.16625611251106154,
+          "relative_horizon_success_mean": -2.3275855751548664,
+          "successful": 2,
+          "task": "Transfer the cube between your arms and drop it into the white basket"
+        }
+      ],
+      "within_stratum_permuted_length_auc": 0.4722753854332802
+    },
+    "summary": {
+      "checks": {
+        "data_files": 60,
+        "done_mismatches": [],
+        "length_mismatches": [],
+        "reward_mismatches": [],
+        "state_action_dim": 24,
+        "total_frames_counted": 743964
+      },
+      "episodes_total": 1219,
+      "info": {
+        "fps": 20,
+        "robot_type": "so-101",
+        "total_episodes": 1219,
+        "total_frames": 743964,
+        "total_tasks": 4
+      },
+      "learned_episodes": 1019,
+      "outcome_counts_learned": {
+        "failure": 756,
+        "suboptimal": 54,
+        "successful": 209
+      },
+      "teleoperated_excluded": 200
+    }
+  },
+  "settings": {
+    "K": 32,
+    "gpu_used": false,
+    "new_downloaded_bytes": 64351279,
+    "seed": 20260921,
+    "simulator_used": false,
+    "target": "strict success versus failure/suboptimal",
+    "video_used": false
+  },
+  "single_arm": {
+    "gate_a": {
+      "content_only": {
+        "leave_policy_out": {
+          "auc": 0.9628322055506522,
+          "balanced_accuracy": 0.9229276993233304,
+          "brier": 0.051749084407161826,
+          "ece": 0.022985541334969595,
+          "folds": [
+            {
+              "auc": 0.9918846830486352,
+              "brier": 0.01904709803014683,
+              "ece": 0.03644983246611719,
+              "held_out": "act",
+              "n": 330,
+              "positive": 67
+            },
+            {
+              "auc": 0.9482393300373323,
+              "brier": 0.06568604766470207,
+              "ece": 0.05831132451146918,
+              "held_out": "diffusion",
+              "n": 240,
+              "positive": 53
+            },
+            {
+              "auc": 0.9449773616760033,
+              "brier": 0.07261882067253898,
+              "ece": 0.05993270851214484,
+              "held_out": "grootn1.7",
+              "n": 240,
+              "positive": 83
+            },
+            {
+              "auc": 0.9501704604153035,
+              "brier": 0.06261141660446827,
+              "ece": 0.08141929727199727,
+              "held_out": "molmoact2",
+              "n": 480,
+              "positive": 71
+            },
+            {
+              "auc": 0.9676346037507562,
+              "brier": 0.05177249799542027,
+              "ece": 0.03945938208231353,
+              "held_out": "pi0",
+              "n": 239,
+              "positive": 87
+            },
+            {
+              "auc": 0.9806709153302052,
+              "brier": 0.056153716067897944,
+              "ece": 0.06643917707034026,
+              "held_out": "pi0.5",
+              "n": 240,
+              "positive": 109
+            },
+            {
+              "auc": 0.9776998050682261,
+              "brier": 0.040117025976971615,
+              "ece": 0.0435474299976249,
+              "held_out": "smolvla",
+              "n": 330,
+              "positive": 45
+            }
+          ],
+          "n_scored": 2099
+        },
+        "leave_task_out": {
+          "auc": 0.9385738452486025,
+          "balanced_accuracy": 0.8373951897616946,
+          "brier": 0.07539377238084603,
+          "ece": 0.03738371040046917,
+          "folds": [
+            {
+              "auc": 0.9830114197095728,
+              "brier": 0.0579365668093235,
+              "ece": 0.07229723717969477,
+              "held_out": "Insert the colourful ring into the central wooden peg",
+              "n": 255,
+              "positive": 82
+            },
+            {
+              "auc": 0.9211080999698886,
+              "brier": 0.08468344383188674,
+              "ece": 0.07445516077719308,
+              "held_out": "Insert the missing tool into the empty slot on the toolbox",
+              "n": 300,
+              "positive": 54
+            },
+            {
+              "auc": null,
+              "brier": 0.04103967801346222,
+              "ece": 0.0700493964663729,
+              "held_out": "Push the Displayport cable into the cable holder on the white block",
+              "n": 270,
+              "positive": 0
+            },
+            {
+              "auc": 0.9738888888888889,
+              "brier": 0.07194776068920945,
+              "ece": 0.06376009000983138,
+              "held_out": "Put the eye drops into the basket",
+              "n": 240,
+              "positive": 120
+            },
+            {
+              "auc": 0.983716915995397,
+              "brier": 0.026444725797745438,
+              "ece": 0.030223319932774228,
+              "held_out": "Put the eye drops on the shelf",
+              "n": 299,
+              "positive": 79
+            },
+            {
+              "auc": 0.837393021724819,
+              "brier": 0.25312234629805747,
+              "ece": 0.26541409011700473,
+              "held_out": "Remove the power cable from cable holder",
+              "n": 240,
+              "positive": 93
+            },
+            {
+              "auc": 0.9742105263157895,
+              "brier": 0.0434164708678872,
+              "ece": 0.05378640677752635,
+              "held_out": "Remove the small middle tool (3/8 Extension Bar 75mm) from the toolbox",
+              "n": 240,
+              "positive": 50
+            },
+            {
+              "auc": 0.9726010414083809,
+              "brier": 0.04175766972178285,
+              "ece": 0.04252814545755758,
+              "held_out": "Stack the colouful blocks on top of each other",
+              "n": 255,
+              "positive": 37
+            }
+          ],
+          "n_scored": 2099
+        }
+      },
+      "content_plus_length": {
+        "leave_policy_out": {
+          "auc": 0.9671692654702363,
+          "balanced_accuracy": 0.9267394822006473,
+          "brier": 0.047553640035048306,
+          "ece": 0.01922025667866706,
+          "folds": [
+            {
+              "auc": 0.9889904091708757,
+              "brier": 0.01973375712311376,
+              "ece": 0.02885095105232336,
+              "held_out": "act",
+              "n": 330,
+              "positive": 67
+            },
+            {
+              "auc": 0.9637776208253456,
+              "brier": 0.051190694973598995,
+              "ece": 0.03353457724132555,
+              "held_out": "diffusion",
+              "n": 240,
+              "positive": 53
+            },
+            {
+              "auc": 0.9463586831402041,
+              "brier": 0.07001742372063197,
+              "ece": 0.05890306208465543,
+              "held_out": "grootn1.7",
+              "n": 240,
+              "positive": 83
+            },
+            {
+              "auc": 0.9550948724129619,
+              "brier": 0.05674887670480386,
+              "ece": 0.06823772060342172,
+              "held_out": "molmoact2",
+              "n": 480,
+              "positive": 71
+            },
+            {
+              "auc": 0.9720205686630369,
+              "brier": 0.049883136220889676,
+              "ece": 0.03793174231348388,
+              "held_out": "pi0",
+              "n": 239,
+              "positive": 87
+            },
+            {
+              "auc": 0.9817214090622592,
+              "brier": 0.0543870233335552,
+              "ece": 0.05537427223898942,
+              "held_out": "pi0.5",
+              "n": 240,
+              "positive": 109
+            },
+            {
+              "auc": 0.9741910331384016,
+              "brier": 0.03635935188233847,
+              "ece": 0.04193166121265114,
+              "held_out": "smolvla",
+              "n": 330,
+              "positive": 45
+            }
+          ],
+          "n_scored": 2099
+        },
+        "leave_task_out": {
+          "auc": 0.9523953123467687,
+          "balanced_accuracy": 0.8622744434637638,
+          "brier": 0.06628572115638168,
+          "ece": 0.031635052159974995,
+          "folds": [
+            {
+              "auc": 0.9851966727759763,
+              "brier": 0.05011160706176702,
+              "ece": 0.06995137492162476,
+              "held_out": "Insert the colourful ring into the central wooden peg",
+              "n": 255,
+              "positive": 82
+            },
+            {
+              "auc": 0.9229900632339657,
+              "brier": 0.08476720573592589,
+              "ece": 0.07466268368563611,
+              "held_out": "Insert the missing tool into the empty slot on the toolbox",
+              "n": 300,
+              "positive": 54
+            },
+            {
+              "auc": null,
+              "brier": 0.03351654237310218,
+              "ece": 0.05427998557226891,
+              "held_out": "Push the Displayport cable into the cable holder on the white block",
+              "n": 270,
+              "positive": 0
+            },
+            {
+              "auc": 0.9788194444444445,
+              "brier": 0.06251156767146966,
+              "ece": 0.06080947284606989,
+              "held_out": "Put the eye drops into the basket",
+              "n": 240,
+              "positive": 120
+            },
+            {
+              "auc": 0.9845224395857307,
+              "brier": 0.026380681143463897,
+              "ece": 0.030137892276479897,
+              "held_out": "Put the eye drops on the shelf",
+              "n": 299,
+              "positive": 79
+            },
+            {
+              "auc": 0.8692853485480213,
+              "brier": 0.2128197923687159,
+              "ece": 0.2327599754377953,
+              "held_out": "Remove the power cable from cable holder",
+              "n": 240,
+              "positive": 93
+            },
+            {
+              "auc": 0.9792631578947368,
+              "brier": 0.039695272301206654,
+              "ece": 0.04009756802407927,
+              "held_out": "Remove the small middle tool (3/8 Extension Bar 75mm) from the toolbox",
+              "n": 240,
+              "positive": 50
+            },
+            {
+              "auc": 0.9776841061244731,
+              "brier": 0.032868334592742486,
+              "ece": 0.03542750044762485,
+              "held_out": "Stack the colouful blocks on top of each other",
+              "n": 255,
+              "positive": 37
+            }
+          ],
+          "n_scored": 2099
+        }
+      },
+      "length_added_brier_difference_content_minus_plus": {
+        "leave_policy_out_bootstrap": [
+          0.00419544437211352,
+          0.0014049525372798108,
+          0.007502200885322282
+        ],
+        "leave_task_out_bootstrap": [
+          0.009108051224464356,
+          0.0032559662331548495,
+          0.01866636208352592
+        ]
+      },
+      "ranking_consequence": {
+        "metrics_vs_human": {
+          "content_only": {
+            "kendall_tau_a": 1.0,
+            "order_high_to_low": [
+              "pi0.5",
+              "pi0",
+              "grootn1.7",
+              "diffusion",
+              "act",
+              "molmoact2",
+              "smolvla"
+            ],
+            "pairwise_disagreement_vs_human": 0,
+            "spearman": 1.0
+          },
+          "content_plus_length": {
+            "kendall_tau_a": 0.9047619047619048,
+            "order_high_to_low": [
+              "pi0.5",
+              "grootn1.7",
+              "pi0",
+              "diffusion",
+              "act",
+              "molmoact2",
+              "smolvla"
+            ],
+            "pairwise_disagreement_vs_human": 1,
+            "spearman": 0.9642857142857145
+          }
+        },
+        "policy_scores": [
+          {
+            "content_only": 0.1766792302500105,
+            "content_plus_length": 0.18098482827338386,
+            "human_strict_success_rate": 0.20303030303030303,
+            "n": 330,
+            "policy_type": "act"
+          },
+          {
+            "content_only": 0.23299971982177006,
+            "content_plus_length": 0.22336904542453218,
+            "human_strict_success_rate": 0.22083333333333333,
+            "n": 240,
+            "policy_type": "diffusion"
+          },
+          {
+            "content_only": 0.31221391276948474,
+            "content_plus_length": 0.3191291754120103,
+            "human_strict_success_rate": 0.3458333333333333,
+            "n": 240,
+            "policy_type": "grootn1.7"
+          },
+          {
+            "content_only": 0.1674979679896425,
+            "content_plus_length": 0.16863753906983472,
+            "human_strict_success_rate": 0.14791666666666667,
+            "n": 480,
+            "policy_type": "molmoact2"
+          },
+          {
+            "content_only": 0.3155114960436389,
+            "content_plus_length": 0.3186363183709567,
+            "human_strict_success_rate": 0.36401673640167365,
+            "n": 239,
+            "policy_type": "pi0"
+          },
+          {
+            "content_only": 0.3555801847297913,
+            "content_plus_length": 0.36428703625295833,
+            "human_strict_success_rate": 0.45416666666666666,
+            "n": 240,
+            "policy_type": "pi0.5"
+          },
+          {
+            "content_only": 0.13649171996216006,
+            "content_plus_length": 0.13847592164566552,
+            "human_strict_success_rate": 0.13636363636363635,
+            "n": 330,
+            "policy_type": "smolvla"
+          }
+        ],
+        "task_cluster_bootstrap_95ci": {
+          "content_only": {
+            "kendall_tau_a": [
+              0.5238095238095238,
+              1.0
+            ],
+            "pairwise_disagreement_vs_human": [
+              0.0,
+              5.0
+            ],
+            "spearman": [
+              0.6785714285714287,
+              1.0
+            ]
+          },
+          "content_plus_length": {
+            "kendall_tau_a": [
+              0.6190476190476191,
+              1.0
+            ],
+            "pairwise_disagreement_vs_human": [
+              0.0,
+              4.0
+            ],
+            "spearman": [
+              0.7500000000000002,
+              1.0
+            ]
+          }
+        }
+      },
+      "within_task_policy_permuted_length": {
+        "auc": 0.940088996763754,
+        "balanced_accuracy": 0.8383660635481024,
+        "brier": 0.07432136321662772,
+        "ece": 0.035298402636213005,
+        "folds": [
+          {
+            "auc": 0.9832933878471732,
+            "brier": 0.056815810664049046,
+            "ece": 0.07011268185379037,
+            "held_out": "Insert the colourful ring into the central wooden peg",
+            "n": 255,
+            "positive": 82
+          },
+          {
+            "auc": 0.9225383920505872,
+            "brier": 0.08504571851192476,
+            "ece": 0.07627375764823349,
+            "held_out": "Insert the missing tool into the empty slot on the toolbox",
+            "n": 300,
+            "positive": 54
+          },
+          {
+            "auc": null,
+            "brier": 0.04032788092685806,
+            "ece": 0.06865946346024296,
+            "held_out": "Push the Displayport cable into the cable holder on the white block",
+            "n": 270,
+            "positive": 0
+          },
+          {
+            "auc": 0.9734722222222222,
+            "brier": 0.07022977589984983,
+            "ece": 0.061374943419540536,
+            "held_out": "Put the eye drops into the basket",
+            "n": 240,
+            "positive": 120
+          },
+          {
+            "auc": 0.9843498273878021,
+            "brier": 0.025899015810478675,
+            "ece": 0.03126989453365107,
+            "held_out": "Put the eye drops on the shelf",
+            "n": 299,
+            "positive": 79
+          },
+          {
+            "auc": 0.8391485626508668,
+            "brier": 0.24587627874889456,
+            "ece": 0.26298532569675753,
+            "held_out": "Remove the power cable from cable holder",
+            "n": 240,
+            "positive": 93
+          },
+          {
+            "auc": 0.9730526315789474,
+            "brier": 0.0457142533906599,
+            "ece": 0.04883660477731249,
+            "held_out": "Remove the small middle tool (3/8 Extension Bar 75mm) from the toolbox",
+            "n": 240,
+            "positive": 50
+          },
+          {
+            "auc": 0.9709893379618151,
+            "brier": 0.04129249651666593,
+            "ece": 0.03882318159391886,
+            "held_out": "Stack the colouful blocks on top of each other",
+            "n": 255,
+            "positive": 37
+          }
+        ],
+        "n_scored": 2099
+      }
+    },
+    "relative_horizon": {
+      "all_strata_have_shorter_success": true,
+      "mixed_strata": 46,
+      "pooled_relative_horizon_auc": 0.0993803971312875,
+      "strata": [
+        {
+          "n": 30,
+          "non_successful": 15,
+          "policy_type": "act",
+          "relative_horizon_auc": 0.06666666666666667,
+          "relative_horizon_non_success_mean": 0.8854427278637639,
+          "relative_horizon_success_mean": -0.8854427278637641,
+          "successful": 15,
+          "task": "Insert the colourful ring into the central wooden peg"
+        },
+        {
+          "n": 30,
+          "non_successful": 23,
+          "policy_type": "diffusion",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.5269358113573047,
+          "relative_horizon_success_mean": -1.7313605230311435,
+          "successful": 7,
+          "task": "Insert the colourful ring into the central wooden peg"
+        },
+        {
+          "n": 30,
+          "non_successful": 12,
+          "policy_type": "grootn1.7",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 1.1429868468706335,
+          "relative_horizon_success_mean": -0.7619912312470888,
+          "successful": 18,
+          "task": "Insert the colourful ring into the central wooden peg"
+        },
+        {
+          "n": 60,
+          "non_successful": 54,
+          "policy_type": "molmoact2",
+          "relative_horizon_auc": 0.012345679012345678,
+          "relative_horizon_non_success_mean": 0.28290515568518804,
+          "relative_horizon_success_mean": -2.5461464011666957,
+          "successful": 6,
+          "task": "Insert the colourful ring into the central wooden peg"
+        },
+        {
+          "n": 30,
+          "non_successful": 25,
+          "policy_type": "pi0",
+          "relative_horizon_auc": 0.012,
+          "relative_horizon_non_success_mean": 0.36825130697225644,
+          "relative_horizon_success_mean": -1.8412565348612833,
+          "successful": 5,
+          "task": "Insert the colourful ring into the central wooden peg"
+        },
+        {
+          "n": 30,
+          "non_successful": 16,
+          "policy_type": "pi0.5",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.7817213725582395,
+          "relative_horizon_success_mean": -0.8933958543522733,
+          "successful": 14,
+          "task": "Insert the colourful ring into the central wooden peg"
+        },
+        {
+          "n": 45,
+          "non_successful": 28,
+          "policy_type": "smolvla",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.7599810754730089,
+          "relative_horizon_success_mean": -1.2517335360731918,
+          "successful": 17,
+          "task": "Insert the colourful ring into the central wooden peg"
+        },
+        {
+          "n": 60,
+          "non_successful": 53,
+          "policy_type": "act",
+          "relative_horizon_auc": 0.4164420485175202,
+          "relative_horizon_non_success_mean": 0.030563794755692424,
+          "relative_horizon_success_mean": -0.23141158886452892,
+          "successful": 7,
+          "task": "Insert the missing tool into the empty slot on the toolbox"
+        },
+        {
+          "n": 30,
+          "non_successful": 23,
+          "policy_type": "diffusion",
+          "relative_horizon_auc": 0.16149068322981366,
+          "relative_horizon_non_success_mean": 0.41051952200375613,
+          "relative_horizon_success_mean": -1.3488498580123445,
+          "successful": 7,
+          "task": "Insert the missing tool into the empty slot on the toolbox"
+        },
+        {
+          "n": 30,
+          "non_successful": 25,
+          "policy_type": "grootn1.7",
+          "relative_horizon_auc": 0.364,
+          "relative_horizon_non_success_mean": 0.06131753425251467,
+          "relative_horizon_success_mean": -0.306587671262569,
+          "successful": 5,
+          "task": "Insert the missing tool into the empty slot on the toolbox"
+        },
+        {
+          "n": 60,
+          "non_successful": 55,
+          "policy_type": "molmoact2",
+          "relative_horizon_auc": 0.07636363636363637,
+          "relative_horizon_non_success_mean": 0.12666167935625697,
+          "relative_horizon_success_mean": -1.3932784729188286,
+          "successful": 5,
+          "task": "Insert the missing tool into the empty slot on the toolbox"
+        },
+        {
+          "n": 30,
+          "non_successful": 18,
+          "policy_type": "pi0",
+          "relative_horizon_auc": 0.12962962962962962,
+          "relative_horizon_non_success_mean": 0.5718937635045589,
+          "relative_horizon_success_mean": -0.8578406452568386,
+          "successful": 12,
+          "task": "Insert the missing tool into the empty slot on the toolbox"
+        },
+        {
+          "n": 30,
+          "non_successful": 14,
+          "policy_type": "pi0.5",
+          "relative_horizon_auc": 0.20982142857142858,
+          "relative_horizon_non_success_mean": 0.7657660675420095,
+          "relative_horizon_success_mean": -0.6700453090992583,
+          "successful": 16,
+          "task": "Insert the missing tool into the empty slot on the toolbox"
+        },
+        {
+          "n": 60,
+          "non_successful": 58,
+          "policy_type": "smolvla",
+          "relative_horizon_auc": 0.3275862068965517,
+          "relative_horizon_non_success_mean": 0.019673727499736317,
+          "relative_horizon_success_mean": -0.5705380974923473,
+          "successful": 2,
+          "task": "Insert the missing tool into the empty slot on the toolbox"
+        },
+        {
+          "n": 30,
+          "non_successful": 11,
+          "policy_type": "act",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 1.3093259857037896,
+          "relative_horizon_success_mean": -0.7580308338285099,
+          "successful": 19,
+          "task": "Put the eye drops into the basket"
+        },
+        {
+          "n": 30,
+          "non_successful": 17,
+          "policy_type": "diffusion",
+          "relative_horizon_auc": 0.01809954751131222,
+          "relative_horizon_non_success_mean": 0.7549922507035806,
+          "relative_horizon_success_mean": -0.9872975586123744,
+          "successful": 13,
+          "task": "Put the eye drops into the basket"
+        },
+        {
+          "n": 30,
+          "non_successful": 10,
+          "policy_type": "grootn1.7",
+          "relative_horizon_auc": 0.085,
+          "relative_horizon_non_success_mean": 1.025719316358178,
+          "relative_horizon_success_mean": -0.5128596581790887,
+          "successful": 20,
+          "task": "Put the eye drops into the basket"
+        },
+        {
+          "n": 60,
+          "non_successful": 40,
+          "policy_type": "molmoact2",
+          "relative_horizon_auc": 0.0075,
+          "relative_horizon_non_success_mean": 0.6567458501428659,
+          "relative_horizon_success_mean": -1.313491700285732,
+          "successful": 20,
+          "task": "Put the eye drops into the basket"
+        },
+        {
+          "n": 30,
+          "non_successful": 9,
+          "policy_type": "pi0",
+          "relative_horizon_auc": 0.16137566137566137,
+          "relative_horizon_non_success_mean": 0.9154452966636636,
+          "relative_horizon_success_mean": -0.3923336985701414,
+          "successful": 21,
+          "task": "Put the eye drops into the basket"
+        },
+        {
+          "n": 30,
+          "non_successful": 10,
+          "policy_type": "pi0.5",
+          "relative_horizon_auc": 0.015,
+          "relative_horizon_non_success_mean": 1.2084306197087114,
+          "relative_horizon_success_mean": -0.6042153098543555,
+          "successful": 20,
+          "task": "Put the eye drops into the basket"
+        },
+        {
+          "n": 30,
+          "non_successful": 23,
+          "policy_type": "smolvla",
+          "relative_horizon_auc": 0.049689440993788817,
+          "relative_horizon_non_success_mean": 0.43491163517467113,
+          "relative_horizon_success_mean": -1.428995372716776,
+          "successful": 7,
+          "task": "Put the eye drops into the basket"
+        },
+        {
+          "n": 30,
+          "non_successful": 25,
+          "policy_type": "diffusion",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.4045895044781335,
+          "relative_horizon_success_mean": -2.022947522390671,
+          "successful": 5,
+          "task": "Put the eye drops on the shelf"
+        },
+        {
+          "n": 30,
+          "non_successful": 17,
+          "policy_type": "grootn1.7",
+          "relative_horizon_auc": 0.004524886877828055,
+          "relative_horizon_non_success_mean": 0.818260148899871,
+          "relative_horizon_success_mean": -1.0700325024075232,
+          "successful": 13,
+          "task": "Put the eye drops on the shelf"
+        },
+        {
+          "n": 60,
+          "non_successful": 46,
+          "policy_type": "molmoact2",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.542278541583274,
+          "relative_horizon_success_mean": -1.7817723509164711,
+          "successful": 14,
+          "task": "Put the eye drops on the shelf"
+        },
+        {
+          "n": 29,
+          "non_successful": 7,
+          "policy_type": "pi0",
+          "relative_horizon_auc": 0.045454545454545456,
+          "relative_horizon_non_success_mean": 1.3621231555981788,
+          "relative_horizon_success_mean": -0.43340282223578447,
+          "successful": 22,
+          "task": "Put the eye drops on the shelf"
+        },
+        {
+          "n": 30,
+          "non_successful": 9,
+          "policy_type": "pi0.5",
+          "relative_horizon_auc": 0.05291005291005291,
+          "relative_horizon_non_success_mean": 1.277797948133186,
+          "relative_horizon_success_mean": -0.5476276920570798,
+          "successful": 21,
+          "task": "Put the eye drops on the shelf"
+        },
+        {
+          "n": 60,
+          "non_successful": 56,
+          "policy_type": "smolvla",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.2013385982094534,
+          "relative_horizon_success_mean": -2.8187403749323487,
+          "successful": 4,
+          "task": "Put the eye drops on the shelf"
+        },
+        {
+          "n": 30,
+          "non_successful": 12,
+          "policy_type": "act",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 1.1864928573839697,
+          "relative_horizon_success_mean": -0.7909952382559797,
+          "successful": 18,
+          "task": "Remove the power cable from cable holder"
+        },
+        {
+          "n": 30,
+          "non_successful": 28,
+          "policy_type": "diffusion",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.24910124560985875,
+          "relative_horizon_success_mean": -3.487417438538015,
+          "successful": 2,
+          "task": "Remove the power cable from cable holder"
+        },
+        {
+          "n": 30,
+          "non_successful": 20,
+          "policy_type": "grootn1.7",
+          "relative_horizon_auc": 0.3825,
+          "relative_horizon_non_success_mean": 0.3781811467834538,
+          "relative_horizon_success_mean": -0.7563622935669071,
+          "successful": 10,
+          "task": "Remove the power cable from cable holder"
+        },
+        {
+          "n": 60,
+          "non_successful": 43,
+          "policy_type": "molmoact2",
+          "relative_horizon_auc": 0.0533515731874145,
+          "relative_horizon_non_success_mean": 0.5510604206441535,
+          "relative_horizon_success_mean": -1.3938587110410945,
+          "successful": 17,
+          "task": "Remove the power cable from cable holder"
+        },
+        {
+          "n": 30,
+          "non_successful": 16,
+          "policy_type": "pi0",
+          "relative_horizon_auc": 0.10714285714285714,
+          "relative_horizon_non_success_mean": 0.6803922007721392,
+          "relative_horizon_success_mean": -0.7775910865967308,
+          "successful": 14,
+          "task": "Remove the power cable from cable holder"
+        },
+        {
+          "n": 30,
+          "non_successful": 9,
+          "policy_type": "pi0.5",
+          "relative_horizon_auc": 0.023809523809523808,
+          "relative_horizon_non_success_mean": 1.3050550300686687,
+          "relative_horizon_success_mean": -0.559309298600858,
+          "successful": 21,
+          "task": "Remove the power cable from cable holder"
+        },
+        {
+          "n": 30,
+          "non_successful": 19,
+          "policy_type": "smolvla",
+          "relative_horizon_auc": 0.014354066985645933,
+          "relative_horizon_non_success_mean": 0.6934167488012735,
+          "relative_horizon_success_mean": -1.1977198388385626,
+          "successful": 11,
+          "task": "Remove the power cable from cable holder"
+        },
+        {
+          "n": 30,
+          "non_successful": 22,
+          "policy_type": "act",
+          "relative_horizon_auc": 0.05113636363636364,
+          "relative_horizon_non_success_mean": 0.4912029132879603,
+          "relative_horizon_success_mean": -1.3508080115418912,
+          "successful": 8,
+          "task": "Remove the small middle tool (3/8 Extension Bar 75mm) from the toolbox"
+        },
+        {
+          "n": 30,
+          "non_successful": 11,
+          "policy_type": "diffusion",
+          "relative_horizon_auc": 0.05741626794258373,
+          "relative_horizon_non_success_mean": 1.0183778044708964,
+          "relative_horizon_success_mean": -0.5895871499568347,
+          "successful": 19,
+          "task": "Remove the small middle tool (3/8 Extension Bar 75mm) from the toolbox"
+        },
+        {
+          "n": 30,
+          "non_successful": 21,
+          "policy_type": "grootn1.7",
+          "relative_horizon_auc": 0.164021164021164,
+          "relative_horizon_non_success_mean": 0.4841266035244884,
+          "relative_horizon_success_mean": -1.129628741557142,
+          "successful": 9,
+          "task": "Remove the small middle tool (3/8 Extension Bar 75mm) from the toolbox"
+        },
+        {
+          "n": 60,
+          "non_successful": 54,
+          "policy_type": "molmoact2",
+          "relative_horizon_auc": 0.016975308641975308,
+          "relative_horizon_non_success_mean": 0.2590103748553401,
+          "relative_horizon_success_mean": -2.33109337369806,
+          "successful": 6,
+          "task": "Remove the small middle tool (3/8 Extension Bar 75mm) from the toolbox"
+        },
+        {
+          "n": 30,
+          "non_successful": 27,
+          "policy_type": "pi0",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.32868246295954934,
+          "relative_horizon_success_mean": -2.958142166635941,
+          "successful": 3,
+          "task": "Remove the small middle tool (3/8 Extension Bar 75mm) from the toolbox"
+        },
+        {
+          "n": 30,
+          "non_successful": 26,
+          "policy_type": "pi0.5",
+          "relative_horizon_auc": 0.3605769230769231,
+          "relative_horizon_non_success_mean": 0.18650192919933645,
+          "relative_horizon_success_mean": -1.212262539795689,
+          "successful": 4,
+          "task": "Remove the small middle tool (3/8 Extension Bar 75mm) from the toolbox"
+        },
+        {
+          "n": 30,
+          "non_successful": 29,
+          "policy_type": "smolvla",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.18059509330590662,
+          "relative_horizon_success_mean": -5.237257705871309,
+          "successful": 1,
+          "task": "Remove the small middle tool (3/8 Extension Bar 75mm) from the toolbox"
+        },
+        {
+          "n": 30,
+          "non_successful": 22,
+          "policy_type": "grootn1.7",
+          "relative_horizon_auc": 0.20454545454545456,
+          "relative_horizon_non_success_mean": 0.45431597828646114,
+          "relative_horizon_success_mean": -1.249368940287769,
+          "successful": 8,
+          "task": "Stack the colouful blocks on top of each other"
+        },
+        {
+          "n": 60,
+          "non_successful": 57,
+          "policy_type": "molmoact2",
+          "relative_horizon_auc": 0.24561403508771928,
+          "relative_horizon_non_success_mean": 0.049376037402425424,
+          "relative_horizon_success_mean": -0.9381447106460802,
+          "successful": 3,
+          "task": "Stack the colouful blocks on top of each other"
+        },
+        {
+          "n": 30,
+          "non_successful": 20,
+          "policy_type": "pi0",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.692525172651371,
+          "relative_horizon_success_mean": -1.3850503453027423,
+          "successful": 10,
+          "task": "Stack the colouful blocks on top of each other"
+        },
+        {
+          "n": 30,
+          "non_successful": 17,
+          "policy_type": "pi0.5",
+          "relative_horizon_auc": 0.0,
+          "relative_horizon_non_success_mean": 0.7734782699285256,
+          "relative_horizon_success_mean": -1.0114715837526875,
+          "successful": 13,
+          "task": "Stack the colouful blocks on top of each other"
+        },
+        {
+          "n": 45,
+          "non_successful": 42,
+          "policy_type": "smolvla",
+          "relative_horizon_auc": 0.007936507936507936,
+          "relative_horizon_non_success_mean": 0.2089975298312541,
+          "relative_horizon_success_mean": -2.9259654176375562,
+          "successful": 3,
+          "task": "Stack the colouful blocks on top of each other"
+        }
+      ],
+      "within_stratum_permuted_length_auc": 0.4981460701566083
+    },
+    "summary": {
+      "checks": {
+        "data_files": 120,
+        "done_mismatches": [],
+        "length_mismatches": [],
+        "reward_mismatches": [],
+        "state_action_dim": 12,
+        "total_frames_counted": 1127881
+      },
+      "episodes_total": 2499,
+      "info": {
+        "fps": 20,
+        "robot_type": "so-101",
+        "total_episodes": 2499,
+        "total_frames": 1127881,
+        "total_tasks": 8
+      },
+      "learned_episodes": 2099,
+      "outcome_counts_learned": {
+        "failure": 1532,
+        "suboptimal": 52,
+        "successful": 515
+      },
+      "teleoperated_excluded": 400
+    }
+  }
+}
