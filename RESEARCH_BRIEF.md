@@ -102,6 +102,8 @@ The following directions have already been investigated and are not default cont
 * **Common-random-number coupling for world-model policy comparison as the primary contribution**: estimator-level variance reduction is too generic and historically established to carry the main robotics contribution by itself.
 * **Generic recovery/retry, adaptive action-chunk horizons, and active factor evaluation**: direct 2026 prior work substantially covers these claims.
 * **Contact-topology/contact-flow/contact-graph cross-embodiment transfer as the main novelty**: KITE, ContactFlow, TopoRetarget, C2Dex, and adjacent 2026 work substantially narrow the novelty gap. The stronger contact-feasibility-boundary claim also lacks a clean public DCU/CPU-compatible 1-3 day falsification path.
+* **ArmnetBench outcome-dependent trajectory-support leakage**: P0 confirmed a strong length/outcome association, but P0.5 found only small incremental predictive gains after preserving full trajectory content, no robust policy-ranking distortion, weak/non-specific bimanual replication, and no causal pre-trim counterfactual. Treat this as benchmark-specific QA / known length-proxy behavior, not a Paper-1 route.
+* **SocNavData2026 rater/context heterogeneity**: executable offline substrate, but rater consistency and context dependence are already central to the source work; a hierarchical rater/context analysis would be too close to standard HRI preference modeling for the current Embodied AI / Robot Learning Paper-1 target.
 
 Future direction discovery must not repackage these routes unless genuinely new evidence changes either the novelty assessment or the execution assessment.
 
@@ -166,7 +168,7 @@ For Paper-1, do not prioritize:
 
 ## Current Next Output
 
-Perform a **substrate-first research-direction reselection** under the separate authority in `idea-stage/SUBSTRATE_FIRST_RESELECTION.md`.
+Perform the next **high-bar substrate-first research-direction reselection** under `idea-stage/SUBSTRATE_FIRST_WAVE2.md`.
 
 The next pass must first identify public datasets, released trajectories, checkpoints, simulator-state logs, evaluation traces, or lightweight runtimes that can produce scientific evidence under the current hardware constraints. Only after static execution admission may research ideas be generated from those substrates.
 

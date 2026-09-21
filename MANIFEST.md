@@ -25,3 +25,4 @@
 | 2026-09-21 | armnet-p05 | p0-armnet/p05_results.md | paper-admission | Human-readable bounded P0.5 numerical results |
 | 2026-09-21 | armnet-p05 | p0-armnet/p05_replication_search.md | paper-admission | Gate C NONE, not entered after hard kill; no independent search or download |
 | 2026-09-21 | armnet-p05 | idea-stage/ARMNET_P05_RESULT.md | paper-admission | PIVOT: weak ranking consequence and non-specific bimanual calibration gain; stop at P0.5 |
+| 2026-09-21 18:23 | reviewer-governance | idea-stage/SUBSTRATE_FIRST_WAVE2.md | direction-reselection | Raise candidate bar after Armnet/SocNav pivots: require non-audit contribution plus independent replication path before shortlist |
