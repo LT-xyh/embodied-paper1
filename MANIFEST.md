@@ -26,6 +26,10 @@
 | 2026-09-21 | armnet-p05 | p0-armnet/p05_replication_search.md | paper-admission | Gate C NONE, not entered after hard kill; no independent search or download |
 | 2026-09-21 | armnet-p05 | idea-stage/ARMNET_P05_RESULT.md | paper-admission | PIVOT: weak ranking consequence and non-specific bimanual calibration gain; stop at P0.5 |
 | 2026-09-21 18:23 | reviewer-governance | idea-stage/SUBSTRATE_FIRST_WAVE2.md | direction-reselection | Raise candidate bar after Armnet/SocNav pivots: require non-audit contribution plus independent replication path before shortlist |
+| 2026-09-21 21:17 | /research-pipeline | idea-stage/BASELINE_FIRST_METHOD_REPORT_20260921_205908.md | method-discovery | Baseline-first executable stack and 2025-2026 method-gap audit; Stage-1 verdict NO CANDIDATE |
+| 2026-09-21 21:17 | /research-pipeline | idea-stage/BASELINE_FIRST_METHOD_REPORT.md | method-discovery | Latest baseline-first method report; no method candidate admitted |
+| 2026-09-21 21:17 | /research-pipeline | OVERNIGHT_REPORT_20260921_205908.md | overnight-handoff | Bounded overnight Stage-1 handoff; NO CANDIDATE, no implementation or scientific pilot |
+| 2026-09-21 21:17 | /research-pipeline | OVERNIGHT_REPORT.md | overnight-handoff | Latest overnight handoff; NO CANDIDATE and no Stage-2 authorization |
 | 2026-09-21 19:03 | /idea-discovery-robot | idea-stage/SUBSTRATE_FIRST_WAVE2_REPORT_20260921_184927.md | direction-reselection | Wave-2 substrate-first reselection report; zero survivors after novelty, replication, and execution gates |
 | 2026-09-21 19:03 | /idea-discovery-robot | idea-stage/SUBSTRATE_FIRST_WAVE2_REPORT.md | direction-reselection | Latest Wave-2 report; final shortlist zero; next P0 NO CANDIDATE |
 | 2026-09-21 19:39 | reviewer-governance | idea-stage/BASELINE_FIRST_METHOD_SEARCH.md | strategy-reset | Switch from exhausted substrate-first discovery to mature-baseline-first method search; allow only low-risk lightweight simulators |
