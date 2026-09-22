@@ -137,6 +137,22 @@ The next search changes the source of novelty:
 
 This strategy is called **Adjacent-Field Method Transfer**.
 
+## Strategy Reset After Adjacent-Field Search
+
+The adjacent-field method-transfer pass also returned zero candidates. This confirms that the current admission bar is effectively calibrated to a strong conference-style method novelty standard.
+
+The publication objective, however, is disjunctive: **CCF B-or-above OR CAS Zone 3-or-above**. Optimizing only for the stronger conference novelty bar can therefore be slower than necessary.
+
+The next step is not another idea search. It is a **venue-first contribution-bar recalibration**:
+
+* identify realistic current CAS Zone 3-or-above journal targets in robotics / embodied intelligence / intelligent systems;
+* inspect recent 2024-2026 papers from those venues, especially robot learning, manipulation, imitation learning, robustness, and embodied intelligence;
+* infer what contribution structures those venues actually accept;
+* separate a fast-journal contribution bar from a higher-upside conference contribution bar;
+* only after this calibration should a new Paper-1 candidate search resume.
+
+The recalibration may permit a technically meaningful incremental method, combination, or systematic empirical contribution if that contribution is demonstrably consistent with the target venue and is not a direct reimplementation of prior work.
+
 ## Engineering Stop Rules
 
 1. Define a minimal falsifiable pilot before substantial implementation.
@@ -196,12 +212,12 @@ For Paper-1, do not prioritize:
 
 ## Current Next Output
 
-Perform an **Adjacent-Field Method Transfer** search under `idea-stage/ADJACENT_FIELD_METHOD_TRANSFER.md`.
+Perform a **Venue-First Contribution-Bar Recalibration** under `idea-stage/VENUE_FIRST_RECALIBRATION.md`.
 
-The execution substrate should preferentially reuse the conditionally admitted state-only `robomimic + robosuite + MuJoCo` stack, with Meta-World or another mature low-risk benchmark as a second evaluation path.
+This is not an idea-generation pass.
 
-The novelty source must come from an adjacent ML field rather than another round of robot-only gap mining.
+The goal is to determine the minimum credible contribution level for the fastest publication route that still satisfies the original target: CCF B-or-above **or** CAS Zone 3-or-above.
 
-Do NOT implement or train a candidate during this selection pass.
+Do NOT implement methods, train policies, or launch experiments.
 
-STOP after the adjacent-field shortlist and static P0 design.
+STOP after the venue/contribution-bar report and recommended research bar.

@@ -33,3 +33,4 @@
 | 2026-09-22 15:33 | reviewer-governance | idea-stage/ADJACENT_FIELD_METHOD_TRANSFER.md | strategy-reset | Shift novelty source from exhausted robot-only gap search to adjacent-ML mechanism transfer on a mature robot baseline |
 | 2026-09-22 16:09 | /idea-discovery | idea-stage/ADJACENT_FIELD_METHOD_REPORT_20260922_160942.md | idea-discovery | Adjacent-field mechanism transfer audit; five near-misses rejected and zero survivors |
 | 2026-09-22 16:09 | /idea-discovery | idea-stage/ADJACENT_FIELD_METHOD_REPORT.md | idea-discovery | Latest adjacent-field method transfer report; final shortlist zero and NO CANDIDATE |
+| 2026-09-22 16:30 | reviewer-governance | idea-stage/VENUE_FIRST_RECALIBRATION.md | strategy-reset | Recalibrate novelty and experiment bar against actual CAS Zone 3-or-above journal targets before any further idea search |
