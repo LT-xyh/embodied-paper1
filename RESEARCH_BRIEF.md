@@ -123,6 +123,20 @@ The next search therefore changes strategy:
 
 The previous "avoid simulator" rule is relaxed only for mature, low-risk simulators with a simple reset/step/evaluate path. LIBERO-style bootstrap/provenance reconstruction remains strongly disfavored.
 
+## Strategy Reset After Baseline-First Internal Search
+
+The overnight baseline-first search admitted a practical `robomimic + robosuite + MuJoCo` state-only stack, but found zero method candidates after direct 2025-2026 robotics-prior audit. This is evidence that continuing to search only inside recent robot-learning methods is unlikely to produce a fast novel Paper-1 direction.
+
+The next search changes the source of novelty:
+
+* keep the mature robot-learning baseline stack as the execution substrate;
+* search **adjacent machine-learning fields** for transferable mechanisms that are not yet established in robot imitation/control;
+* require a robot-specific scientific adaptation or mechanism, not a direct transplant;
+* validate novelty against both the source ML literature and 2025-2026 robot-learning literature;
+* retain the 1-3 day policy-level falsification requirement.
+
+This strategy is called **Adjacent-Field Method Transfer**.
+
 ## Engineering Stop Rules
 
 1. Define a minimal falsifiable pilot before substantial implementation.
@@ -182,12 +196,12 @@ For Paper-1, do not prioritize:
 
 ## Current Next Output
 
-Perform a **baseline-first / method-first research-direction search** under `idea-stage/BASELINE_FIRST_METHOD_SEARCH.md`.
+Perform an **Adjacent-Field Method Transfer** search under `idea-stage/ADJACENT_FIELD_METHOD_TRANSFER.md`.
 
-The next pass must first identify one or more mature training/evaluation stacks that can realistically support a small policy-learning experiment on the current Hygon DCU / CPU environment. Only then should it search for method-level scientific gaps around those executable baselines.
+The execution substrate should preferentially reuse the conditionally admitted state-only `robomimic + robosuite + MuJoCo` stack, with Meta-World or another mature low-risk benchmark as a second evaluation path.
 
-Do not return to another generic substrate-first scan.
+The novelty source must come from an adjacent ML field rather than another round of robot-only gap mining.
 
-Do NOT start full experiments or paper-scale training.
+Do NOT implement or train a candidate during this selection pass.
 
-STOP after the baseline-admission and method-candidate report.
+STOP after the adjacent-field shortlist and static P0 design.
