@@ -40,3 +40,4 @@
 | 2026-09-23 12:53 | /novelty-check | .aris/traces/novelty-check/2026-09-23_run01/ | novelty-audit | Reviewer requests, responses, and run metadata for the Track-A candidate audit and adjudication |
 | 2026-09-23 12:53 | /idea-discovery | idea-stage/TRACK_A_RAL_METHOD_REPORT_20260923_124147.md | paper1-selection | RA-L-first Track-A method search; one cautious BC-RNN transition-surprise reset hypothesis retained, one candidate excluded at substrate admission |
 | 2026-09-23 12:53 | /idea-discovery | idea-stage/TRACK_A_RAL_METHOD_REPORT.md | paper1-selection | Latest Track-A method search report and bounded P0 recommendation; no implementation or experiment executed |
+| 2026-09-23 12:56 | reviewer-governance | idea-stage/TRACK_A_RAL_P0_ADMISSION.md | bounded-p0 | Conditional GO for transition-surprise hard recurrent-state invalidation with fresh-prior, raw-delta, random-reset, and soft-decay controls |

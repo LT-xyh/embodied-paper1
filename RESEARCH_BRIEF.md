@@ -164,6 +164,20 @@ Paper-1 now has two explicit bars:
 
 For Track A, do not reject a candidate merely because every component exists somewhere in prior literature. Reject it when the **combined robot-specific formulation and claimed effect** are already established by direct prior work, or when the contribution collapses to a trivial loss swap, benchmark change, or implementation detail.
 
+## Active Track-A Candidate
+
+The RA-L-first Track-A search retained one candidate for **bounded P0 only**:
+
+**Transition-surprise-triggered hidden-state reset for BC-RNN.**
+
+Status: **CONDITIONAL GO / P0 ONLY**.
+
+The broad claim "prediction error should manage robot-policy memory" is not novel enough after very recent 2026 work including StateMem and PredVLA. The admissible claim is narrower:
+
+> after an unexpected physical transition, a learned action-conditioned transition residual can identify when a recurrent imitation policy's carried state should be fully invalidated; hard invalidation must outperform matched untimed resets, simple raw state-change triggers, and soft memory decay.
+
+The candidate is not admitted as Paper-1 until the bounded P0 in `idea-stage/TRACK_A_RAL_P0_ADMISSION.md` passes.
+
 ## Engineering Stop Rules
 
 1. Define a minimal falsifiable pilot before substantial implementation.
@@ -223,12 +237,10 @@ For Paper-1, do not prioritize:
 
 ## Current Next Output
 
-Perform a **RA-L-first Track-A Method Search** under `idea-stage/TRACK_A_RAL_METHOD_SEARCH.md`.
+Execute the bounded **Track-A transition-surprise reset P0** under `idea-stage/TRACK_A_RAL_P0_ADMISSION.md`.
 
-Generate at most three serious hypotheses from concrete robot-learning failure modes. The search should prefer the already admitted `robomimic + robosuite + MuJoCo` state-only BC/BC-RNN stack and plan a second evaluation path such as Meta-World.
+This is the first implementation/closed-loop experiment authorized under the Track-A strategy.
 
-The purpose is to select **one bounded 1-3 day P0**, not to demand a CCF-B-level new mechanism.
+Do not broaden the method, add vision/VLA components, or start a full RA-L experiment suite.
 
-Do NOT implement or train during this selection pass.
-
-STOP after the Track-A shortlist and P0 recommendation.
+STOP after the P0 verdict and candidate-branch push.
