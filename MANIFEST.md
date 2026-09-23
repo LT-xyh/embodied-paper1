@@ -34,3 +34,5 @@
 | 2026-09-22 16:09 | /idea-discovery | idea-stage/ADJACENT_FIELD_METHOD_REPORT_20260922_160942.md | idea-discovery | Adjacent-field mechanism transfer audit; five near-misses rejected and zero survivors |
 | 2026-09-22 16:09 | /idea-discovery | idea-stage/ADJACENT_FIELD_METHOD_REPORT.md | idea-discovery | Latest adjacent-field method transfer report; final shortlist zero and NO CANDIDATE |
 | 2026-09-22 16:30 | reviewer-governance | idea-stage/VENUE_FIRST_RECALIBRATION.md | strategy-reset | Recalibrate novelty and experiment bar against actual CAS Zone 3-or-above journal targets before any further idea search |
+| 2026-09-22 17:34 | venue-first-recalibration | idea-stage/VENUE_FIRST_RECALIBRATION_REPORT_20260922_173435.md | publication-strategy | Journal contribution-bar and CAS classification audit; latest available 2025 table, four public Zone 2 records verified |
+| 2026-09-22 17:34 | venue-first-recalibration | idea-stage/VENUE_FIRST_RECALIBRATION_REPORT.md | publication-strategy | Latest venue-first recalibration report; adopt RA-L-first Track A while retaining separate CCF-B Track B |
