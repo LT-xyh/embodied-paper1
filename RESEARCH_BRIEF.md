@@ -153,6 +153,17 @@ The next step is not another idea search. It is a **venue-first contribution-bar
 
 The recalibration may permit a technically meaningful incremental method, combination, or systematic empirical contribution if that contribution is demonstrably consistent with the target venue and is not a direct reimplementation of prior work.
 
+## Track-A Publication Strategy
+
+Venue-first recalibration concluded **FAST-JOURNAL BAR ADOPTED**.
+
+Paper-1 now has two explicit bars:
+
+* **Track A — primary / fastest route:** RA-L-first CAS Zone 3-or-above journal strategy. A technically meaningful robot-specific incremental method or principled combination is admissible if it changes closed-loop behavior, avoids direct prior collision, and is supported by a strong multi-task experiment package.
+* **Track B — secondary / upside route:** retain the stronger CCF-B conference method-novelty bar. Track-B claims must be evaluated separately and are not required for Paper-1 success.
+
+For Track A, do not reject a candidate merely because every component exists somewhere in prior literature. Reject it when the **combined robot-specific formulation and claimed effect** are already established by direct prior work, or when the contribution collapses to a trivial loss swap, benchmark change, or implementation detail.
+
 ## Engineering Stop Rules
 
 1. Define a minimal falsifiable pilot before substantial implementation.
@@ -212,12 +223,12 @@ For Paper-1, do not prioritize:
 
 ## Current Next Output
 
-Perform a **Venue-First Contribution-Bar Recalibration** under `idea-stage/VENUE_FIRST_RECALIBRATION.md`.
+Perform a **RA-L-first Track-A Method Search** under `idea-stage/TRACK_A_RAL_METHOD_SEARCH.md`.
 
-This is not an idea-generation pass.
+Generate at most three serious hypotheses from concrete robot-learning failure modes. The search should prefer the already admitted `robomimic + robosuite + MuJoCo` state-only BC/BC-RNN stack and plan a second evaluation path such as Meta-World.
 
-The goal is to determine the minimum credible contribution level for the fastest publication route that still satisfies the original target: CCF B-or-above **or** CAS Zone 3-or-above.
+The purpose is to select **one bounded 1-3 day P0**, not to demand a CCF-B-level new mechanism.
 
-Do NOT implement methods, train policies, or launch experiments.
+Do NOT implement or train during this selection pass.
 
-STOP after the venue/contribution-bar report and recommended research bar.
+STOP after the Track-A shortlist and P0 recommendation.

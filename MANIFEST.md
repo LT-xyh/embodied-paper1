@@ -36,3 +36,4 @@
 | 2026-09-22 16:30 | reviewer-governance | idea-stage/VENUE_FIRST_RECALIBRATION.md | strategy-reset | Recalibrate novelty and experiment bar against actual CAS Zone 3-or-above journal targets before any further idea search |
 | 2026-09-22 17:34 | venue-first-recalibration | idea-stage/VENUE_FIRST_RECALIBRATION_REPORT_20260922_173435.md | publication-strategy | Journal contribution-bar and CAS classification audit; latest available 2025 table, four public Zone 2 records verified |
 | 2026-09-22 17:34 | venue-first-recalibration | idea-stage/VENUE_FIRST_RECALIBRATION_REPORT.md | publication-strategy | Latest venue-first recalibration report; adopt RA-L-first Track A while retaining separate CCF-B Track B |
+| 2026-09-23 11:32 | reviewer-governance | idea-stage/TRACK_A_RAL_METHOD_SEARCH.md | paper1-selection | Activate RA-L-first Track-A search with incremental/principled-combination bar and one bounded P0 recommendation |
