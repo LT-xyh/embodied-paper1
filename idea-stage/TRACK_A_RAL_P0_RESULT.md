@@ -1,0 +1,9 @@
+# Track-A P0 Result — Transition-Surprise Recurrent-State Invalidation
+
+**Verdict: `PIVOT — RUNTIME`.**
+
+The final freshness review found no direct prior matching the active contract's complete combination of transition residual, recurrent hidden/cell hard invalidation, robot manipulation/imitation, and physical disturbance recovery. Prob-CADT is a critical method neighbor: it uses transition surprise to hard-reset Decision Transformer history and includes a squared next-state prediction-error variant in deterministic-limit D4RL MuJoCo. It does not report LSTM hidden/cell reset for manipulation imitation under injected physical disturbances. The candidate's novelty risk is high and any broad prediction-error-triggered reset claim is already occupied.
+
+The P0 stopped before scientific execution because the clean state-only runtime could not be established within the approximately 45-minute repair window. Isolated Python 3.10.21 and CPU PyTorch 2.5.1 were available, but SciPy, h5py, MuJoCo, robomimic, and robosuite were not. Therefore P0-A was **not entered** and P0-B was **not entered**. No policy was trained; no reset/step/train/evaluate simulator smoke test, simulator rollout, GPU/DCU job, or video run occurred. No success, trigger, false-reset, or recovery metric exists. The runtime stop is infrastructure evidence, not a scientific test of the hypothesis.
+
+Exact countable package/Git payload subtotal: **594,111,525 bytes**, including the 17,253,376-byte partial NumPy wheel response recorded by pip. Dataset, checkpoint, and video downloads: **0 bytes**. HTTP headers/index metadata and small metadata responses are excluded from that subtotal. See [`p0-transition-surprise/environment_audit.md`](../p0-transition-surprise/environment_audit.md), [`p0-transition-surprise/prior_freshness.md`](../p0-transition-surprise/prior_freshness.md), and [`p0-transition-surprise/results.json`](../p0-transition-surprise/results.json).

@@ -41,3 +41,10 @@
 | 2026-09-23 12:53 | /idea-discovery | idea-stage/TRACK_A_RAL_METHOD_REPORT_20260923_124147.md | paper1-selection | RA-L-first Track-A method search; one cautious BC-RNN transition-surprise reset hypothesis retained, one candidate excluded at substrate admission |
 | 2026-09-23 12:53 | /idea-discovery | idea-stage/TRACK_A_RAL_METHOD_REPORT.md | paper1-selection | Latest Track-A method search report and bounded P0 recommendation; no implementation or experiment executed |
 | 2026-09-23 12:56 | reviewer-governance | idea-stage/TRACK_A_RAL_P0_ADMISSION.md | bounded-p0 | Conditional GO for transition-surprise hard recurrent-state invalidation with fresh-prior, raw-delta, random-reset, and soft-decay controls |
+| 2026-09-23 14:36 | track-a-ral-p0 | p0-transition-surprise/README.md | bounded-p0 | Record runtime-gate stop and P0 execution boundary; no scientific execution |
+| 2026-09-23 14:36 | track-a-ral-p0 | p0-transition-surprise/environment_audit.md | bounded-p0 | Isolated CPU runtime admission audit, exact persisted package/source payload accounting, and runtime pivot evidence |
+| 2026-09-23 14:36 | track-a-ral-p0 | p0-transition-surprise/prior_freshness.md | bounded-p0 | Final freshness review of named 2026 work and close transition-surprise/reset neighbors |
+| 2026-09-23 14:36 | track-a-ral-p0 | p0-transition-surprise/analysis.py | bounded-p0 | Validate machine-readable runtime-stop record; no scientific metric analysis |
+| 2026-09-23 14:36 | track-a-ral-p0 | p0-transition-surprise/results.json | bounded-p0 | Machine-readable PIVOT — RUNTIME verdict; P0-A and P0-B not entered |
+| 2026-09-23 14:36 | track-a-ral-p0 | p0-transition-surprise/results.md | bounded-p0 | Human-readable runtime pivot and explicit absence of scientific results |
+| 2026-09-23 14:36 | track-a-ral-p0 | idea-stage/TRACK_A_RAL_P0_RESULT.md | bounded-p0 | Final P0 verdict PIVOT — RUNTIME; no policy training or simulator execution |

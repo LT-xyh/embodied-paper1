@@ -1,0 +1,55 @@
+{
+  "verdict": "PIVOT — RUNTIME",
+  "branch": "p0/transition-surprise-reset",
+  "base_commit": "71868716aa4d6fd38770667ecd270985b69bcc51",
+  "prior_freshness": {
+    "direct_prior_found_under_four_part_gate": false,
+    "closest_neighbor": "Prob-CADT, Reliable Contexts for Decision Transformers in Stochastic MDPs (2026)",
+    "neighbor_matches_transition_surprise_and_hard_context_reset": true,
+    "neighbor_matches_recurrent_lstm_hidden_cell_reset": false,
+    "neighbor_reports_robot_manipulation_imitation": false,
+    "neighbor_reports_injected_physical_disturbance_recovery": false,
+    "novelty_risk": "high"
+  },
+  "runtime": {
+    "gate": "FAIL",
+    "python": "3.10.21",
+    "pytorch": "2.5.1 CPU, cpu_generic build",
+    "numpy": "2.2.6",
+    "cuda_available": false,
+    "scipy": null,
+    "h5py": null,
+    "mujoco": null,
+    "robomimic_installed": false,
+    "robosuite_installed": false,
+    "state_only_reset_step_train_evaluate_smoke_test": "NOT RUN",
+    "reason": "Required dependencies and a clean runtime were not established within the approximately 45-minute admission window."
+  },
+  "downloads": {
+    "conda_package_archive_and_partial_payload_bytes": 266217662,
+    "robomimic_git_pack_bytes": 55669258,
+    "robosuite_git_pack_bytes": 254971229,
+    "exact_persisted_payload_subtotal_bytes": 576858149,
+    "observed_incomplete_pypi_wheel_stream_bytes": 17253376,
+    "exact_countable_payload_subtotal_bytes": 594111525,
+    "dataset_checkpoint_video_bytes": 0,
+    "accounting_note": "Countable payload subtotal adds exact retained conda package archive/partial files and Git pack files to the 17,253,376 bytes the pip log recorded before its NumPy wheel response failed. HTTP headers/index metadata and other small metadata responses are excluded, so this is not a full protocol-byte total."
+  },
+  "experiment": {
+    "p0_a": "NOT ENTERED — runtime gate failed",
+    "p0_b": "NOT ENTERED",
+    "tasks": ["Lift", "Can"],
+    "policy_seeds_trained": [],
+    "rollouts": 0,
+    "a0_a4_success_results": null,
+    "trigger_recall": null,
+    "nominal_false_reset_rate": null,
+    "recovery_diagnostics": null,
+    "gpu_used": false,
+    "dcu_used": false,
+    "simulator_used": false,
+    "video_used": false,
+    "experimental_cpu_hours": 0,
+    "bootstrap_cpu_hours": "not separately metered"
+  }
+}
