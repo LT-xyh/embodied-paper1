@@ -62,3 +62,10 @@
 | 2026-09-27 17:45 | intervention-substrate-gate | p0-intervention-substrate/ | feasibility-gate | Minimal native MuJoCo capture/restore, null control, alternate-action intervention, runtime audit, and PASS evidence; no scientific pilot |
 | 2026-09-27 17:50 | intervention-substrate-gate | .aris/traces/intervention-substrate-gate/2026-09-27_run01/001-final-gate-audit | reviewer-trace | Independent gpt-6-astra medium final substrate audit; PASS — INTERVENTION SUBSTRATE |
 | 2026-09-27 18:35 | wrapper-state-closure-gate | .aris/traces/wrapper-state-closure-gate/2026-09-27_run01/001-final-gate-audit | reviewer-trace | Independent gpt-6-astra medium audit and rerun; PASS — WRAPPER STATE CLOSURE |
+| 2026-09-27 11:15 | /idea-discovery | idea-stage/IDEA_REPORT_20260927_1115.md | idea-discovery | New direction discovery: CAEA survivor with AEPAA/CDBST rejected; independent gpt-6-astra medium review; no implementation or pilot |
+| 2026-09-27 11:15 | /idea-discovery | idea-stage/IDEA_REPORT.md | idea-discovery | Latest new-cycle report; evidence gate PASS |
+| 2026-09-27 11:15 | /idea-discovery | refine-logs/FINAL_PROPOSAL_20260927_1115.md | refinement | Causal Action-Effect Alignment proposal with score-identifiability admission gate |
+| 2026-09-27 11:15 | /idea-discovery | refine-logs/FINAL_PROPOSAL.md | refinement | Latest CAEA proposal |
+| 2026-09-27 11:15 | /idea-discovery | refine-logs/EXPERIMENT_PLAN_20260927_1115.md | experiment-planning | Bounded cloned-state CAEA pilot plan; not executed |
+| 2026-09-27 11:15 | /idea-discovery | refine-logs/EXPERIMENT_PLAN.md | experiment-planning | Latest CAEA pilot plan |
+| 2026-09-27 11:15 | /idea-discovery | .aris/traces/idea-discovery/2026-09-27_run01/002-independent-review-new-direction | reviewer-trace | Independent gpt-6-astra medium review; CAEA caution, AEPAA/CDBST abandoned |
