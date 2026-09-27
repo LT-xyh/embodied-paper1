@@ -1,0 +1,268 @@
+{
+  "alternate_intervention": {
+    "alternate_action": -0.4,
+    "factual_action": 0.35,
+    "max_observation_delta": 0.05192396585795456,
+    "max_state_delta": 25.826706454505562
+  },
+  "capture": {
+    "model_nq": 1,
+    "model_nu": 1,
+    "model_nv": 1,
+    "nmocap": 0,
+    "nplugin": 0,
+    "nuserdata": 0,
+    "qpos": [
+      0.23
+    ],
+    "qvel": [
+      -0.11
+    ],
+    "state": [
+      0.0,
+      0.23,
+      -0.11,
+      0.5741500259817385,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "state_hash": "c0a22e27e7ba6a310acbe726a5cf87a6dba311ecd62d3e4378466ee0a565cf44",
+    "state_size": 18,
+    "state_spec": "mjSTATE_INTEGRATION",
+    "time": 0.0
+  },
+  "evidence": {
+    "alternate": {
+      "action": -0.4,
+      "observation": [
+        0.2297534033512639,
+        -0.1365504545420341,
+        0.23,
+        -0.11,
+        0.0,
+        0.0,
+        0.15
+      ],
+      "post_state": [
+        0.002,
+        0.2297534033512639,
+        -0.1365504545420341,
+        -13.206055900403845,
+        -0.4,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "post_state_hash": "335fbc6748d61c92b72eda8cb3d1fa9d5728705f4ef83727065bf56a6f2524d9",
+      "pre_state_hash": "c0a22e27e7ba6a310acbe726a5cf87a6dba311ecd62d3e4378466ee0a565cf44",
+      "qpos": [
+        0.2297534033512639
+      ],
+      "qvel": [
+        -0.1365504545420341
+      ],
+      "restore_max_abs_error": 0.0,
+      "sensordata": [
+        0.23,
+        -0.11
+      ],
+      "time": 0.002
+    },
+    "factual": {
+      "action": 0.35,
+      "observation": [
+        0.22980541765778825,
+        -0.08462648868407954,
+        0.23,
+        -0.11,
+        0.0,
+        0.0,
+        0.15
+      ],
+      "post_state": [
+        0.002,
+        0.22980541765778825,
+        -0.08462648868407954,
+        12.620650554101719,
+        0.35,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "post_state_hash": "437bd1671e411ae6fba03f746f30e1826697a1b2cf88a47833cbff6f574a5186",
+      "pre_state_hash": "c0a22e27e7ba6a310acbe726a5cf87a6dba311ecd62d3e4378466ee0a565cf44",
+      "qpos": [
+        0.22980541765778825
+      ],
+      "qvel": [
+        -0.08462648868407954
+      ],
+      "restore_max_abs_error": 0.0,
+      "sensordata": [
+        0.23,
+        -0.11
+      ],
+      "time": 0.002
+    },
+    "null_1": {
+      "action": 0.35,
+      "observation": [
+        0.22980541765778825,
+        -0.08462648868407954,
+        0.23,
+        -0.11,
+        0.0,
+        0.0,
+        0.15
+      ],
+      "post_state": [
+        0.002,
+        0.22980541765778825,
+        -0.08462648868407954,
+        12.620650554101719,
+        0.35,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "post_state_hash": "437bd1671e411ae6fba03f746f30e1826697a1b2cf88a47833cbff6f574a5186",
+      "pre_state_hash": "c0a22e27e7ba6a310acbe726a5cf87a6dba311ecd62d3e4378466ee0a565cf44",
+      "qpos": [
+        0.22980541765778825
+      ],
+      "qvel": [
+        -0.08462648868407954
+      ],
+      "restore_max_abs_error": 0.0,
+      "sensordata": [
+        0.23,
+        -0.11
+      ],
+      "time": 0.002
+    },
+    "null_2": {
+      "action": 0.35,
+      "observation": [
+        0.22980541765778825,
+        -0.08462648868407954,
+        0.23,
+        -0.11,
+        0.0,
+        0.0,
+        0.15
+      ],
+      "post_state": [
+        0.002,
+        0.22980541765778825,
+        -0.08462648868407954,
+        12.620650554101719,
+        0.35,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "post_state_hash": "437bd1671e411ae6fba03f746f30e1826697a1b2cf88a47833cbff6f574a5186",
+      "pre_state_hash": "c0a22e27e7ba6a310acbe726a5cf87a6dba311ecd62d3e4378466ee0a565cf44",
+      "qpos": [
+        0.22980541765778825
+      ],
+      "qvel": [
+        -0.08462648868407954
+      ],
+      "restore_max_abs_error": 0.0,
+      "sensordata": [
+        0.23,
+        -0.11
+      ],
+      "time": 0.002
+    }
+  },
+  "fresh_processes": 5,
+  "leakage_audit": {
+    "cross_trajectory_swap": false,
+    "episode_id": "none",
+    "intervention_label_source": "executed action and measured successor",
+    "phase": "none",
+    "timestep": "fixed and identical",
+    "trajectory_id": "none"
+  },
+  "null_control": {
+    "max_observation_abs_error": 0.0,
+    "max_state_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  "restore_max_abs_error": 0.0,
+  "same_pre_state": true,
+  "state_closure": {
+    "captured": "mjSTATE_INTEGRATION",
+    "includes": [
+      "time",
+      "qpos",
+      "qvel",
+      "act",
+      "warmstart",
+      "ctrl",
+      "qfrc_applied",
+      "xfrc_applied",
+      "eq_active",
+      "mocap",
+      "userdata",
+      "plugin state"
+    ],
+    "model_task_wrapper_state": "none in minimal native MuJoCo substrate",
+    "rng": "no stochastic calls"
+  },
+  "verdict": "PASS \u2014 INTERVENTION SUBSTRATE"
+}

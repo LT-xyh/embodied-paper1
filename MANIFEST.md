@@ -59,3 +59,5 @@
 | 2026-09-27 17:15 | /idea-discovery | idea-stage/IDEA_REPORT.md | idea-discovery | Canonical report updated with independent reviewer receipt and PASS evidence gate |
 | 2026-09-27 17:15 | /idea-discovery | refine-logs/FINAL_PROPOSAL.md | refinement | Conditional proposal updated with exact-intervention requirement and CAPE prior |
 | 2026-09-27 17:15 | /idea-discovery | refine-logs/EXPERIMENT_PLAN.md | experiment-planning | Discriminating cloned-state intervention pilot plan; not executed |
+| 2026-09-27 17:45 | intervention-substrate-gate | p0-intervention-substrate/ | feasibility-gate | Minimal native MuJoCo capture/restore, null control, alternate-action intervention, runtime audit, and PASS evidence; no scientific pilot |
+| 2026-09-27 17:50 | intervention-substrate-gate | .aris/traces/intervention-substrate-gate/2026-09-27_run01/001-final-gate-audit | reviewer-trace | Independent gpt-6-astra medium final substrate audit; PASS — INTERVENTION SUBSTRATE |
