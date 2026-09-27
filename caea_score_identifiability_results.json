@@ -1,0 +1,53 @@
+{
+  "verdict": "FAIL — POLICY CANDIDATE-SCORE IDENTIFIABILITY",
+  "branch": "p0/caea-score-identifiability",
+  "discovery_baseline": "89844a52b939232bbd3192e40859cd1ecd3fd23d",
+  "scientific_pilot_executed": false,
+  "score_source_classification": "undefined_in_current_proposal",
+  "intended_policy_family": "state-only robomimic BC-RNN",
+  "local_policy_artifacts": {
+    "implementation": false,
+    "checkpoint": false,
+    "config": false,
+    "inference_script": false
+  },
+  "runtime_imports": {
+    "robomimic": false,
+    "torch": false,
+    "mujoco": false,
+    "robosuite": false
+  },
+  "official_source_audit": {
+    "BC_RNN": {
+      "network": "RNNActorNetwork",
+      "score": null,
+      "output": "tanh deterministic action from forward_step",
+      "native_log_probability": false
+    },
+    "BC_RNN_GMM": {
+      "network": "RNNGMMActorNetwork",
+      "native_score": "MixtureSameFamily.log_prob",
+      "selected_by_current_proposal": false,
+      "adopting_it_would_change_policy_family": true
+    }
+  },
+  "mathematical_score": null,
+  "heuristic_distance_rejected": true,
+  "phase_3_same_hidden_state_query": "NOT EXECUTED — no frozen policy object/checkpoint/runtime",
+  "phase_4_candidate_set_invariance": "NOT EXECUTED — score undefined",
+  "phase_5_leakage": "CONDITIONAL ONLY — no score extraction path exists",
+  "phase_6_action_domain": "FAIL / UNVERIFIED — no local controller mapping",
+  "downloads_bytes": 0,
+  "training": false,
+  "simulator_rollouts": false,
+  "gpu_jobs": false,
+  "independent_audit": {
+    "status": "complete",
+    "requested_model": "gpt-6-astra",
+    "requested_reasoning": "medium",
+    "reviewer_model": "gpt-6-astra",
+    "reviewer_thread": "/root/caea_score_gate_reviewer",
+    "verdict": "ACCEPT-FAIL-GATE",
+    "conclusion": "confirm FAIL — POLICY CANDIDATE-SCORE IDENTIFIABILITY"
+  }
+}

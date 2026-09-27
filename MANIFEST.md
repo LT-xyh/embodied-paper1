@@ -69,3 +69,6 @@
 | 2026-09-27 11:15 | /idea-discovery | refine-logs/EXPERIMENT_PLAN_20260927_1115.md | experiment-planning | Bounded cloned-state CAEA pilot plan; not executed |
 | 2026-09-27 11:15 | /idea-discovery | refine-logs/EXPERIMENT_PLAN.md | experiment-planning | Latest CAEA pilot plan |
 | 2026-09-27 11:15 | /idea-discovery | .aris/traces/idea-discovery/2026-09-27_run01/002-independent-review-new-direction | reviewer-trace | Independent gpt-6-astra medium review; CAEA caution, AEPAA/CDBST abandoned |
+| 2026-09-27 | caea-score-identifiability-gate | CAEA_SCORE_IDENTIFIABILITY_REPORT.md | bounded-admission | Candidate-action score semantics audit; verdict FAIL — POLICY CANDIDATE-SCORE IDENTIFIABILITY; no pilot |
+| 2026-09-27 | caea-score-identifiability-gate | caea_score_identifiability_results.json | bounded-admission | Machine-readable score-identifiability and action-domain audit; no runtime or downloads |
+| 2026-09-27 | caea-score-identifiability-gate | .aris/traces/caea-score-identifiability-gate/2026-09-27_run01/001-independent-final-audit | reviewer-trace | Independent gpt-6-astra medium audit confirmed FAIL — POLICY CANDIDATE-SCORE IDENTIFIABILITY |
