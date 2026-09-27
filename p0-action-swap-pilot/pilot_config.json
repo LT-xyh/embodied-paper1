@@ -1,0 +1,15 @@
+{
+  "environment": "robosuite 1.5.2 Lift/Panda/BASIC",
+  "observation_mode": "state-only; masked to robot0_joint_pos, robot0_joint_vel, robot0_gripper_qpos, robot0_gripper_qvel",
+  "hidden_state": "cube free-joint pose (qpos index 10 in mjSTATE_INTEGRATION); cube object/task state is excluded from policy observation",
+  "history_length": 3,
+  "intervention_actions": {"factual": [1.0,0,0,0,0,0,-1.0], "alternate": [-1.0,0,0,0,0,0,-1.0]},
+  "states": 2,
+  "copies_per_class": 32,
+  "seeds": [0,1,2],
+  "epochs": 160,
+  "conditions": ["BC-RNN", "BC-RNN+next-state auxiliary", "BC-RNN+transition-surprise auxiliary", "BC-RNN+ASCC", "BC-RNN+ASCC shuffled intervention control"],
+  "training_split": "75/25 random split with fixed per-seed RNG",
+  "optimizer": "Adam lr=0.003",
+  "compute": "CPU only"
+}

@@ -1,0 +1,10 @@
+{
+  "verdict": "PASS — PILOT PREPROCESSING",
+  "path": "direct deterministic state-only mask; no robomimic package or image path",
+  "mask_keys": ["robot0_joint_pos", "robot0_joint_vel", "robot0_gripper_qpos", "robot0_gripper_qvel"],
+  "same_raw_processed_max_error": 0.0,
+  "same_state_restore_fresh_process": true,
+  "history_buffer": "explicit length-3 tensor; no hidden preprocessing cache",
+  "normalization": "none",
+  "fresh_process_evidence": "wrapper closure gate PASS with zero null observation error"
+}

@@ -1,0 +1,7 @@
+{
+  "genuine_same_state_intervention": {"status": "SUPPORTED", "evidence": "wrapper-level state hashes and per-record factual/alternate restore provenance"},
+  "better_alias_sensitive_representation": {"status": "NOT_SUPPORTED", "evidence": "ASCC matched shuffled control; cue construction mutated time rather than robot state; duplicated rows invalidate generalization"},
+  "better_policy_decisions": {"status": "NOT_SUPPORTED", "evidence": "behavior was near chance and no condition separated"},
+  "overall_claim": "FAIL — SCIENTIFIC PILOT",
+  "reviewer": "gpt-6-astra / medium / /root/action_swap_pilot_reviewer"
+}
