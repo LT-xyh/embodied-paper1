@@ -48,3 +48,10 @@
 | 2026-09-23 14:36 | track-a-ral-p0 | p0-transition-surprise/results.json | bounded-p0 | Machine-readable PIVOT — RUNTIME verdict; P0-A and P0-B not entered |
 | 2026-09-23 14:36 | track-a-ral-p0 | p0-transition-surprise/results.md | bounded-p0 | Human-readable runtime pivot and explicit absence of scientific results |
 | 2026-09-23 14:36 | track-a-ral-p0 | idea-stage/TRACK_A_RAL_P0_RESULT.md | bounded-p0 | Final P0 verdict PIVOT — RUNTIME; no policy training or simulator execution |
+| 2026-09-27 17:00 | /idea-discovery | idea-stage/IDEA_REPORT_20260927_090000.md | idea-discovery | Full Embodied AI/VLA landscape, candidate generation, aggressive novelty screen, and runtime-skipped pilot plan; no candidate admitted |
+| 2026-09-27 17:00 | /idea-discovery | idea-stage/IDEA_REPORT.md | idea-discovery | Latest idea-discovery report |
+| 2026-09-27 17:00 | /idea-discovery | refine-logs/FINAL_PROPOSAL_20260927_090000.md | refinement | Conditional action-swap consequence-consistency proposal; unresolved and not implementation-authorized |
+| 2026-09-27 17:00 | /idea-discovery | refine-logs/FINAL_PROPOSAL.md | refinement | Latest conditional proposal |
+| 2026-09-27 17:00 | /idea-discovery | refine-logs/EXPERIMENT_PLAN_20260927_090000.md | experiment-planning | Conditional CPU/offline P0 plan; pilot skipped because runtime is not qualified |
+| 2026-09-27 17:00 | /idea-discovery | refine-logs/EXPERIMENT_PLAN.md | experiment-planning | Latest conditional experiment plan |
+| 2026-09-27 17:00 | /idea-discovery | .aris/runs/embodied-vla-discovery-20260927.json | governance | Resumable phase evidence; reviewer receipts pending because Luna reviewer service was unavailable |

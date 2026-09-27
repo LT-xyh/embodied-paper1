@@ -1,0 +1,87 @@
+{
+  "run_id": "embodied-vla-discovery-20260927",
+  "executor_model": "codex-gpt-6",
+  "executor_family": "openai",
+  "policy": {
+    "provisional_advances": true
+  },
+  "created": "2026-09-27T08:39:10Z",
+  "updated": "2026-09-27T08:55:27Z",
+  "gates": {
+    "idea-discovery-evidence": {
+      "verdict": "BLOCKED",
+      "reasons": [
+        "novelty-check review evidence missing (status=done)",
+        "research-review review evidence missing (status=done)"
+      ],
+      "updated": "2026-09-27T08:55:27Z"
+    }
+  },
+  "phases": [
+    {
+      "phase": "research-lit",
+      "status": "done",
+      "artifact": "idea-stage/IDEA_REPORT.md#literature-landscape",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-6",
+      "executor_family": "openai",
+      "updated": "2026-09-27T08:53:47Z"
+    },
+    {
+      "phase": "idea-creator",
+      "status": "done",
+      "artifact": "idea-stage/IDEA_REPORT.md#ranked-ideas",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-6",
+      "executor_family": "openai",
+      "updated": "2026-09-27T08:53:47Z"
+    },
+    {
+      "phase": "novelty-check",
+      "status": "done",
+      "artifact": "idea-stage/IDEA_REPORT.md#novelty-verification",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-6",
+      "executor_family": "openai",
+      "updated": "2026-09-27T08:53:47Z"
+    },
+    {
+      "phase": "research-review",
+      "status": "done",
+      "artifact": "idea-stage/IDEA_REPORT.md#external-critical-review",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-6",
+      "executor_family": "openai",
+      "updated": "2026-09-27T08:53:47Z"
+    },
+    {
+      "phase": "research-refine-pipeline",
+      "status": "done",
+      "artifact": "refine-logs/FINAL_PROPOSAL.md",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-6",
+      "executor_family": "openai",
+      "updated": "2026-09-27T08:53:47Z"
+    }
+  ]
+}
