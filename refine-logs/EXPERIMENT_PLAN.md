@@ -1,24 +1,19 @@
 # Conditional Experiment Plan: Action-Swap Consequence Consistency
 
-## Gate 0: prior freshness and runtime
+## Gate 0
 
-Search PAM, MEMBOT, JEPA Policy, StateMem, PredVLA, MemoryVLA, PHASER, CIVIL, CAGE, ReViWo, and 2025-2026 action-conditioned predictive-policy papers. Stop on an exact paired action-swap/consequence-divergence recurrent-BC prior. Qualify robomimic/robosuite/MuJoCo in an isolated environment before any training.
+Perform a fresh paper-level audit of PAM, MEMBOT, JEPA Policy, CIVIL, StateMem, PredVLA, MemoryVLA, PHASER, CAPE, and action-conditioned predictive-policy work. Stop on an exact paired action-consequence recurrent-BC prior. Qualify robomimic/robosuite/MuJoCo in an isolated environment before training.
 
 ## P0 (not executed)
 
-- Primary: robomimic Lift, Can, Square, state-only BC-RNN.
-- Perturbation: deterministic observation dropout/occlusion and alias splits built from valid adjacent trajectory pairs.
-- Conditions: A0 BC-RNN; A1 next-state-prediction auxiliary; A2 action-swap consequence objective; A3 equal-parameter random-pair control; A4 adaptive-memory/PAM-inspired control if public code is available.
-- Seeds: 3; fixed normalization and episode seeds.
-- Metrics: success/return, alias-split success, nominal success, hidden-state linear probe, false separation/false attraction, wall time.
-- Positive: A2 ≥10 percentage-point gain on alias split over A0/A1 and both controls, ≤2-point nominal regression, replicated on all three tasks.
-- Kill: no gain, gain disappears under equal parameters/consequence-matched negatives, invalid pair rate >10%, or direct prior collision.
-- Budget after authorization: ≤3 days, <5 GB artifacts, CPU-first.
+Use a known-latent POMDP or cloned robosuite state. From one identical latent state, execute two valid alternate actions and freshly observe both successors. Do not use cross-trajectory logged swaps as interventions.
 
-## Independent path
+Conditions: A0 BC-RNN; A1 next-state auxiliary; A2 action-swap consequence objective; A3 transition-surprise/reset; A4 generic action-conditioned contrastive representation; A5 capacity-matched adaptive-memory/PAM control; A6 shuffled/invalid-swap control. Hold parameter count, data, seeds, and auxiliary-loss budget fixed.
 
-Replicate the same hypothesis on Meta-World reach/push tasks using the mature offline/CPU path. No VLA checkpoint or video is required for the minimum scientific claim.
+Evaluate held-out alias interventions, fully observed nominal success, hidden-state probes, unseen action swaps, and invalid-pair sensitivity on three seeds. Positive criterion: at least 10 percentage-point alias-split gain over every control, no more than 2-point nominal loss, disappearance under shuffled swaps, and replication on Meta-World or another independent benchmark. Null means generic predictive auxiliary; invalid-pair or leakage-dependent gains kill the claim.
+
+Budget after authorization: ≤3 days, CPU-first, <5 GB artifacts. No VLA checkpoint, video, runtime repair, simulator run, or training was performed here.
 
 ## Current status
 
-`SKIPPED — RUNTIME NOT QUALIFIED`; no implementation, downloads, or experiments authorized in this discovery run.
+`SKIPPED — RUNTIME NOT QUALIFIED`. Implementation remains unauthorized until the exact intervention substrate and runtime qualification are separately approved.

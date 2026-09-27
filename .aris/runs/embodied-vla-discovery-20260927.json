@@ -6,15 +6,12 @@
     "provisional_advances": true
   },
   "created": "2026-09-27T08:39:10Z",
-  "updated": "2026-09-27T08:55:27Z",
+  "updated": "2026-09-27T09:13:04Z",
   "gates": {
     "idea-discovery-evidence": {
-      "verdict": "BLOCKED",
-      "reasons": [
-        "novelty-check review evidence missing (status=done)",
-        "research-review review evidence missing (status=done)"
-      ],
-      "updated": "2026-09-27T08:55:27Z"
+      "verdict": "PASS",
+      "reasons": [],
+      "updated": "2026-09-27T09:13:04Z"
     }
   },
   "phases": [
@@ -46,29 +43,29 @@
     },
     {
       "phase": "novelty-check",
-      "status": "done",
+      "status": "provisional",
       "artifact": "idea-stage/IDEA_REPORT.md#novelty-verification",
-      "verdict_id": null,
-      "reviewer": null,
-      "reviewer_family": null,
-      "review_independence": null,
-      "acceptance_status": null,
+      "verdict_id": "/root/independent_reviewer",
+      "reviewer": "gpt-6-astra",
+      "reviewer_family": "openai",
+      "review_independence": "same-family",
+      "acceptance_status": "provisional",
       "executor_model": "codex-gpt-6",
       "executor_family": "openai",
-      "updated": "2026-09-27T08:53:47Z"
+      "updated": "2026-09-27T09:12:15Z"
     },
     {
       "phase": "research-review",
-      "status": "done",
+      "status": "provisional",
       "artifact": "idea-stage/IDEA_REPORT.md#external-critical-review",
-      "verdict_id": null,
-      "reviewer": null,
-      "reviewer_family": null,
-      "review_independence": null,
-      "acceptance_status": null,
+      "verdict_id": "/root/independent_reviewer",
+      "reviewer": "gpt-6-astra",
+      "reviewer_family": "openai",
+      "review_independence": "same-family",
+      "acceptance_status": "provisional",
       "executor_model": "codex-gpt-6",
       "executor_family": "openai",
-      "updated": "2026-09-27T08:53:47Z"
+      "updated": "2026-09-27T09:12:15Z"
     },
     {
       "phase": "research-refine-pipeline",
@@ -81,7 +78,7 @@
       "acceptance_status": null,
       "executor_model": "codex-gpt-6",
       "executor_family": "openai",
-      "updated": "2026-09-27T08:53:47Z"
+      "updated": "2026-09-27T09:12:57Z"
     }
   ]
 }

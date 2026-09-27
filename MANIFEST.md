@@ -55,3 +55,7 @@
 | 2026-09-27 17:00 | /idea-discovery | refine-logs/EXPERIMENT_PLAN_20260927_090000.md | experiment-planning | Conditional CPU/offline P0 plan; pilot skipped because runtime is not qualified |
 | 2026-09-27 17:00 | /idea-discovery | refine-logs/EXPERIMENT_PLAN.md | experiment-planning | Latest conditional experiment plan |
 | 2026-09-27 17:00 | /idea-discovery | .aris/runs/embodied-vla-discovery-20260927.json | governance | Resumable phase evidence; reviewer receipts pending because Luna reviewer service was unavailable |
+| 2026-09-27 17:15 | /idea-discovery | .aris/traces/idea-discovery/2026-09-27_run01/001-independent-review-action-swap | reviewer-trace | Independent gpt-6-astra xhigh novelty/critical review; verdict PROCEED WITH CAUTION TO PILOT |
+| 2026-09-27 17:15 | /idea-discovery | idea-stage/IDEA_REPORT.md | idea-discovery | Canonical report updated with independent reviewer receipt and PASS evidence gate |
+| 2026-09-27 17:15 | /idea-discovery | refine-logs/FINAL_PROPOSAL.md | refinement | Conditional proposal updated with exact-intervention requirement and CAPE prior |
+| 2026-09-27 17:15 | /idea-discovery | refine-logs/EXPERIMENT_PLAN.md | experiment-planning | Discriminating cloned-state intervention pilot plan; not executed |
