@@ -1,22 +1,25 @@
-# Experiment Plan — CAEA score-identifiability and cloned-state pilot
+# Experiment Plan — Temporal Consequence Inversion (TCI)
 
 ## Execution status
-NOT EXECUTED — discovery only. Do not install runtimes or launch experiments from this report.
+NOT EXECUTED — discovery only. Do not install runtimes, download data/checkpoints, train policies, or launch simulator rollouts from this plan.
 
-## Gate 0: score identifiability
-Verify that the frozen state-only BC-RNN provides a candidate-action preference score at a fixed observation/history. If not, stop with `NO CANDIDATE`.
+## Gate 0: preflight authorization and state selection
+Use only the already-qualified native MuJoCo intervention and robosuite wrapper-closure substrate. Before a scientific pilot, freeze the state-selection rule and future failure target using an episode/time split. Do not select states because they later fail. Verify the policy emits a deterministic action and use that action as the observed treatment; do not query candidate likelihood or preference.
 
-## Minimum pilot
-Tasks: Lift and Can. Seeds: 3. Held-out cloned states: 30–50 per task. Candidate actions: policy action plus 4–8 equal-radius, balanced, contact-safe perturbations. Horizon: 5–10 steps, preregistered. Each candidate runs from an independently restored wrapper-level state in a fresh subprocess with common RNG conditions.
+## Gate 1: six-state preflight (future authorization required)
+For Lift and Can, audit three early/contact/branching states per task. Restore each state twice in fresh subprocesses, execute the same action, and verify simulator state, observation, reward, done, and task fields. Generate four norm-matched valid alternatives before looking at outcomes. Record action commands, all horizons, task-progress components, wrapper/RNG hashes, and branch provenance. Kill immediately on replay drift, invalid alternatives, or missing future-target separation.
+
+## Main pilot (only after Gate 1 and final review)
+Use state-only robomimic `BC_RNN`, two tasks (Lift and Can), three frozen policy seeds when available, and 30–50 held-out states per task. At every state execute `a_hat` and 4–8 predeclared valid alternatives from independent fresh subprocesses with common random seeds. Use short horizons 1 and 2 and long horizons 8 and 16 control steps. The first horizon pair is primary; the second is a preregistered sensitivity check.
 
 ## Metrics
-Primary: rank correlation between policy preference and measured successor value; top-1 causal regret; failure-onset lead time. Secondary: contact validity, task-progress delta, and calibration-stratified curves.
+Primary: temporal inversion prevalence and failure-onset lead time. Secondary: finite-set long-horizon deficit of `a_hat` relative to the tested alternatives, one-step and long-horizon `G_H`, contact/stage validity, selected-action boundary margin, and task-stratified bootstrap intervals. Treat finite-set deficit as a lower bound over sampled alternatives.
 
-## Controls
-Random ranking, nearest-demonstration/distance ranking, ordinary learned next-state predictor, transition-surprise ranking, contrastive/action-conditioned representation similarity, adaptive recurrent-memory baseline, and CMA-style history swap diagnostic. Report action-distance and contact-feature residuals.
+## Controls and analyses
+Fit a held-out failure model with TCI indicators plus one control family at a time: one-step progress; action norm; nearest-demonstration distance; contact/stage labels; random alternative rank; and an offline next-state predictor if available. Cluster uncertainty by episode and policy seed. Include the rejected LCBG basin descriptors only as controls. Report no policy preference, likelihood, confidence, or global regret.
 
 ## Decision rule
-Positive only if alignment and failure lead-time improvements survive equal-radius, distance/contact, task, and seed controls. Null means policy score has no local causal relation despite unchanged task success. Negative means one-task-only, horizon/tolerance fragile, or fully explained by distance/contact/next-state/surprise; abandon without tuning or renaming.
+Proceed only if the same-sign pre-failure effect replicates on Lift and Can, the held-out AUC exceeds the strongest non-interventional control by at least 0.10, and the effect is stable over the preregistered horizon/margin sensitivity. A null result (no incremental held-out signal) abandons the direction. A negative result (drift, leakage, invalid alternatives, one-task-only effect, or control explanation) is a hard kill. Do not retune, rename, or start another candidate in the same run.
 
-## Cost and risk
-CPU MuJoCo; approximately 1–3 days including instrumentation and analysis; under 5 GB artifacts. Main risk is score non-identifiability or metric-only framing. Existing native and wrapper state-closure infrastructure is sufficient if the gate passes.
+## Resources and risks
+CPU-first, max four cores, 1–3 days for the pilot, and <5 GB new artifacts. No video, GPU/DCU, large checkpoint, VLA inference, or simulator-internal modification. The principal scientific risks are finite-horizon credit overlap with PACE, progress-functional arbitrariness, alternative-set lower-bound bias, and selection leakage; all are addressed by frozen definitions, held-out future targets, matched alternatives, common seeds, and explicit negative interpretation.

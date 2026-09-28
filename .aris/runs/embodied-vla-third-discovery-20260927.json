@@ -1,0 +1,84 @@
+{
+  "run_id": "embodied-vla-third-discovery-20260927",
+  "executor_model": "codex-gpt-5",
+  "executor_family": "openai",
+  "policy": {
+    "provisional_advances": true
+  },
+  "created": "2026-09-27T12:50:39Z",
+  "updated": "2026-09-28T00:46:54Z",
+  "gates": {
+    "idea-discovery-evidence": {
+      "verdict": "PASS",
+      "reasons": [],
+      "updated": "2026-09-28T00:46:54Z"
+    }
+  },
+  "phases": [
+    {
+      "phase": "research-lit",
+      "status": "done",
+      "artifact": "idea-stage/IDEA_REPORT.md#literature-landscape",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-5",
+      "executor_family": "openai",
+      "updated": "2026-09-27T13:22:56Z"
+    },
+    {
+      "phase": "idea-creator",
+      "status": "done",
+      "artifact": "idea-stage/IDEA_REPORT.md#ranked-ideas",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-5",
+      "executor_family": "openai",
+      "updated": "2026-09-27T13:22:56Z"
+    },
+    {
+      "phase": "novelty-check",
+      "status": "provisional",
+      "artifact": "idea-stage/IDEA_REPORT.md#novelty-verification",
+      "verdict_id": "/root/third_direction_novelty_review",
+      "reviewer": "gpt-6-astra",
+      "reviewer_family": "openai",
+      "review_independence": "same-family",
+      "acceptance_status": "provisional",
+      "executor_model": "codex-gpt-5",
+      "executor_family": "openai",
+      "updated": "2026-09-28T00:41:17Z"
+    },
+    {
+      "phase": "research-review",
+      "status": "provisional",
+      "artifact": "idea-stage/IDEA_REPORT.md#external-critical-review",
+      "verdict_id": "/root/third_direction_critical_review",
+      "reviewer": "gpt-6-astra",
+      "reviewer_family": "openai",
+      "review_independence": "same-family",
+      "acceptance_status": "provisional",
+      "executor_model": "codex-gpt-5",
+      "executor_family": "openai",
+      "updated": "2026-09-28T00:44:36Z"
+    },
+    {
+      "phase": "research-refine-pipeline",
+      "status": "done",
+      "artifact": "refine-logs/FINAL_PROPOSAL.md",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-5",
+      "executor_family": "openai",
+      "updated": "2026-09-28T00:44:36Z"
+    }
+  ]
+}

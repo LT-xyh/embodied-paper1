@@ -1,22 +1,26 @@
-# Final Proposal — Causal Action-Effect Alignment (CAEA)
+# Final Proposal — Temporal Consequence Inversion (TCI)
 
 ## Status
-PROCEED WITH CAUTION TO A LATER PILOT. This is a discovery artifact, not an implementation authorization. The score-identifiability gate is mandatory.
+PROCEED WITH CAUTION TO A FUTURE RUNTIME-QUALIFIED PILOT. This is a direction-discovery artifact, not implementation authorization. The final review must pass before any scientific preflight.
 
-## Claim
-For a fixed policy history and exactly cloned physical state, a policy's preference among equal-radius executable actions should predict short-horizon task-relevant successor value and imminent failure better than distance, nearest-demonstration, random, next-state-prediction, transition-surprise, contrastive-representation, and adaptive-memory controls.
+## Problem and falsifiable claim
+A deterministic imitation policy can take an action that appears locally helpful while moving a contact-rich system toward a worse later state. Episode success and one-step loss do not identify this failure mode. TCI asks whether, at an exactly cloned wrapper state, the task-progress ordering between the policy's observed selected action and a validity- and norm-matched executable alternative reverses between a short and a longer real-transition horizon. The candidate scientific claim is that these temporal consequence inversions occur before failures and predict failure onset beyond one-step progress, action magnitude, contact indicators, and nearest-demonstration distance.
 
-## Scientific contribution
-The contribution is a causal audit of the policy–environment decision relation using real same-state simulator interventions. It does not propose a recurrent-memory module, predictive auxiliary loss, learned world model, or generic robustness score. The result may be negative and would then reject the claim.
+The claim deliberately makes no statement that an alternative was preferred by the policy. The policy action is an observed command. The alternatives are interventions used to measure physical consequences. Any finite-alternative regret is reported as a sampled lower bound over the tested set, never as global regret, preference, likelihood, or confidence.
 
-## Hard admission gate
-A BC-RNN or policy used in the pilot must expose an identifiable candidate-action preference score under a fixed state/history (e.g., a properly defined log-density or stochastic candidate probability). If no such score exists, CAEA is undefined and must be abandoned rather than replaced by action distance or a newly invented score.
+## Exact measurement
+Let `s_t` be a fully restored wrapper-level state and `a_hat_t` the deterministic action emitted by the frozen policy for the fixed observation/history. Let `A_t` be 4–8 valid alternatives selected before outcome inspection, matched to the selected action by a fixed controller-space norm shell and common RNG. Execute one branch for each action from independent fresh subprocesses. Let `G_H(s_t,a)` be a preregistered task-progress functional at horizon `H`, made only from real simulator/task quantities: object-to-goal progress, stage completion, contact validity, reward, and done. For each alternative define `D_H(i)=G_H(s_t,a_hat_t)-G_H(s_t,a_i)`.
 
-## Distinguishing evidence
-Use exact wrapper-level cloning and fresh subprocesses. Hold history and state fixed, sample balanced equal-radius perturbations, measure real successor value/contact outcomes, and test held-out cross-task/seed rank alignment and failure lead time. Preregister horizon, tolerances, contact filters, and action candidate generation.
+A temporal inversion is registered when `sign(D_Hshort(i))` differs from `sign(D_Hlong(i))` and both absolute differences exceed fixed task-scale margins. Report inversion prevalence, the selected action's finite-set long-horizon deficit relative to the best tested alternative, and the lead time from the first registered inversion to the future failure target. State selection and failure targets are frozen by episode/time split before branch outcomes; the future failure label is never used to choose audited states or define `G_H`.
 
-## Closest priors
-CMA (2609.27247) audits history changes and warranted choices; WorldEcho/WorldSync (2608.24885) diagnose and train learned action-conditioned world models; PACT (2606.03949) uses counterfactual advantage for human-feedback credit correction. CAEA differs by fixing history and testing frozen-policy preference against ground-truth physical consequences without policy training.
+## Closest-prior boundary
+PACE (arXiv:2608.15026) learns phase-progress credit and distills it into a policy. PACT/MILE use interventions or counterfactual signals for human-feedback correction and intervention modeling. RoboMD and RoboART search or predict vulnerability under semantic/environment variations. CMA audits whether different histories lead to warranted actions at matched present states. Regret-guided replanning derives update schedules in drifting MDPs. TCI does not train a critic, change a policy, search observation space, schedule replanning, or swap histories; it audits a frozen deterministic BC decision using real same-state multi-horizon branches. The claim remains valid only if inversion yields held-out predictive information beyond those priors' controls.
 
-## Scope
-Primary substrate: state-only robomimic/robosuite/MuJoCo BC-RNN on Lift and Can. No VLA pretraining, video, real robot, or simulator modification is required.
+## Discriminating hypothesis and controls
+The primary test is whether TCI inversion indicators predict a failure in an episode segment that occurs after the audit window, with cross-task and cross-seed replication. Controls are one-step progress, action norm, contact/stage labels, nearest-demonstration distance, random alternative rank, and (if available offline) a lightweight next-state predictor. Basin-width/anisotropy features from the rejected LCBG direction may be included as controls, never as a second contribution. Report contact and horizon strata, common random seeds, and bootstrap confidence intervals clustered by episode.
+
+## Positive, null, and kill outcomes
+A positive result requires a same-sign inversion prevalence increase before failures on both Lift and Can, an AUC improvement of at least 0.10 over the strongest non-interventional control on held-out episodes, and stability across the preregistered horizon/margin sensitivity set. A null result means inversions occur but add no held-out predictive information beyond one-step/contact/action-distance controls; publishable interpretation is limited to a descriptive negative audit and the method direction is abandoned. A kill result is any failure of exact null replay, invalid or unmatched alternatives, state-selection leakage, one-task-only effect, horizon/tolerance instability, or complete explanation by non-interventional controls. No retuning, renaming, or ASCC/CAEA rescue is allowed.
+
+## Scope and cost
+Primary substrate: state-only robomimic/robosuite/MuJoCo `BC_RNN` on Lift and Can, with three frozen policy seeds if available. The minimum future preflight is six states per task to validate state selection, action validity, horizon accounting, and branch logging; the full pilot is 30–50 states per task and 300–600 branch rollouts. CPU-only instrumentation and analysis should fit 1–3 days and <5 GB new artifacts. No VLA pretraining, video, real robot, large checkpoint, simulator modification, or GPU job is required.

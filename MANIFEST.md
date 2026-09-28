@@ -72,3 +72,9 @@
 | 2026-09-27 | caea-score-identifiability-gate | CAEA_SCORE_IDENTIFIABILITY_REPORT.md | bounded-admission | Candidate-action score semantics audit; verdict FAIL — POLICY CANDIDATE-SCORE IDENTIFIABILITY; no pilot |
 | 2026-09-27 | caea-score-identifiability-gate | caea_score_identifiability_results.json | bounded-admission | Machine-readable score-identifiability and action-domain audit; no runtime or downloads |
 | 2026-09-27 | caea-score-identifiability-gate | .aris/traces/caea-score-identifiability-gate/2026-09-27_run01/001-independent-final-audit | reviewer-trace | Independent gpt-6-astra medium audit confirmed FAIL — POLICY CANDIDATE-SCORE IDENTIFIABILITY |
+| 2026-09-28 00:45 | /idea-discovery | idea-stage/IDEA_REPORT_20260927_1115_CAEA_ARCHIVE.md | archive | Preserve the prior CAEA discovery report before starting the third direction cycle |
+| 2026-09-28 00:45 | /idea-discovery | idea-stage/IDEA_REPORT.md | idea-discovery | Third direction cycle: TCI survivor, LCBG/CARD/CPCD and ASCC/CAEA-neighborhood rejections, independent novelty and critical review, no pilot |
+| 2026-09-28 00:45 | /idea-discovery | idea-stage/TCI_FINAL_CRITICAL_REVIEW_RECEIPT.md | reviewer-trace | Independent gpt-6-astra medium final review; TCI PROCEED WITH CAUTION, LCBG ABANDON |
+| 2026-09-28 00:45 | /idea-discovery | refine-logs/FINAL_PROPOSAL.md | refinement | Temporal Consequence Inversion proposal with finite-alternative, leakage, and kill gates; not implementation-authorized |
+| 2026-09-28 00:45 | /idea-discovery | refine-logs/EXPERIMENT_PLAN.md | experiment-planning | Bounded TCI cloned-state pilot plan; not executed |
+| 2026-09-28 00:45 | /idea-discovery | .aris/runs/embodied-vla-third-discovery-20260927.json | governance | Resumable third-cycle evidence with two same-family gpt-6-astra medium provisional receipts; evidence gate PASS |
