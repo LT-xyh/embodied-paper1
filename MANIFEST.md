@@ -97,3 +97,4 @@
 | 2026-09-28 | bounded-action-preflight | p0-support-bounded-bc/boundary_preflight_results.json | measurement-gate | Deliberately saturating legal trace; diagnostic only, not evidence of frozen-BC support mismatch |
 | 2026-09-28 | independent-review | p0-support-bounded-bc/INDEPENDENT_REIDEATION_REVIEW.md | reviewer-trace | gpt-6-luna max independent review; candidates A/B/C rejected, final verdict ZERO |
 | 2026-09-28 | research-governance | RESEARCH_BRIEF_FOR_HUMAN.md | human-learning | Plain-language update documenting the TCI scientific null and zero-candidate structural re-ideation |
+| 2026-09-28 | research-governance | idea-stage/STRUCTURAL_BLOCK_REPORT_20260928.md | structural-block | Evidence chain for the zero-candidate Track-A search; no scientific pilot authorized |
