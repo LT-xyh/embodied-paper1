@@ -90,3 +90,10 @@
 | 2026-09-28 | tci-bcrnn-identifiability | BC_RNN_TCI_IDENTIFIABILITY_REPORT.md | policy-faithful-gate | Policy-faithful TCI gate report; provisional FAIL pending independent scientific review |
 | 2026-09-28 | tci-bcrnn-identifiability | .aris/runs/tci-bcrnn-identifiability-20260928.json | governance | Resumable BC-RNN TCI gate phases |
 | 2026-09-28 | independent-review | p0-tci-bcrnn-identifiability/INDEPENDENT_BCRNN_SOL_FALLBACK_REVIEW.md | reviewer-trace | Astra medium unavailable twice; explicit gpt-6-sol medium fallback independently finalized FAIL — TCI CONSEQUENCE IDENTIFIABILITY |
+| 2026-09-28 | /idea-discovery-robot | idea-stage/IDEA_REPORT_REIDEATION_20260928.md | structural-reideation | Post-TCI structural search across bounded-action, delay, gradient-routing, phase, and control-informed candidates; zero retained after aggressive 2025–2026 prior audit |
+| 2026-09-28 | /idea-discovery-robot | idea-stage/IDEA_REPORT.md | structural-reideation | Latest canonical copy of the zero-candidate post-TCI re-ideation report |
+| 2026-09-28 | /idea-discovery-robot | .aris/runs/reideation-20260928.json | governance | Resumable re-ideation phases, independent review, and zero-candidate admission state |
+| 2026-09-28 | bounded-action-preflight | p0-support-bounded-bc/boundary_preflight.py | measurement-gate | CPU-only boundary-mass diagnostic; no policy training or scientific rollout |
+| 2026-09-28 | bounded-action-preflight | p0-support-bounded-bc/boundary_preflight_results.json | measurement-gate | Deliberately saturating legal trace; diagnostic only, not evidence of frozen-BC support mismatch |
+| 2026-09-28 | independent-review | p0-support-bounded-bc/INDEPENDENT_REIDEATION_REVIEW.md | reviewer-trace | gpt-6-luna max independent review; candidates A/B/C rejected, final verdict ZERO |
+| 2026-09-28 | research-governance | RESEARCH_BRIEF_FOR_HUMAN.md | human-learning | Plain-language update documenting the TCI scientific null and zero-candidate structural re-ideation |

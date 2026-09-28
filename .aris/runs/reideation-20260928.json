@@ -1,0 +1,50 @@
+{
+  "run_id": "reideation-20260928",
+  "skill": "idea-discovery-robot",
+  "branch": "idea/reideation-20260928",
+  "created_at": "2026-09-28T18:00:00+08:00",
+  "binding_context": {
+    "research_brief": "RESEARCH_BRIEF.md",
+    "negative_prior": "TCI policy-faithful gate FAIL; preserve ASCC and CAEA failures",
+    "runtime_policy": "No new runtime, dataset, checkpoint, GPU, or full pilot during selection"
+  },
+  "phases": {
+    "research_lit": {
+      "status": "done",
+      "artifact": "idea-stage/IDEA_REPORT_REIDEATION_20260928.md",
+      "note": "Recent primary literature checked for delay, multi-task conflict, phase/speed, bounded action distributions, and continuous-action BC. No local PDF corpus was available."
+    },
+    "idea_creator": {
+      "status": "done",
+      "artifact": "idea-stage/IDEA_REPORT_REIDEATION_20260928.md",
+      "raw_count": 12,
+      "serious_count": 4,
+      "note": "Brainstorm included delay, gradient routing, phase, controllability weighting, and bounded-support policy families; aggressive rejection applied."
+    },
+    "novelty_check": {
+      "status": "done",
+      "retained_conditional": ["Support-Corrected Bounded Behavior Cloning"],
+      "rejected": ["Delay-calibrated state-only BC", "Contact-transition gradient routing", "Local controllability-weighted BC"],
+      "artifact": "idea-stage/IDEA_REPORT_REIDEATION_20260928.md"
+    },
+    "research_review": {
+      "status": "done",
+      "reviewer": "gpt-6-luna",
+      "reasoning": "max",
+      "thread": "/root/reideation_candidate_review",
+      "receipt": "p0-support-bounded-bc/INDEPENDENT_REIDEATION_REVIEW.md",
+      "verdict": "ZERO",
+      "note": "Independent review rejected bounded-support BC as an action-head/loss swap, delay-calibrated BC as a direct prior, and contact-transition gradient routing as GAP-equivalent."
+    },
+    "measurement_gate": {
+      "status": "diagnostic_only",
+      "artifact": "p0-support-bounded-bc/boundary_preflight_results.json",
+      "note": "A deliberately saturating legal trace shows boundary mass, but this does not establish support mismatch for the frozen BC-RNN baseline and cannot authorize training."
+    },
+    "minimum_pilot": {
+      "status": "not_admitted",
+      "verdict": "ZERO",
+      "note": "No candidate passed the independent Track-A review; no scientific method implementation or policy comparison is authorized."
+    }
+  }
+}
