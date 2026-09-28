@@ -1,0 +1,91 @@
+{
+  "run_id": "tci-bcrnn-identifiability-20260928",
+  "executor_model": "codex-gpt-6-sol",
+  "executor_family": "openai",
+  "policy": {
+    "provisional_advances": true
+  },
+  "created": "2026-09-28T07:26:32Z",
+  "updated": "2026-09-28T09:23:02Z",
+  "gates": {},
+  "phases": [
+    {
+      "phase": "policy-artifact",
+      "status": "done",
+      "artifact": "p0-tci-bcrnn-identifiability/bc_rnn_checkpoint.pt",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-6-sol",
+      "executor_family": "openai",
+      "updated": "2026-09-28T07:26:50Z"
+    },
+    {
+      "phase": "history-reconstruction",
+      "status": "done",
+      "artifact": "p0-tci-bcrnn-identifiability/bcrnn_intervention_provenance.json",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-6-sol",
+      "executor_family": "openai",
+      "updated": "2026-09-28T07:26:50Z"
+    },
+    {
+      "phase": "consequence-collection",
+      "status": "done",
+      "artifact": "p0-tci-bcrnn-identifiability/raw_bcrnn_consequence_records.json",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-6-sol",
+      "executor_family": "openai",
+      "updated": "2026-09-28T07:26:50Z"
+    },
+    {
+      "phase": "temporal-test",
+      "status": "done",
+      "artifact": "p0-tci-bcrnn-identifiability/bcrnn_tci_identifiability_results.json",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-6-sol",
+      "executor_family": "openai",
+      "updated": "2026-09-28T07:26:50Z"
+    },
+    {
+      "phase": "leakage-audit",
+      "status": "done",
+      "artifact": "p0-tci-bcrnn-identifiability/bcrnn_leakage_audit.md",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-6-sol",
+      "executor_family": "openai",
+      "updated": "2026-09-28T07:26:51Z"
+    },
+    {
+      "phase": "scientific-review",
+      "status": "done",
+      "artifact": "p0-tci-bcrnn-identifiability/INDEPENDENT_BCRNN_SOL_FALLBACK_REVIEW.md",
+      "verdict_id": null,
+      "reviewer": null,
+      "reviewer_family": null,
+      "review_independence": null,
+      "acceptance_status": null,
+      "executor_model": "codex-gpt-6-sol",
+      "executor_family": "openai",
+      "updated": "2026-09-28T09:23:02Z"
+    }
+  ]
+}

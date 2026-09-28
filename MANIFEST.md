@@ -83,3 +83,10 @@
 | 2026-09-28 | tci-identifiability | .aris/runs/tci-identifiability-20260928.json | governance | Resumable phase evidence for TCI preflight |
 | 2026-09-28 | tci-identifiability | p0-tci-identifiability/seed_config.json | bounded-identifiability-gate | Frozen seeds, split, action, horizon, and runtime configuration |
 | 2026-09-28 | independent-review | p0-tci-identifiability/INDEPENDENT_ASTRA_AUDIT.md | reviewer-trace | Fresh independent gpt-6-astra medium audit; finalized REVISE — TCI CONSEQUENCE IDENTIFIABILITY |
+| 2026-09-28 | tci-bcrnn-identifiability | p0-tci-bcrnn-identifiability/bc_rnn_checkpoint.pt | policy-faithful-gate | Frozen ordinary PyTorch GRU behavior-cloning checkpoint; trained once on disjoint demonstration episodes |
+| 2026-09-28 | tci-bcrnn-identifiability | p0-tci-bcrnn-identifiability/bcrnn_tci_identifiability_results.json | policy-faithful-gate | Real recurrent-policy cloned-state consequences, immediate/temporal/shuffled controls; provisional TCI FAIL |
+| 2026-09-28 | tci-bcrnn-identifiability | p0-tci-bcrnn-identifiability/bcrnn_intervention_provenance.json | policy-faithful-gate | Frozen history-derived hidden state, actual BC-RNN action, equal-norm alternatives, fresh-process provenance |
+| 2026-09-28 | tci-bcrnn-identifiability | p0-tci-bcrnn-identifiability/bcrnn_leakage_audit.md | policy-faithful-gate | Training/evaluation disjointness, unique-state split, candidate-order and consequence-shuffle audit |
+| 2026-09-28 | tci-bcrnn-identifiability | BC_RNN_TCI_IDENTIFIABILITY_REPORT.md | policy-faithful-gate | Policy-faithful TCI gate report; provisional FAIL pending independent scientific review |
+| 2026-09-28 | tci-bcrnn-identifiability | .aris/runs/tci-bcrnn-identifiability-20260928.json | governance | Resumable BC-RNN TCI gate phases |
+| 2026-09-28 | independent-review | p0-tci-bcrnn-identifiability/INDEPENDENT_BCRNN_SOL_FALLBACK_REVIEW.md | reviewer-trace | Astra medium unavailable twice; explicit gpt-6-sol medium fallback independently finalized FAIL — TCI CONSEQUENCE IDENTIFIABILITY |

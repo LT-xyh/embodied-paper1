@@ -1,0 +1,289 @@
+{
+  "duplicate_state_check": true,
+  "split_rule": "whole episode; seeds 100/102 train and 101/103 test",
+  "state_count": 40,
+  "states": [
+    {
+      "episode_id": "seed100_ep0",
+      "native_hash": "24ebe107c71b50a06da9507171019ecd1ec42fa1224c6839810027b7a0309755",
+      "split": "train",
+      "state_id": "bcrnn_state_000",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed100_ep0",
+      "native_hash": "c766085700bab2f3f7539ee32df2720c9c2481f4eb7cf1d0347946107549b2c5",
+      "split": "train",
+      "state_id": "bcrnn_state_001",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed100_ep0",
+      "native_hash": "e57f21cc12e5fefd0a1ebac601f755ba3fc7d9f8ffd83f71c23b5ada1d528cde",
+      "split": "train",
+      "state_id": "bcrnn_state_002",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed100_ep0",
+      "native_hash": "a937a92ea480411a5d158110f415923f943abb01d5f15a1d380de24d63b87ffe",
+      "split": "train",
+      "state_id": "bcrnn_state_003",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed100_ep0",
+      "native_hash": "be1c259167267065d07dbb6060087b9b0afdf662469d5bf06de3b28a03082179",
+      "split": "train",
+      "state_id": "bcrnn_state_004",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed100_ep1",
+      "native_hash": "389bad366e0bd01031d4b4d44c15cfdbea1921b87e1ef89b9080dac4bd41c76e",
+      "split": "train",
+      "state_id": "bcrnn_state_005",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed100_ep1",
+      "native_hash": "61b46c93b4ad341aaf3e57fad1b192f41112b7511917eb52e6ef8d1e9bbf9085",
+      "split": "train",
+      "state_id": "bcrnn_state_006",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed100_ep1",
+      "native_hash": "c60c2a8d087739392901bab4f0c0b83b4efa6dc1b1d18cff5e7b110a3cc2f376",
+      "split": "train",
+      "state_id": "bcrnn_state_007",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed100_ep1",
+      "native_hash": "2537befd52c747de2ecd0fbae7bbe3f381de54ce24a069f7096bfa4ebc51ec55",
+      "split": "train",
+      "state_id": "bcrnn_state_008",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed100_ep1",
+      "native_hash": "235c89d908ea00a2a6f1501452bd3f52bc63b0d16283c1e43d67223366effed6",
+      "split": "train",
+      "state_id": "bcrnn_state_009",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed101_ep0",
+      "native_hash": "d4ca7983805fc93d9e649fd544eeb29cfc295911830479573e26262ea640ed49",
+      "split": "test",
+      "state_id": "bcrnn_state_010",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed101_ep0",
+      "native_hash": "33d2db15abd85f776dc7ff860fb86d74506e69400dcf7d69ee8b190c79abfe85",
+      "split": "test",
+      "state_id": "bcrnn_state_011",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed101_ep0",
+      "native_hash": "a423712e267a0718fe8e92ce940ff3cd18dd84cd52a7b13b59723b36a5ceaa48",
+      "split": "test",
+      "state_id": "bcrnn_state_012",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed101_ep0",
+      "native_hash": "66797f5c9cdc2d58dcc03045b7bb7b32743ad660a264efd40458a8efaaf758a5",
+      "split": "test",
+      "state_id": "bcrnn_state_013",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed101_ep0",
+      "native_hash": "5e8d5a5cfc20b26fb1975061432f6d4acfe27f4601a992369568cb32db748bff",
+      "split": "test",
+      "state_id": "bcrnn_state_014",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed101_ep1",
+      "native_hash": "0566eadb33e040976f3ae3977165a3f4f923b78184653c52dc9e55a29b1b2dab",
+      "split": "test",
+      "state_id": "bcrnn_state_015",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed101_ep1",
+      "native_hash": "1df58081cdf09df2f54f4ffea3b1e71f38593284cca1016de247c0c5eaffa7cd",
+      "split": "test",
+      "state_id": "bcrnn_state_016",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed101_ep1",
+      "native_hash": "e734f0d3dc661ea5b1fba1995e044d77a020c823ce27b9a8234308e7e70a1aac",
+      "split": "test",
+      "state_id": "bcrnn_state_017",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed101_ep1",
+      "native_hash": "88a77d24a0f7051a4c2c266deaffe6d4b24d42f2da73dccc8a10e5aca824c6c6",
+      "split": "test",
+      "state_id": "bcrnn_state_018",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed101_ep1",
+      "native_hash": "11ab10fd131f9488dc7ce6d2f7b9dcbf2731a750d50fa79de2cf04258f68876e",
+      "split": "test",
+      "state_id": "bcrnn_state_019",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed102_ep0",
+      "native_hash": "a8a6f423a5e1b6a3fbb6d41c813257c84aee84b0741473f7423336cbbed426ec",
+      "split": "train",
+      "state_id": "bcrnn_state_020",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed102_ep0",
+      "native_hash": "4bb60e8b1348bc6cdfe5c64bb11a71f21b3e48bbcf2fb71e5546e7072a6afa54",
+      "split": "train",
+      "state_id": "bcrnn_state_021",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed102_ep0",
+      "native_hash": "6540a1ee5c810880eddffdc096ee20baf08e6e83a8c39be33c46df4ea2f036ab",
+      "split": "train",
+      "state_id": "bcrnn_state_022",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed102_ep0",
+      "native_hash": "1073f571d9e2dafde15d597fa7e3dfdf61c79b61e7893dbab786653060444f5a",
+      "split": "train",
+      "state_id": "bcrnn_state_023",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed102_ep0",
+      "native_hash": "aabae56539bcf49f9ac7faf73c1883b7a2c8ca9d844cdeb5a9258eca2c827cd8",
+      "split": "train",
+      "state_id": "bcrnn_state_024",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed102_ep1",
+      "native_hash": "c0b48de89872278e640f7380f5f9b78f1d3447461e0ea2badb8d1c77571e09a3",
+      "split": "train",
+      "state_id": "bcrnn_state_025",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed102_ep1",
+      "native_hash": "aa46fa32b9585520dd8a8c3efbb5774c3cd949f77a8a09d28920cb05002988d0",
+      "split": "train",
+      "state_id": "bcrnn_state_026",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed102_ep1",
+      "native_hash": "33382223b8410df91ffbe5470eb6c820d5e05b9237a6a3945e849f82e943044d",
+      "split": "train",
+      "state_id": "bcrnn_state_027",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed102_ep1",
+      "native_hash": "2c2b682300d0fd3f5c1278ed38be0734d56dfac565555042d62e3fbfaffe9a66",
+      "split": "train",
+      "state_id": "bcrnn_state_028",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed102_ep1",
+      "native_hash": "9f0ef8360e7fe5828030699d440a838c0649b0ebfed8eff7ac91f71568da7405",
+      "split": "train",
+      "state_id": "bcrnn_state_029",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed103_ep0",
+      "native_hash": "5cb1015ab5706cdcb987aaa5ac391164b127a9e22b2e8e132f0f36b26e2cc9c7",
+      "split": "test",
+      "state_id": "bcrnn_state_030",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed103_ep0",
+      "native_hash": "2dd1f5816d8fb039e1fd534afddc88bee8c49c917d8c24e8bb9af4f2e7ccc663",
+      "split": "test",
+      "state_id": "bcrnn_state_031",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed103_ep0",
+      "native_hash": "9fda4cc9eccf9b2972f4d2688c68ca12df7005b3eaefb19124bf5dba46215c94",
+      "split": "test",
+      "state_id": "bcrnn_state_032",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed103_ep0",
+      "native_hash": "779ef145f05e18990a61839335614d93cb972c7fa8bd093c8ff88e03bb7a889f",
+      "split": "test",
+      "state_id": "bcrnn_state_033",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed103_ep0",
+      "native_hash": "3e3be1a512cc6c7014762eb6c2b79c68f1e27e4e6a686c129b2b732e24b08bc8",
+      "split": "test",
+      "state_id": "bcrnn_state_034",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed103_ep1",
+      "native_hash": "e55404e04fb787fa9f059cf2d84106b4f8d70adab8c546a23ba26308cef58133",
+      "split": "test",
+      "state_id": "bcrnn_state_035",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed103_ep1",
+      "native_hash": "aa091fb74e51e01188cc71f317d27c118a0eb5da7164399b2b405ee289691974",
+      "split": "test",
+      "state_id": "bcrnn_state_036",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed103_ep1",
+      "native_hash": "08baa1794c2789f6dfc1b33ad2e150381e3f9fa9df8d12af7cc8c04474e345a6",
+      "split": "test",
+      "state_id": "bcrnn_state_037",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed103_ep1",
+      "native_hash": "cdf99302eb7a25de32a96738084eaee547c6f1d7ca2c3ba896b2c8cb1ad2aed2",
+      "split": "test",
+      "state_id": "bcrnn_state_038",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed103_ep1",
+      "native_hash": "967bb9d9daa83eaab6c53df07483df45e2c9b5b730eaea782666654cbf24cc41",
+      "split": "test",
+      "state_id": "bcrnn_state_039",
+      "timestep": 12
+    }
+  ],
+  "train_test_native_hash_overlap": 0,
+  "unique_native_hash_count": 40
+}

@@ -1,0 +1,1333 @@
+{
+  "candidate_generation": "four fixed-angle orthogonal rotations at theta=0.25; equal norm and equal chosen-distance; no clipping",
+  "checkpoint": "/public/home/xuyinghao/workspace/embodied-paper1/p0-tci-bcrnn-identifiability/bc_rnn_checkpoint.pt",
+  "history": "canonical observation sequence from episode reset through decision point",
+  "horizons": [
+    1,
+    4,
+    12
+  ],
+  "policy": "frozen trained deterministic PyTorch GRU BC-RNN",
+  "records": [
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.5090270389899809,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.12692562074389555,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "chosen",
+        "alt_3",
+        "alt_2",
+        "alt_0",
+        "alt_1"
+      ],
+      "chosen_action": [
+        0.3525584936141968,
+        0.09230663627386093,
+        -0.3553374409675598,
+        -0.003067596582695842,
+        -0.0019743184093385935,
+        0.0015002291183918715,
+        -0.003203775966539979
+      ],
+      "hidden_hash": "e089270f74a2751d7846dc9b88827c0138c2854bdfec98a9bede4bd3c0ed0b38",
+      "native_hash": "24ebe107c71b50a06da9507171019ecd1ec42fa1224c6839810027b7a0309755",
+      "state_id": "bcrnn_state_000"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.5031813707907555,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.1254680064955017,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_3",
+        "alt_2",
+        "alt_1",
+        "alt_0",
+        "chosen"
+      ],
+      "chosen_action": [
+        0.3414555788040161,
+        0.08619076758623123,
+        -0.3593677878379822,
+        -0.0020540719851851463,
+        -0.0023247948847711086,
+        0.0037075222935527563,
+        -0.0014678750885650516
+      ],
+      "hidden_hash": "4c22c9e6c6130fcfa3dc807943cea70b986b5ac7405e21d80e4b23ca77285f61",
+      "native_hash": "c766085700bab2f3f7539ee32df2720c9c2481f4eb7cf1d0347946107549b2c5",
+      "state_id": "bcrnn_state_001"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.503123358079898,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.12545354105698348,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_0",
+        "alt_2",
+        "chosen",
+        "alt_1",
+        "alt_3"
+      ],
+      "chosen_action": [
+        0.3413670063018799,
+        0.07586792856454849,
+        -0.36170274019241333,
+        -5.83939254283905e-05,
+        -0.0026909708976745605,
+        0.0028332730289548635,
+        -0.0012623139191418886
+      ],
+      "hidden_hash": "3777ac92850d503bacc0c9f9a82979356a514958bca76e95621062018ce25846",
+      "native_hash": "e57f21cc12e5fefd0a1ebac601f755ba3fc7d9f8ffd83f71c23b5ada1d528cde",
+      "state_id": "bcrnn_state_002"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.48833868593561286,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.12176699094142995,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_2",
+        "alt_1",
+        "alt_0",
+        "chosen",
+        "alt_3"
+      ],
+      "chosen_action": [
+        0.3197992444038391,
+        0.06582429260015488,
+        -0.3631111681461334,
+        0.001656132168136537,
+        -0.002637942787259817,
+        0.0018155741272494197,
+        -0.002749491948634386
+      ],
+      "hidden_hash": "fd5be94ac790de6b4dac8208502cf1bb583d2946dbdc8abe34b625f42b078a51",
+      "native_hash": "a937a92ea480411a5d158110f415923f943abb01d5f15a1d380de24d63b87ffe",
+      "state_id": "bcrnn_state_003"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.46561073843748085,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.11609978935198383,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_1",
+        "alt_2",
+        "chosen",
+        "alt_3",
+        "alt_0"
+      ],
+      "chosen_action": [
+        0.2836265563964844,
+        0.05580202117562294,
+        -0.3649761974811554,
+        0.002627768088132143,
+        -0.002454890636727214,
+        0.0019058077596127987,
+        -0.003358899150043726
+      ],
+      "hidden_hash": "43f68962b414ccab02ce3ca128da4f56c3d6132f313f3919fac939289568193c",
+      "native_hash": "be1c259167267065d07dbb6060087b9b0afdf662469d5bf06de3b28a03082179",
+      "state_id": "bcrnn_state_004"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4488624857119991,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.11192362146554813,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_1",
+        "chosen",
+        "alt_2",
+        "alt_0",
+        "alt_3"
+      ],
+      "chosen_action": [
+        0.279457151889801,
+        0.06956946849822998,
+        -0.3442003130912781,
+        -0.003286868566647172,
+        0.007495683152228594,
+        -8.050352334976196e-05,
+        0.0006852782098576427
+      ],
+      "hidden_hash": "d53dbca2a7ffbb4f8e92930055778fd61dd9e7b04803bd89f468326e67b4835c",
+      "native_hash": "389bad366e0bd01031d4b4d44c15cfdbea1921b87e1ef89b9080dac4bd41c76e",
+      "state_id": "bcrnn_state_005"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4256293009108991,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.1061304392240144,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_1",
+        "alt_2",
+        "alt_0",
+        "chosen",
+        "alt_3"
+      ],
+      "chosen_action": [
+        0.2354772686958313,
+        0.05909113213419914,
+        -0.34952640533447266,
+        -0.003906730096787214,
+        0.0047244965098798275,
+        0.0031067554373294115,
+        -0.0017471296014264226
+      ],
+      "hidden_hash": "b4bda05effaad40d66b71a74676a24feca2b2ea37ca29fba644b5ae8fae97cad",
+      "native_hash": "61b46c93b4ad341aaf3e57fad1b192f41112b7511917eb52e6ef8d1e9bbf9085",
+      "state_id": "bcrnn_state_006"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4026608465379761,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.10040326737358451,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_0",
+        "alt_1",
+        "alt_2",
+        "alt_3",
+        "chosen"
+      ],
+      "chosen_action": [
+        0.1890006810426712,
+        0.05348403379321098,
+        -0.35145220160484314,
+        -0.005788025911897421,
+        -0.0010348890209570527,
+        0.0001108609139919281,
+        -0.0008505803998559713
+      ],
+      "hidden_hash": "c0649c6fcef01fa22b10f823dadf3e95f8da8bd51bff8c88ea8ad7e155875b47",
+      "native_hash": "c60c2a8d087739392901bab4f0c0b83b4efa6dc1b1d18cff5e7b110a3cc2f376",
+      "state_id": "bcrnn_state_007"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.3865601854011902,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.09638857610447514,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "chosen",
+        "alt_3",
+        "alt_1",
+        "alt_0",
+        "alt_2"
+      ],
+      "chosen_action": [
+        0.15802863240242004,
+        0.047837451100349426,
+        -0.34947824478149414,
+        -0.005458192899823189,
+        -0.0015397153329104185,
+        -0.00030937790870666504,
+        6.831809878349304e-05
+      ],
+      "hidden_hash": "43bdfe9e85b597f8ab8fe8ade35a30a5e66c0d2987b32f11daa7331ff308fb58",
+      "native_hash": "2537befd52c747de2ecd0fbae7bbe3f381de54ce24a069f7096bfa4ebc51ec55",
+      "state_id": "bcrnn_state_008"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.3764204626253994,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.09386024163713147,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_3",
+        "alt_2",
+        "alt_1",
+        "chosen",
+        "alt_0"
+      ],
+      "chosen_action": [
+        0.13395927846431732,
+        0.042025551199913025,
+        -0.34923291206359863,
+        -0.004126308485865593,
+        -2.731848508119583e-05,
+        -0.00040548291872255504,
+        0.0005576647236011922
+      ],
+      "hidden_hash": "eb40304210c2df9f1287640c8cab4f00778c56c58ebb2bc04ac53a0ceb6d4fb9",
+      "native_hash": "235c89d908ea00a2a6f1501452bd3f52bc63b0d16283c1e43d67223366effed6",
+      "state_id": "bcrnn_state_009"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.5013014513792293,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.1249992495926662,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_1",
+        "alt_3",
+        "alt_0",
+        "chosen",
+        "alt_2"
+      ],
+      "chosen_action": [
+        0.3435285985469818,
+        0.10108476877212524,
+        -0.35076308250427246,
+        -0.004025853704661131,
+        -0.0017955758376047015,
+        -0.0028172172605991364,
+        -0.0033178767189383507
+      ],
+      "hidden_hash": "52a3ca39738294fd16c2cc015fbc310500eb094b9dc3403aba573c306f401593",
+      "native_hash": "d4ca7983805fc93d9e649fd544eeb29cfc295911830479573e26262ea640ed49",
+      "state_id": "bcrnn_state_010"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.482946335187982,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.12042241115786893,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_3",
+        "alt_2",
+        "chosen",
+        "alt_0",
+        "alt_1"
+      ],
+      "chosen_action": [
+        0.3221900165081024,
+        0.09466724097728729,
+        -0.3470611572265625,
+        -0.002087903907522559,
+        0.0009855317184701562,
+        -0.002123564947396517,
+        -0.002753619570285082
+      ],
+      "hidden_hash": "18d6473f83a872aa7ef2f1e747d6e15286ac033de54ca23ee84962267090c33f",
+      "native_hash": "33d2db15abd85f776dc7ff860fb86d74506e69400dcf7d69ee8b190c79abfe85",
+      "state_id": "bcrnn_state_011"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.47265293465832164,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.11785575722454339,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "chosen",
+        "alt_2",
+        "alt_3",
+        "alt_1",
+        "alt_0"
+      ],
+      "chosen_action": [
+        0.308584064245224,
+        0.08421289175748825,
+        -0.34796053171157837,
+        0.0009991010883823037,
+        -0.0008961826097220182,
+        -0.0005709714605472982,
+        -0.0024903439916670322
+      ],
+      "hidden_hash": "8bad07678adc89ebc881bb82bcd47ba1ea48a4e5e7f00fe432f0a7d393b29931",
+      "native_hash": "a423712e267a0718fe8e92ce940ff3cd18dd84cd52a7b13b59723b36a5ceaa48",
+      "state_id": "bcrnn_state_012"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.45084272580974005,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.11241739327799731,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "chosen",
+        "alt_0",
+        "alt_3",
+        "alt_2",
+        "alt_1"
+      ],
+      "chosen_action": [
+        0.2757532298564911,
+        0.07262367010116577,
+        -0.3491835594177246,
+        0.0018476212862879038,
+        -0.0009193827863782644,
+        7.08550214767456e-05,
+        -0.003420529654249549
+      ],
+      "hidden_hash": "11e30b7cad082b0415e7f1afac999a00b21d5d3d5091be3e7277a1957aa3625d",
+      "native_hash": "66797f5c9cdc2d58dcc03045b7bb7b32743ad660a264efd40458a8efaaf758a5",
+      "state_id": "bcrnn_state_013"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4278265914187047,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.1066783324404755,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_1",
+        "chosen",
+        "alt_3",
+        "alt_0",
+        "alt_2"
+      ],
+      "chosen_action": [
+        0.2366042286157608,
+        0.061523713171482086,
+        -0.3510717749595642,
+        0.001983803464099765,
+        -0.0005929562612436712,
+        0.0007164626149460673,
+        -0.00355984247289598
+      ],
+      "hidden_hash": "2ac808a59aeb2058e62938137aa72bff715f6647b28b08945c8bd9dd0250d097",
+      "native_hash": "5e8d5a5cfc20b26fb1975061432f6d4acfe27f4601a992369568cb32db748bff",
+      "state_id": "bcrnn_state_014"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.49704023216623194,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.12393671685411328,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_3",
+        "alt_2",
+        "alt_1",
+        "chosen",
+        "alt_0"
+      ],
+      "chosen_action": [
+        0.336898535490036,
+        0.08034157752990723,
+        -0.3564178943634033,
+        -0.006613438483327627,
+        0.003372133942320943,
+        0.002097171498462558,
+        -0.0006145648076198995
+      ],
+      "hidden_hash": "ada365a590af147c8eee3c00c50e4078a318718066201e30d0645bba24b6adf3",
+      "native_hash": "0566eadb33e040976f3ae3977165a3f4f923b78184653c52dc9e55a29b1b2dab",
+      "state_id": "bcrnn_state_015"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.48105286595870006,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.1199502756152012,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "chosen",
+        "alt_2",
+        "alt_3",
+        "alt_0",
+        "alt_1"
+      ],
+      "chosen_action": [
+        0.3171215355396271,
+        0.06554441154003143,
+        -0.3557043969631195,
+        -0.0013230872573330998,
+        0.0038313947152346373,
+        0.0005399137153290212,
+        -0.0027169815730303526
+      ],
+      "hidden_hash": "8b7462a7b923b3b63f5bba9ffcbbe9f6623cedfc8343aa77cc29d4d9bd8f3eeb",
+      "native_hash": "1df58081cdf09df2f54f4ffea3b1e71f38593284cca1016de247c0c5eaffa7cd",
+      "state_id": "bcrnn_state_016"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.45368904909344987,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.11312712247104668,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_2",
+        "alt_3",
+        "alt_1",
+        "alt_0",
+        "chosen"
+      ],
+      "chosen_action": [
+        0.2779354751110077,
+        0.058571554720401764,
+        -0.35374560952186584,
+        -0.0027299101930111647,
+        0.0021366975270211697,
+        -0.000805616204161197,
+        -0.0025248287711292505
+      ],
+      "hidden_hash": "b07a9579da77f4bc97831ded47e2e5a2fbb8a88ee9be42df9dbc7d9828d08bf4",
+      "native_hash": "e734f0d3dc661ea5b1fba1995e044d77a020c823ce27b9a8234308e7e70a1aac",
+      "state_id": "bcrnn_state_017"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4269556901839512,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.10646117368197998,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_2",
+        "alt_0",
+        "alt_3",
+        "alt_1",
+        "chosen"
+      ],
+      "chosen_action": [
+        0.23802663385868073,
+        0.050480619072914124,
+        -0.35079845786094666,
+        -0.00431365380063653,
+        0.0021027380134910345,
+        -0.0007137319771572948,
+        -0.0017588306218385696
+      ],
+      "hidden_hash": "2bc526a967ed841991b033aa231f0b211c9a0a2825dd707c9ae34f1762737088",
+      "native_hash": "88a77d24a0f7051a4c2c266deaffe6d4b24d42f2da73dccc8a10e5aca824c6c6",
+      "state_id": "bcrnn_state_018"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.407441857344089,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.10159540986871254,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_1",
+        "alt_2",
+        "chosen",
+        "alt_3",
+        "alt_0"
+      ],
+      "chosen_action": [
+        0.2022167295217514,
+        0.042345739901065826,
+        -0.3511435389518738,
+        -0.004015821032226086,
+        0.0023659414146095514,
+        0.0007072648731991649,
+        -0.0003001019358634949
+      ],
+      "hidden_hash": "86775ca80e77325afe563d106119abc13f2a2cb7a7f4d2b08884f5a11f21aa94",
+      "native_hash": "11ab10fd131f9488dc7ce6d2f7b9dcbf2731a750d50fa79de2cf04258f68876e",
+      "state_id": "bcrnn_state_019"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4493148293676107,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.11203641311487188,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_3",
+        "chosen",
+        "alt_0",
+        "alt_1",
+        "alt_2"
+      ],
+      "chosen_action": [
+        0.27866676449775696,
+        0.05284370854496956,
+        -0.3482406437397003,
+        0.007812387775629759,
+        -0.006309660151600838,
+        -0.005085327662527561,
+        0.006159626413136721
+      ],
+      "hidden_hash": "02ee023d6fff07b3b74781304a05865790c338450744aa2d7e96883b8e0374f1",
+      "native_hash": "a8a6f423a5e1b6a3fbb6d41c813257c84aee84b0741473f7423336cbbed426ec",
+      "state_id": "bcrnn_state_020"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.42604780003540077,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.10623479175755278,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_3",
+        "chosen",
+        "alt_1",
+        "alt_2",
+        "alt_0"
+      ],
+      "chosen_action": [
+        0.2310693860054016,
+        0.038498468697071075,
+        -0.35582923889160156,
+        0.000544605718459934,
+        -0.0033565624617040157,
+        -0.0027174248825758696,
+        0.0028530543204396963
+      ],
+      "hidden_hash": "11e59bcf51cc598d155ca673c7267790d172cd079fb6ca630e8574e5565d0c3b",
+      "native_hash": "4bb60e8b1348bc6cdfe5c64bb11a71f21b3e48bbcf2fb71e5546e7072a6afa54",
+      "state_id": "bcrnn_state_021"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.40653449791908647,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.10136916027991902,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_2",
+        "alt_3",
+        "chosen",
+        "alt_1",
+        "alt_0"
+      ],
+      "chosen_action": [
+        0.179538294672966,
+        0.030299348756670952,
+        -0.3634427487850189,
+        -0.0031171359587460756,
+        -0.0011575971730053425,
+        -0.003322674660012126,
+        0.002349431859329343
+      ],
+      "hidden_hash": "eff4adbf4bd7008b308ba81bcfb9ac49392c984e6042fb54d3b7d4c8fb05c7e4",
+      "native_hash": "6540a1ee5c810880eddffdc096ee20baf08e6e83a8c39be33c46df4ea2f036ab",
+      "state_id": "bcrnn_state_022"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.39274628725961985,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.0979310773042623,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_2",
+        "chosen",
+        "alt_0",
+        "alt_1",
+        "alt_3"
+      ],
+      "chosen_action": [
+        0.14784440398216248,
+        0.0269783828407526,
+        -0.3627893030643463,
+        -0.004596035461872816,
+        -0.00048329398850910366,
+        -0.004750133957713842,
+        0.0019611020106822252
+      ],
+      "hidden_hash": "e99bfa8a87374be6afe15733578e2bbb75bf241eb0adebfb4868c43813350927",
+      "native_hash": "1073f571d9e2dafde15d597fa7e3dfdf61c79b61e7893dbab786653060444f5a",
+      "state_id": "bcrnn_state_023"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.38348789054107474,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.09562250101934375,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_0",
+        "alt_2",
+        "alt_3",
+        "alt_1",
+        "chosen"
+      ],
+      "chosen_action": [
+        0.12428052723407745,
+        0.024165313690900803,
+        -0.3619120717048645,
+        -0.004596216604113579,
+        0.0010986258275806904,
+        -0.005143142770975828,
+        0.002053924836218357
+      ],
+      "hidden_hash": "4894bbe89f31a2e0c7d2b5e688a3b45dbb1bc2dd3a9836233f3192d737aab5a6",
+      "native_hash": "aabae56539bcf49f9ac7faf73c1883b7a2c8ca9d844cdeb5a9258eca2c827cd8",
+      "state_id": "bcrnn_state_024"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.48023298890681526,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.1197458397094964,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_1",
+        "alt_2",
+        "alt_3",
+        "alt_0",
+        "chosen"
+      ],
+      "chosen_action": [
+        0.3297029435634613,
+        0.05540180951356888,
+        -0.34467074275016785,
+        0.0036074405070394278,
+        -0.0034083703067153692,
+        -0.002252139151096344,
+        -0.004765342455357313
+      ],
+      "hidden_hash": "c9597c1bea85f3014c7ac9626a6be88f21c358e7d64d7bc78e3b5891b31d309d",
+      "native_hash": "c0b48de89872278e640f7380f5f9b78f1d3447461e0ea2badb8d1c77571e09a3",
+      "state_id": "bcrnn_state_025"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.464880846201768,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.11591779111220893,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_1",
+        "chosen",
+        "alt_2",
+        "alt_3",
+        "alt_0"
+      ],
+      "chosen_action": [
+        0.29836660623550415,
+        0.044035568833351135,
+        -0.35369279980659485,
+        0.000523621158208698,
+        -0.005705602001398802,
+        0.0014886584831401706,
+        -0.004335586912930012
+      ],
+      "hidden_hash": "7f000db45d4f4ab71704cbe7e11c04cf00c1fe6f12702169c4ce018126574acc",
+      "native_hash": "aa46fa32b9585520dd8a8c3efbb5774c3cd949f77a8a09d28920cb05002988d0",
+      "state_id": "bcrnn_state_026"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.44935208104559105,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.11204570180091258,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_2",
+        "alt_3",
+        "chosen",
+        "alt_1",
+        "alt_0"
+      ],
+      "chosen_action": [
+        0.2651703953742981,
+        0.03561345115303993,
+        -0.36096322536468506,
+        0.0013411903055384755,
+        -0.003455972531810403,
+        0.0018596963491290808,
+        -0.0046888357028365135
+      ],
+      "hidden_hash": "43fa814677b54c59200a3a41076334489de6d009a6dfda08c52fbbff1886ef0f",
+      "native_hash": "33382223b8410df91ffbe5470eb6c820d5e05b9237a6a3945e849f82e943044d",
+      "state_id": "bcrnn_state_027"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4301386470893265,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.10725484228908864,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "chosen",
+        "alt_2",
+        "alt_0",
+        "alt_1",
+        "alt_3"
+      ],
+      "chosen_action": [
+        0.2259911596775055,
+        0.029722927138209343,
+        -0.3647383451461792,
+        0.001823489903472364,
+        -0.0020856678020209074,
+        0.001516951946541667,
+        -0.004445489961653948
+      ],
+      "hidden_hash": "68206988e57f3c439f9b78151f116878a565281fec8acc2849d24c4884227bef",
+      "native_hash": "2c2b682300d0fd3f5c1278ed38be0734d56dfac565555042d62e3fbfaffe9a66",
+      "state_id": "bcrnn_state_028"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4136114040686091,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.10313378305468704,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_3",
+        "alt_0",
+        "alt_1",
+        "alt_2",
+        "chosen"
+      ],
+      "chosen_action": [
+        0.18972012400627136,
+        0.025049375370144844,
+        -0.36664968729019165,
+        0.0018529801163822412,
+        -0.0013012515846639872,
+        0.0015752637991681695,
+        -0.0036872047930955887
+      ],
+      "hidden_hash": "05f818a6e856641dcbb21a51952c821ddfe14d932bbbe2ffbae306d84b6fd96c",
+      "native_hash": "9f0ef8360e7fe5828030699d440a838c0649b0ebfed8eff7ac91f71568da7405",
+      "state_id": "bcrnn_state_029"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4682791185069894,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.11676514849945668,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_1",
+        "alt_0",
+        "chosen",
+        "alt_2",
+        "alt_3"
+      ],
+      "chosen_action": [
+        0.3222975432872772,
+        -0.034833043813705444,
+        -0.3378201425075531,
+        0.0072350953705608845,
+        -0.001539803808555007,
+        -0.0012923732865601778,
+        -0.004177195951342583
+      ],
+      "hidden_hash": "d7e93626e8bd477ab2ef5ad851d4727a2c4a686f5d0210a8fa72df399b9b8d97",
+      "native_hash": "5cb1015ab5706cdcb987aaa5ac391164b127a9e22b2e8e132f0f36b26e2cc9c7",
+      "state_id": "bcrnn_state_030"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4694729531480986,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.11706283053062938,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_2",
+        "chosen",
+        "alt_0",
+        "alt_3",
+        "alt_1"
+      ],
+      "chosen_action": [
+        0.3115752637386322,
+        -0.0395343042910099,
+        -0.3488541841506958,
+        0.0030825049616396427,
+        -0.0063621886074543,
+        0.002495149616152048,
+        -0.00270198006182909
+      ],
+      "hidden_hash": "6f6fc4849a850e2625b000e9f166c0ab9cbedb895c04b321cb2c401f836eefbb",
+      "native_hash": "2dd1f5816d8fb039e1fd534afddc88bee8c49c917d8c24e8bb9af4f2e7ccc663",
+      "state_id": "bcrnn_state_031"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4451750262132911,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.11100415540580763,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_1",
+        "alt_3",
+        "alt_2",
+        "alt_0",
+        "chosen"
+      ],
+      "chosen_action": [
+        0.268444299697876,
+        -0.03975877910852432,
+        -0.35286208987236023,
+        0.00038463619421236217,
+        -0.004564625211060047,
+        0.0009175201412290335,
+        -0.0020545916631817818
+      ],
+      "hidden_hash": "54ede000c05c35231b0c744825981a7fb2b8d1082c514b0193871bd613e43ce6",
+      "native_hash": "9fda4cc9eccf9b2972f4d2688c68ca12df7005b3eaefb19124bf5dba46215c94",
+      "state_id": "bcrnn_state_032"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4202259946139293,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.10478312768006752,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_1",
+        "alt_0",
+        "alt_3",
+        "alt_2",
+        "chosen"
+      ],
+      "chosen_action": [
+        0.22578221559524536,
+        -0.035040292888879776,
+        -0.3526657521724701,
+        -0.0009765761205926538,
+        -0.002961717313155532,
+        0.00024234503507614136,
+        -0.001240398152731359
+      ],
+      "hidden_hash": "f64b92655a2bd480e8427e17f33a950ebf2e9c5b556cbe6365b7f3c2288718e4",
+      "native_hash": "779ef145f05e18990a61839335614d93cb972c7fa8bd093c8ff88e03bb7a889f",
+      "state_id": "bcrnn_state_033"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.4027989670099618,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.10043770763962423,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_0",
+        "alt_3",
+        "alt_1",
+        "chosen",
+        "alt_2"
+      ],
+      "chosen_action": [
+        0.18885773420333862,
+        -0.03078174591064453,
+        -0.3544382154941559,
+        -0.0011593890376389027,
+        -0.0017578145489096642,
+        0.001031133928336203,
+        -0.0005497633828781545
+      ],
+      "hidden_hash": "7b0bc61607328aa5ac7c2e65ac22321bf9ddf83a1b59e36931cf1d2793a77667",
+      "native_hash": "3e3be1a512cc6c7014762eb6c2b79c68f1e27e4e6a686c129b2b732e24b08bc8",
+      "state_id": "bcrnn_state_034"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.5110790099283413,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.1274372786032042,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_0",
+        "chosen",
+        "alt_2",
+        "alt_1",
+        "alt_3"
+      ],
+      "chosen_action": [
+        0.3660590648651123,
+        -0.05600343272089958,
+        -0.35220593214035034,
+        0.0016645350260660052,
+        0.002185692312195897,
+        -0.0025419387966394424,
+        -0.0017615128308534622
+      ],
+      "hidden_hash": "2cbe987530df09b8c151f51151aa2a29f9802ed354f84f8681fce68eebe9e822",
+      "native_hash": "e55404e04fb787fa9f059cf2d84106b4f8d70adab8c546a23ba26308cef58133",
+      "state_id": "bcrnn_state_035"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.5113069567150029,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.1274941170129103,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_3",
+        "alt_2",
+        "chosen",
+        "alt_0",
+        "alt_1"
+      ],
+      "chosen_action": [
+        0.36704763770103455,
+        -0.05133894085884094,
+        -0.3521560728549957,
+        -0.0029712687246501446,
+        0.0064878384582698345,
+        -0.0028779800049960613,
+        0.001430346630513668
+      ],
+      "hidden_hash": "ffa9d0d229fb79c40e9945e0974c74d505b4504d820017624c3ab3c21c494367",
+      "native_hash": "aa091fb74e51e01188cc71f317d27c118a0eb5da7164399b2b405ee289691974",
+      "state_id": "bcrnn_state_036"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.5131130530524297,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.12794446617158373,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_2",
+        "alt_1",
+        "alt_3",
+        "chosen",
+        "alt_0"
+      ],
+      "chosen_action": [
+        0.3693719208240509,
+        -0.045142728835344315,
+        -0.3532378673553467,
+        -0.002917807549238205,
+        0.004393391776829958,
+        -0.0025699492543935776,
+        -0.00033509358763694763
+      ],
+      "hidden_hash": "51ffea9ed9c5018e752e1d7a1e7a6e91151eb5fda9e6021979020604caab21f5",
+      "native_hash": "08baa1794c2789f6dfc1b33ad2e150381e3f9fa9df8d12af7cc8c04474e345a6",
+      "state_id": "bcrnn_state_037"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.496820285416651,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.12388187324938739,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_0",
+        "alt_1",
+        "alt_3",
+        "chosen",
+        "alt_2"
+      ],
+      "chosen_action": [
+        0.3496585190296173,
+        -0.038233786821365356,
+        -0.35082530975341797,
+        -0.0029145816806703806,
+        0.003960226662456989,
+        -0.0021642784122377634,
+        -0.0004830844409298152
+      ],
+      "hidden_hash": "ec80bc48a5b2469c6d234e16b80d559ddef67e2ceb7478731fefd3c280caef80",
+      "native_hash": "cdf99302eb7a25de32a96738084eaee547c6f1d7ca2c3ba896b2c8cb1ad2aed2",
+      "state_id": "bcrnn_state_038"
+    },
+    {
+      "action_spec": {
+        "absolute_action_norm": 0.47115553354160483,
+        "action_bounds": [
+          -1.0,
+          1.0
+        ],
+        "definition": "normalized 7D robosuite controller vector; alternatives are fixed-angle rotations of the selected action",
+        "expected_delta_norm": 0.11748238105454857,
+        "representation": "Panda BASIC composite controller action [xyz, rotation xyz, gripper]",
+        "theta_radians": 0.25,
+        "validity": "all components inside normalized robosuite action bounds; no clipping after construction"
+      },
+      "candidate_order": [
+        "alt_2",
+        "alt_0",
+        "alt_3",
+        "alt_1",
+        "chosen"
+      ],
+      "chosen_action": [
+        0.3130546808242798,
+        -0.033830106258392334,
+        -0.3504585325717926,
+        -0.002170615131035447,
+        0.003574405563995242,
+        -0.0009561848710291088,
+        0.0004921629442833364
+      ],
+      "hidden_hash": "7b9bbc4ceaca01967752918ea65cb184e732c2cf685a8a05728445aab4cb9893",
+      "native_hash": "967bb9d9daa83eaab6c53df07483df45e2c9b5b730eaea782666654cbf24cc41",
+      "state_id": "bcrnn_state_039"
+    }
+  ]
+}
