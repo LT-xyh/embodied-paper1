@@ -6,12 +6,12 @@
     "provisional_advances": true
   },
   "created": "2026-09-27T12:50:39Z",
-  "updated": "2026-09-28T00:46:54Z",
+  "updated": "2026-09-28T00:48:21Z",
   "gates": {
     "idea-discovery-evidence": {
       "verdict": "PASS",
       "reasons": [],
-      "updated": "2026-09-28T00:46:54Z"
+      "updated": "2026-09-28T00:48:21Z"
     }
   },
   "phases": [
