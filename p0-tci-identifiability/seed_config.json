@@ -1,0 +1,15 @@
+{
+  "state_seeds": [100, 101, 102, 103],
+  "episodes_per_seed": 2,
+  "capture_timesteps": [0, 3, 6, 9, 12],
+  "candidate_order_seed_formula": "20260928 + state_ordinal*7919",
+  "consequence_shuffle_seed": 20260930,
+  "alternative_theta_radians": 0.25,
+  "horizons": [1, 4, 12],
+  "candidate_count": 5,
+  "simulator": "MuJoCo 3.3.0",
+  "environment": "robosuite 1.5.2 Lift/Panda/BASIC",
+  "python": "3.10.21",
+  "numpy": "2.2.6",
+  "torch_available_unused": "2.5.1 CPU"
+}

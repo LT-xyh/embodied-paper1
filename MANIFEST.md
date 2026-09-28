@@ -78,3 +78,8 @@
 | 2026-09-28 00:45 | /idea-discovery | refine-logs/FINAL_PROPOSAL.md | refinement | Temporal Consequence Inversion proposal with finite-alternative, leakage, and kill gates; not implementation-authorized |
 | 2026-09-28 00:45 | /idea-discovery | refine-logs/EXPERIMENT_PLAN.md | experiment-planning | Bounded TCI cloned-state pilot plan; not executed |
 | 2026-09-28 00:45 | /idea-discovery | .aris/runs/embodied-vla-third-discovery-20260927.json | governance | Resumable third-cycle evidence with two same-family gpt-6-astra medium provisional receipts; evidence gate PASS |
+| 2026-09-28 | tci-identifiability | p0-tci-identifiability/ | bounded-identifiability-gate | Fresh-process cloned-state TCI consequence preflight; 40 unique states, equal-norm action interventions, temporal/inversion and leakage controls; pending independent audit |
+| 2026-09-28 | tci-identifiability | TCI_IDENTIFIABILITY_REPORT.md | bounded-identifiability-gate | TCI consequence identifiability report; provisional verdict REVISE pending gpt-6-astra medium audit |
+| 2026-09-28 | tci-identifiability | .aris/runs/tci-identifiability-20260928.json | governance | Resumable phase evidence for TCI preflight |
+| 2026-09-28 | tci-identifiability | p0-tci-identifiability/seed_config.json | bounded-identifiability-gate | Frozen seeds, split, action, horizon, and runtime configuration |
+| 2026-09-28 | independent-review | p0-tci-identifiability/INDEPENDENT_ASTRA_AUDIT.md | reviewer-trace | Fresh independent gpt-6-astra medium audit; finalized REVISE — TCI CONSEQUENCE IDENTIFIABILITY |

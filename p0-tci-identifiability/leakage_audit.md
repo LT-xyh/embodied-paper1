@@ -1,0 +1,3 @@
+# TCI leakage audit
+
+The 40 states are unique serialized native integration states, with no train/test native-hash overlap. Whole episodes remain in one split: seeds 100 and 102 train; 101 and 103 test. Candidate order is randomized per state and the chosen action is not always position zero (counts 6/8/8/8/10). State id, episode id, timestep, trajectory id, candidate position, and raw action norm are not used as predictive features. Consequences are generated only after state and action selection. The fixed-RNG within-state consequence-shuffle control is included in `tci_identifiability_results.json` analysis. Simulator state restoration uses the public `mj_getState`/`mj_setState` integration API; no raw MuJoCo index semantics are inferred.

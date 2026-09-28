@@ -1,0 +1,294 @@
+{
+  "candidate_records_per_state": 5,
+  "duplicate_state_check": true,
+  "horizons": [
+    1,
+    4,
+    12
+  ],
+  "split_rule": "whole underlying episode stays in one split; train episodes are seed100/102, test episodes seed101/103",
+  "state_count": 40,
+  "states": [
+    {
+      "episode_id": "seed100_ep0",
+      "native_hash": "24ebe107c71b50a06da9507171019ecd1ec42fa1224c6839810027b7a0309755",
+      "split": "train",
+      "state_id": "state_000",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed100_ep0",
+      "native_hash": "39a9a7d29dca2ef82c933828f9396d145387718b18ad0d647399fb10f82b9d72",
+      "split": "train",
+      "state_id": "state_001",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed100_ep0",
+      "native_hash": "a9d0e3d3edbf860b9e03584c4f647d4016ec1f411f028d46d7089ca6870e6680",
+      "split": "train",
+      "state_id": "state_002",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed100_ep0",
+      "native_hash": "7de1609fe036e21e52de5103dfa92b2ccdebd3172e3d3bb6ca77c8967234165f",
+      "split": "train",
+      "state_id": "state_003",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed100_ep0",
+      "native_hash": "37c0e9130e84afa36a9d7dd58c2e0372399ae8cebbc1303ba2736ff96d8668cc",
+      "split": "train",
+      "state_id": "state_004",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed100_ep1",
+      "native_hash": "389bad366e0bd01031d4b4d44c15cfdbea1921b87e1ef89b9080dac4bd41c76e",
+      "split": "train",
+      "state_id": "state_005",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed100_ep1",
+      "native_hash": "7f335e5f3aaa3856b6b8214f785b6c9b36d92168174974d97cec00728c51a485",
+      "split": "train",
+      "state_id": "state_006",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed100_ep1",
+      "native_hash": "9a0f6b39cb9ad392e742033119aaa1b2176438a18ae906cd236dc0cfe19cbc16",
+      "split": "train",
+      "state_id": "state_007",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed100_ep1",
+      "native_hash": "a2039b71e0301ed9fd5a87abe7ace0bf7f568ff450f3d9b3083538df8018767e",
+      "split": "train",
+      "state_id": "state_008",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed100_ep1",
+      "native_hash": "e262d506c27ac62d600c4bdd6b76c7f09dd2efa8945ae6f3d39e2b25bd444408",
+      "split": "train",
+      "state_id": "state_009",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed101_ep0",
+      "native_hash": "d4ca7983805fc93d9e649fd544eeb29cfc295911830479573e26262ea640ed49",
+      "split": "test",
+      "state_id": "state_010",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed101_ep0",
+      "native_hash": "c35b300949d54e363d00261a47d750a70c595bca8350e7473a2420622ff0eed8",
+      "split": "test",
+      "state_id": "state_011",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed101_ep0",
+      "native_hash": "cfe0df861abe7aceaf930a04cd4d1295ea420a9f4f5868a4c3a6e33c532036dc",
+      "split": "test",
+      "state_id": "state_012",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed101_ep0",
+      "native_hash": "a1e5e1c6f5324c998f810c80ddffd827d6449fb306b85b79f265e9ae72a9716a",
+      "split": "test",
+      "state_id": "state_013",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed101_ep0",
+      "native_hash": "c48ed4da627e4f5a190fa5c250d919a38ab4f707ed3247a8473b472a56cda914",
+      "split": "test",
+      "state_id": "state_014",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed101_ep1",
+      "native_hash": "0566eadb33e040976f3ae3977165a3f4f923b78184653c52dc9e55a29b1b2dab",
+      "split": "test",
+      "state_id": "state_015",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed101_ep1",
+      "native_hash": "907c301567de7f1b7d98e34a2c7a772a2872a852fac71510cc741553dd3620a8",
+      "split": "test",
+      "state_id": "state_016",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed101_ep1",
+      "native_hash": "4bfa652813c1a6e570fcbb3afe8ce8e2454ba598042cb24169634a6c4106aee3",
+      "split": "test",
+      "state_id": "state_017",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed101_ep1",
+      "native_hash": "89ed1f1456fd442f5e55226e84388536c089fb0945ce63fe419f8386f7df8e46",
+      "split": "test",
+      "state_id": "state_018",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed101_ep1",
+      "native_hash": "30b3f43e7887e03dcb827f82b8783e82d2824e97e62b1896da5b2ec89369e689",
+      "split": "test",
+      "state_id": "state_019",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed102_ep0",
+      "native_hash": "a8a6f423a5e1b6a3fbb6d41c813257c84aee84b0741473f7423336cbbed426ec",
+      "split": "train",
+      "state_id": "state_020",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed102_ep0",
+      "native_hash": "1e7dea7736299431e5178d0fdf62c1bb81f54ede4117013992fd79f7dd146eee",
+      "split": "train",
+      "state_id": "state_021",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed102_ep0",
+      "native_hash": "9e12aead0be27489499699477995a042b4a9f2fcd1f169206207f4d5818979f9",
+      "split": "train",
+      "state_id": "state_022",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed102_ep0",
+      "native_hash": "9fbe2082d483242794b8dcd9b7476d222d4a2f7e6741ebd4933d8a64028389d0",
+      "split": "train",
+      "state_id": "state_023",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed102_ep0",
+      "native_hash": "7277249528b2d31638c8fe5a6640decbefa9ddd8f49e9390c444574ec5091c47",
+      "split": "train",
+      "state_id": "state_024",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed102_ep1",
+      "native_hash": "c0b48de89872278e640f7380f5f9b78f1d3447461e0ea2badb8d1c77571e09a3",
+      "split": "train",
+      "state_id": "state_025",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed102_ep1",
+      "native_hash": "331d24376bf70866d713ce28ff2c1b317c94b906cd00be45b4cb28d465d00e8a",
+      "split": "train",
+      "state_id": "state_026",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed102_ep1",
+      "native_hash": "f1917c81ac6be519b05c650c3b259d3f3ec987e20b3d05a0b6a16b671718d599",
+      "split": "train",
+      "state_id": "state_027",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed102_ep1",
+      "native_hash": "08f0bb5e2b9adf1913e0795365e127f788f227a5d90d02e21f7f392066970667",
+      "split": "train",
+      "state_id": "state_028",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed102_ep1",
+      "native_hash": "5222e0b7fbdededb1403226e6cc4b710144e5d3f32182cfda96353c87a0a53fb",
+      "split": "train",
+      "state_id": "state_029",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed103_ep0",
+      "native_hash": "5cb1015ab5706cdcb987aaa5ac391164b127a9e22b2e8e132f0f36b26e2cc9c7",
+      "split": "test",
+      "state_id": "state_030",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed103_ep0",
+      "native_hash": "d88016218acb665a8c49b5f26785488132960cae4e5f6d339bd1e58cccd5110c",
+      "split": "test",
+      "state_id": "state_031",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed103_ep0",
+      "native_hash": "6caf7d5aedcdcfd9d5dc5f272fafe523dad68998f4467bb47f3c1255a26a7eb6",
+      "split": "test",
+      "state_id": "state_032",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed103_ep0",
+      "native_hash": "0a1d69f8e6fdb61ba87ae56bf543f86a9584bca2fa88d9465d37180c4075cfa4",
+      "split": "test",
+      "state_id": "state_033",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed103_ep0",
+      "native_hash": "1dba6c657e38aaa8ea251cc7d88810e83ac3a4824585e3e5095e5f64324d430b",
+      "split": "test",
+      "state_id": "state_034",
+      "timestep": 12
+    },
+    {
+      "episode_id": "seed103_ep1",
+      "native_hash": "e55404e04fb787fa9f059cf2d84106b4f8d70adab8c546a23ba26308cef58133",
+      "split": "test",
+      "state_id": "state_035",
+      "timestep": 0
+    },
+    {
+      "episode_id": "seed103_ep1",
+      "native_hash": "7077aba1f456aa150a0c93c5026d7931851f48bb946c0491193de3ea7f83762d",
+      "split": "test",
+      "state_id": "state_036",
+      "timestep": 3
+    },
+    {
+      "episode_id": "seed103_ep1",
+      "native_hash": "65d0c7b57c7571e7b11bec048091a3e055f93daf0ac2420622efb41ae50c28dd",
+      "split": "test",
+      "state_id": "state_037",
+      "timestep": 6
+    },
+    {
+      "episode_id": "seed103_ep1",
+      "native_hash": "abe2121d66480043f5460cd3f238a4e7a7520d90b520c3730bc2b87ef1093fe6",
+      "split": "test",
+      "state_id": "state_038",
+      "timestep": 9
+    },
+    {
+      "episode_id": "seed103_ep1",
+      "native_hash": "405aa2745465b64a6a49b0c98044cd39754667fe63436f53a3f8a21c01345a09",
+      "split": "test",
+      "state_id": "state_039",
+      "timestep": 12
+    }
+  ],
+  "unique_native_hash_count": 40
+}

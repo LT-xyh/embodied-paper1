@@ -1,0 +1,22 @@
+{
+  "candidate_order_randomized": true,
+  "candidate_order_used_as_feature": false,
+  "chosen_position_counts": {
+    "0": 6,
+    "1": 8,
+    "2": 8,
+    "3": 8,
+    "4": 10
+  },
+  "consequence_shuffling": "within-state consequence rows permuted with fixed RNG 20260930",
+  "duplicate_underlying_states": false,
+  "episode_id_used_as_feature": false,
+  "metadata_only_control": "candidate position is randomized; deterministic position baseline is chance-level by construction",
+  "policy_action_always_candidate_zero": false,
+  "raw_action_norm_used_as_temporal_signal": false,
+  "raw_mujoco_index_semantics": "none inferred; state capture/restoration uses mujoco.mj_getState/mj_setState with mjSTATE_INTEGRATION",
+  "state_id_used_as_feature": false,
+  "timestep_used_as_feature": false,
+  "train_test_native_hash_overlap": 0,
+  "trajectory_id_used_as_feature": false
+}
