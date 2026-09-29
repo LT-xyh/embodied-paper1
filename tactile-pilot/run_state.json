@@ -1,0 +1,27 @@
+{
+  "run_id": "tactile-minimum-pilot-20260929",
+  "branch": "p0/tactile-minimum-pilot",
+  "base_commit": "89b8d5b3a74e06829534e4e5341246ab998b0730",
+  "status": "FAIL — MINIMUM TACTILE SCIENTIFIC PILOT",
+  "phases": {
+    "resource_freeze": "done",
+    "download": "done",
+    "dataset_audit": "done",
+    "initial_sync_run": "invalidated — duration mismatch detected",
+    "sync_repair": "done — excluded 9 episodes above 1.5% span ratio",
+    "smoke_test": "passed",
+    "corrected_minimum_run": "done",
+    "independent_review": "done — gpt-6-luna max fallback; gpt-6-astra medium unavailable"
+  },
+  "downloaded_bytes": 192054263,
+  "downloaded_files": 138,
+  "audited_episodes": 44,
+  "qualified_episodes": 35,
+  "seeds": [0, 1, 2],
+  "primary_contact_gain_over_baseline": [-0.0878933221, -0.0803235471, -0.1750672311],
+  "primary_noncontact_gain_over_baseline": [-0.1314488649, -0.0616507232, -0.0784948468],
+  "gpu": false,
+  "simulator": false,
+  "physical_hardware": false,
+  "full_dataset_download": false
+}

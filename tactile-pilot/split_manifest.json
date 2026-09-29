@@ -1,0 +1,118 @@
+{
+  "frozen": true,
+  "unit": "complete episode",
+  "sync_qualified_only": true,
+  "split": {
+    "primary": {
+      "train": [
+        "Stamp_10_traj",
+        "Stamp_100_traj",
+        "Stamp_101_traj",
+        "Stamp_102_traj",
+        "Stamp_103_traj",
+        "Stamp_104_traj",
+        "Stamp_105_traj",
+        "Stamp_106_traj",
+        "Stamp_107_traj",
+        "Stamp_108_traj",
+        "Stamp_109_traj",
+        "Stamp_110_traj",
+        "UsbPlug_10_traj",
+        "UsbPlug_101_traj",
+        "UsbPlug_102_traj",
+        "FragileCup_10_traj",
+        "FragileCup_100_traj",
+        "FragileCup_101_traj",
+        "FragileCup_102_traj",
+        "FragileCup_103_traj",
+        "FragileCup_104_traj",
+        "FragileCup_105_traj",
+        "FragileCup_106_traj",
+        "FragileCup_107_traj",
+        "FragileCup_109_traj",
+        "FragileCup_110_traj"
+      ],
+      "test": [
+        "Stamp_111_traj",
+        "Stamp_112_traj",
+        "Stamp_113_traj",
+        "Stamp_114_traj",
+        "UsbPlug_103_traj",
+        "FragileCup_111_traj",
+        "FragileCup_112_traj",
+        "FragileCup_113_traj",
+        "FragileCup_114_traj"
+      ]
+    },
+    "task_heldout": {
+      "train": [
+        "Stamp_10_traj",
+        "Stamp_100_traj",
+        "Stamp_101_traj",
+        "Stamp_102_traj",
+        "Stamp_103_traj",
+        "Stamp_104_traj",
+        "Stamp_105_traj",
+        "Stamp_106_traj",
+        "Stamp_107_traj",
+        "Stamp_108_traj",
+        "Stamp_109_traj",
+        "Stamp_110_traj",
+        "Stamp_111_traj",
+        "Stamp_112_traj",
+        "Stamp_113_traj",
+        "Stamp_114_traj",
+        "UsbPlug_10_traj",
+        "UsbPlug_101_traj",
+        "UsbPlug_102_traj",
+        "UsbPlug_103_traj"
+      ],
+      "test": [
+        "FragileCup_10_traj",
+        "FragileCup_100_traj",
+        "FragileCup_101_traj",
+        "FragileCup_102_traj",
+        "FragileCup_103_traj",
+        "FragileCup_104_traj",
+        "FragileCup_105_traj",
+        "FragileCup_106_traj",
+        "FragileCup_107_traj",
+        "FragileCup_109_traj",
+        "FragileCup_110_traj",
+        "FragileCup_111_traj",
+        "FragileCup_112_traj",
+        "FragileCup_113_traj",
+        "FragileCup_114_traj"
+      ]
+    }
+  },
+  "excluded_sync_unqualified": [
+    "UsbPlug_100_traj",
+    "UsbPlug_104_traj",
+    "UsbPlug_105_traj",
+    "UsbPlug_106_traj",
+    "UsbPlug_107_traj",
+    "UsbPlug_108_traj",
+    "UsbPlug_109_traj",
+    "UsbPlug_110_traj",
+    "FragileCup_108_traj"
+  ],
+  "task_ids": {
+    "primary_train": [
+      "Stamp",
+      "UsbPlug"
+    ],
+    "primary_test": [
+      "Stamp",
+      "UsbPlug",
+      "FragileCup"
+    ],
+    "task_heldout_train": [
+      "Stamp",
+      "UsbPlug"
+    ],
+    "task_heldout_test": [
+      "FragileCup"
+    ]
+  }
+}

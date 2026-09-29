@@ -1,0 +1,122 @@
+[
+  {
+    "split": "primary",
+    "seed": 0,
+    "condition": "vision_proprio_tactile",
+    "delta_contact_mae": 0.08789332211017609,
+    "delta_noncontact_mae": 0.1314488649368286,
+    "delta_overall_mae": 0.12189137935638428,
+    "contact_gain_over_baseline": -0.08789332211017609,
+    "noncontact_gain_over_baseline": -0.1314488649368286
+  },
+  {
+    "split": "primary",
+    "seed": 0,
+    "condition": "vision_proprio_shuffled_tactile",
+    "delta_contact_mae": 0.45885443687438965,
+    "delta_noncontact_mae": 0.5565763413906097,
+    "delta_overall_mae": 0.535132884979248,
+    "contact_gain_over_baseline": -0.45885443687438965,
+    "noncontact_gain_over_baseline": -0.5565763413906097
+  },
+  {
+    "split": "primary",
+    "seed": 1,
+    "condition": "vision_proprio_tactile",
+    "delta_contact_mae": 0.08032354712486267,
+    "delta_noncontact_mae": 0.06165072321891785,
+    "delta_overall_mae": 0.0657481849193573,
+    "contact_gain_over_baseline": -0.08032354712486267,
+    "noncontact_gain_over_baseline": -0.06165072321891785
+  },
+  {
+    "split": "primary",
+    "seed": 1,
+    "condition": "vision_proprio_shuffled_tactile",
+    "delta_contact_mae": 0.3177085369825363,
+    "delta_noncontact_mae": 0.2847333550453186,
+    "delta_overall_mae": 0.2919692397117615,
+    "contact_gain_over_baseline": -0.3177085369825363,
+    "noncontact_gain_over_baseline": -0.2847333550453186
+  },
+  {
+    "split": "primary",
+    "seed": 2,
+    "condition": "vision_proprio_tactile",
+    "delta_contact_mae": 0.1750672310590744,
+    "delta_noncontact_mae": 0.0784948468208313,
+    "delta_overall_mae": 0.0996859073638916,
+    "contact_gain_over_baseline": -0.1750672310590744,
+    "noncontact_gain_over_baseline": -0.0784948468208313
+  },
+  {
+    "split": "primary",
+    "seed": 2,
+    "condition": "vision_proprio_shuffled_tactile",
+    "delta_contact_mae": 0.41543637216091156,
+    "delta_noncontact_mae": 0.44789886474609375,
+    "delta_overall_mae": 0.44077548384666443,
+    "contact_gain_over_baseline": -0.41543637216091156,
+    "noncontact_gain_over_baseline": -0.44789886474609375
+  },
+  {
+    "split": "task_heldout",
+    "seed": 0,
+    "condition": "vision_proprio_tactile",
+    "delta_contact_mae": -2.9934778213500977,
+    "delta_noncontact_mae": -2.2881922721862793,
+    "delta_overall_mae": -2.5262746810913086,
+    "contact_gain_over_baseline": 2.9934778213500977,
+    "noncontact_gain_over_baseline": 2.2881922721862793
+  },
+  {
+    "split": "task_heldout",
+    "seed": 0,
+    "condition": "vision_proprio_shuffled_tactile",
+    "delta_contact_mae": -2.8612422943115234,
+    "delta_noncontact_mae": -2.2784337997436523,
+    "delta_overall_mae": -2.475172519683838,
+    "contact_gain_over_baseline": 2.8612422943115234,
+    "noncontact_gain_over_baseline": 2.2784337997436523
+  },
+  {
+    "split": "task_heldout",
+    "seed": 1,
+    "condition": "vision_proprio_tactile",
+    "delta_contact_mae": -3.696946859359741,
+    "delta_noncontact_mae": -3.6217801570892334,
+    "delta_overall_mae": -3.6471540927886963,
+    "contact_gain_over_baseline": 3.696946859359741,
+    "noncontact_gain_over_baseline": 3.6217801570892334
+  },
+  {
+    "split": "task_heldout",
+    "seed": 1,
+    "condition": "vision_proprio_shuffled_tactile",
+    "delta_contact_mae": -3.504640579223633,
+    "delta_noncontact_mae": -3.6973090171813965,
+    "delta_overall_mae": -3.6322693824768066,
+    "contact_gain_over_baseline": 3.504640579223633,
+    "noncontact_gain_over_baseline": 3.6973090171813965
+  },
+  {
+    "split": "task_heldout",
+    "seed": 2,
+    "condition": "vision_proprio_tactile",
+    "delta_contact_mae": 1.0816497802734375,
+    "delta_noncontact_mae": 1.3244755268096924,
+    "delta_overall_mae": 1.2425048351287842,
+    "contact_gain_over_baseline": -1.0816497802734375,
+    "noncontact_gain_over_baseline": -1.3244755268096924
+  },
+  {
+    "split": "task_heldout",
+    "seed": 2,
+    "condition": "vision_proprio_shuffled_tactile",
+    "delta_contact_mae": 1.388817310333252,
+    "delta_noncontact_mae": 1.1574385166168213,
+    "delta_overall_mae": 1.2355446815490723,
+    "contact_gain_over_baseline": -1.388817310333252,
+    "noncontact_gain_over_baseline": -1.1574385166168213
+  }
+]

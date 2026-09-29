@@ -1,0 +1,840 @@
+{
+  "dataset_revision": "030316fb41d6fa1e58cccb4bbe0f6fddbb932671",
+  "tasks": [
+    "Stamp",
+    "UsbPlug",
+    "FragileCup"
+  ],
+  "predeclared": true,
+  "files": [
+    {
+      "path": "FragileCup/FragileCup_100_Camera1.mp4",
+      "expected_bytes": 2102130,
+      "oid": "cbe3e0bdd50767f67a20f7f5d28233a89c4f98e6",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_100_Camera2.mp4",
+      "expected_bytes": 4306940,
+      "oid": "46d165455b127ca60494d46d82e500015af13f57",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_100_traj.csv",
+      "expected_bytes": 66026,
+      "oid": "71396d18cbd1c3527609bdf37130771304ada90e",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_101_Camera1.mp4",
+      "expected_bytes": 2085563,
+      "oid": "1e701809faefe79372d24ff3003f249dd8201a41",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_101_Camera2.mp4",
+      "expected_bytes": 3999861,
+      "oid": "67da6d7812b6b34fc44ef6e64b39dce854d4f230",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_101_traj.csv",
+      "expected_bytes": 65984,
+      "oid": "f8d4026627790a4f219a07891f750f3a927e127f",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_102_Camera1.mp4",
+      "expected_bytes": 2055223,
+      "oid": "20c780b48cf52c2ddde01a922b6ff7cc006afa73",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_102_Camera2.mp4",
+      "expected_bytes": 4111331,
+      "oid": "0b1d588badcb8cd1e4a7f0b5ca82850f22da9c6a",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_102_traj.csv",
+      "expected_bytes": 65775,
+      "oid": "29043000523d0d55a07cc6fae3a297623506c3b3",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_103_Camera1.mp4",
+      "expected_bytes": 1991297,
+      "oid": "b7f982663936d028785050bf38798db2bec07be2",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_103_Camera2.mp4",
+      "expected_bytes": 4157314,
+      "oid": "91e0e9fded224353b5d165bce3483db338649d7d",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_103_traj.csv",
+      "expected_bytes": 65955,
+      "oid": "3486cc55d89d89e9e1ddac8ecaec554fee499a09",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_104_Camera1.mp4",
+      "expected_bytes": 2093478,
+      "oid": "68ffaa768d83b2f10fb3599ae3903b3f51a5ef78",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_104_Camera2.mp4",
+      "expected_bytes": 3887817,
+      "oid": "c6683bd14d3906e69e9b6c3ed6bd6bee1191e445",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_104_traj.csv",
+      "expected_bytes": 65935,
+      "oid": "3579b50a02cb16295647d711fb56aae235fd8fa9",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_105_Camera1.mp4",
+      "expected_bytes": 2051358,
+      "oid": "367896f2397b191898b5b74cb0b59a5147db9006",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_105_Camera2.mp4",
+      "expected_bytes": 3773363,
+      "oid": "38c284532c1c749f065c6889aa61116ed22b22f4",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_105_traj.csv",
+      "expected_bytes": 65965,
+      "oid": "90a2956a51a3ecf076fb7bf272f302855a7d9a9e",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_106_Camera1.mp4",
+      "expected_bytes": 2113721,
+      "oid": "be24ee6fa21479ac4a98b3dd947e50685b86f061",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_106_Camera2.mp4",
+      "expected_bytes": 3957208,
+      "oid": "0fbe3f2e744072c7568db0ba15e5dbf58d26bf59",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_106_traj.csv",
+      "expected_bytes": 65986,
+      "oid": "78b8b4fdc2802c620624ba1f8ecd72964218b4f9",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_107_Camera1.mp4",
+      "expected_bytes": 1974966,
+      "oid": "4b21a430f24737ad7033d81eae61b4b3bd5ff81d",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_107_Camera2.mp4",
+      "expected_bytes": 3722882,
+      "oid": "7023e451455a985215a901378141b200ec39336f",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_107_traj.csv",
+      "expected_bytes": 66103,
+      "oid": "99d6f9dcca8e8a849e7f75a00b4b758bde5b4eaa",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_108_Camera1.mp4",
+      "expected_bytes": 1969309,
+      "oid": "339eb4f0727903cf959fca0ee16676f5e90e2dc4",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_108_Camera2.mp4",
+      "expected_bytes": 4017367,
+      "oid": "d95cc96fdfed8f53eabf031b7bdeca0b1d9c5acf",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_108_traj.csv",
+      "expected_bytes": 65894,
+      "oid": "349233acc5b34f4cb3dd187c3c3223547c359d00",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_109_Camera1.mp4",
+      "expected_bytes": 1951499,
+      "oid": "1e55630cba4c1a4dc346e9c06ad38323fff61b6a",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_109_Camera2.mp4",
+      "expected_bytes": 3790188,
+      "oid": "a92ebe58fa50a022ef8c37d9a85e832845d70fee",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_109_traj.csv",
+      "expected_bytes": 65993,
+      "oid": "d229c03df13f64a85b2196c309c7482fc5bb9bc0",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_10_Camera1.mp4",
+      "expected_bytes": 2272076,
+      "oid": "52e120c4f4a2c079f398fc699e246aa305b6e80b",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_10_Camera2.mp4",
+      "expected_bytes": 4334558,
+      "oid": "f1bc80f4661ac555be3c06884167290a7fa9b204",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_10_traj.csv",
+      "expected_bytes": 65867,
+      "oid": "bdeeabfe751064f5d36e8323f867c3eb8abd5e99",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_110_Camera1.mp4",
+      "expected_bytes": 1941865,
+      "oid": "f957a561f8f1f640edf532e00230842bfcab2069",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_110_Camera2.mp4",
+      "expected_bytes": 4195760,
+      "oid": "38310d66a6abec464a6e845fc792cc11bc0424d2",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_110_traj.csv",
+      "expected_bytes": 66013,
+      "oid": "25c195a7c013cbfa9bf1fe84590587f7c6d6090e",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_111_Camera1.mp4",
+      "expected_bytes": 2042750,
+      "oid": "05df69b1bcf68ed291d29d80e4a5106f5ba5b2a1",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_111_Camera2.mp4",
+      "expected_bytes": 4190486,
+      "oid": "8a879cc34ab321c9ef4172e8d4e8a24be6713f6c",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_111_traj.csv",
+      "expected_bytes": 66106,
+      "oid": "34a2cdb6093d7cca9d192fa74d1ecaae94abd19a",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_112_Camera1.mp4",
+      "expected_bytes": 2020554,
+      "oid": "a34e72eaa141390a3cb19db62740bc770e032cc4",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_112_Camera2.mp4",
+      "expected_bytes": 4272939,
+      "oid": "cada22ef13dce1b025e7c3043b0fb28541f106b7",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_112_traj.csv",
+      "expected_bytes": 66061,
+      "oid": "1b0a6c23c2b4bbc2ffb68a4b927c0e8e251274a4",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_113_Camera1.mp4",
+      "expected_bytes": 1960318,
+      "oid": "03f6363fb4dfba7170a525fb228b0b193745b06e",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_113_Camera2.mp4",
+      "expected_bytes": 4149053,
+      "oid": "721dae43be5a256504a0d25b7a32dddedb4547c9",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_113_traj.csv",
+      "expected_bytes": 66110,
+      "oid": "b5a7079f17411fe9066b0c1f46a1d408b76fb324",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_114_Camera1.mp4",
+      "expected_bytes": 1920201,
+      "oid": "adad9798aac3bb5fbe6b71bcf3cc2fbe56da8efb",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_114_Camera2.mp4",
+      "expected_bytes": 4037429,
+      "oid": "6e8cc7eb072c1c3d80de98c5e207af3a9f7327a1",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_114_traj.csv",
+      "expected_bytes": 65974,
+      "oid": "f82e125badba0d70cecb9d2d4b1bd06543bff037",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_115_Camera1.mp4",
+      "expected_bytes": 2016832,
+      "oid": "bf4708341beafcf76786e2775dd3d4c8acc2162c",
+      "task": "FragileCup"
+    },
+    {
+      "path": "FragileCup/FragileCup_115_Camera2.mp4",
+      "expected_bytes": 4097277,
+      "oid": "03e21b5d7ceacca180edc31785d792990a3bf3e3",
+      "task": "FragileCup"
+    },
+    {
+      "path": "Stamp/Stamp_100_Camera1.mp4",
+      "expected_bytes": 1560995,
+      "oid": "d8fbbe310cca4afce0a4eb2e639a19cb839ddaf6",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_100_Camera2.mp4",
+      "expected_bytes": 940087,
+      "oid": "efb6843d1ed45d032928650c09f0b6660129f269",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_100_traj.csv",
+      "expected_bytes": 39852,
+      "oid": "20243c5ee2804e804cfa3580e5785f22d5ce9478",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_101_Camera1.mp4",
+      "expected_bytes": 1448206,
+      "oid": "d8d39a459bb36a501fcf2acbeb0cea16f472bc48",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_101_Camera2.mp4",
+      "expected_bytes": 974896,
+      "oid": "589dcae36e5c01c1c248c228554750f456593555",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_101_traj.csv",
+      "expected_bytes": 40007,
+      "oid": "8720feae8feb6d62ebd274767593c02f83df4cb7",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_102_Camera1.mp4",
+      "expected_bytes": 1489755,
+      "oid": "81e83223d84c56ef3f52e519f220da03f96b6b13",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_102_Camera2.mp4",
+      "expected_bytes": 1018001,
+      "oid": "f94463b274a4cfd3a72c032790d69b3ff278e65c",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_102_traj.csv",
+      "expected_bytes": 40009,
+      "oid": "e018c82396401dd1b76dc7995fdbd79303334635",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_103_Camera1.mp4",
+      "expected_bytes": 1481674,
+      "oid": "6118130eef83cf7a622936cb8737363b4a5142de",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_103_Camera2.mp4",
+      "expected_bytes": 950750,
+      "oid": "9390855dac5c29ec0eb375f1693e350dd5f93ad3",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_103_traj.csv",
+      "expected_bytes": 39989,
+      "oid": "1fa0ee21d48475ca74ba14a4a5582b2a320dea58",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_104_Camera1.mp4",
+      "expected_bytes": 1502119,
+      "oid": "b5bb160b975ada6d5828f58f6a6edeeff3a69537",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_104_Camera2.mp4",
+      "expected_bytes": 947861,
+      "oid": "73c355446dfcd7fea2e5ae9ad19490bb1b56710a",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_104_traj.csv",
+      "expected_bytes": 39729,
+      "oid": "31b70b8808a5f4b9b23a5cd6d8b2cf0e1ada5ae1",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_105_Camera1.mp4",
+      "expected_bytes": 1449166,
+      "oid": "27515298a87965a8bfa3e566ffe2e98d577bf310",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_105_Camera2.mp4",
+      "expected_bytes": 951028,
+      "oid": "a2f1a157735e4e65e9fe0467ddb9d70ce64f58d6",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_105_traj.csv",
+      "expected_bytes": 39656,
+      "oid": "1ba1b73566d2ce2c3375a6eb5eb74f683216a771",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_106_Camera1.mp4",
+      "expected_bytes": 1462551,
+      "oid": "bc0bc2da5a2a7cb85f8115dc4b222279a8aec896",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_106_Camera2.mp4",
+      "expected_bytes": 972756,
+      "oid": "4f94b85f46ced05831907b5ebf6a0244a41ba793",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_106_traj.csv",
+      "expected_bytes": 39679,
+      "oid": "4ad0c6866bd68fb01b30ab3baa5121400c7b80cd",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_107_Camera1.mp4",
+      "expected_bytes": 1502050,
+      "oid": "96478ac926a75be8643530f66665f8d59d62a26f",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_107_Camera2.mp4",
+      "expected_bytes": 968529,
+      "oid": "39de9411958622f415c9785ba1f1eb9f68a0017d",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_107_traj.csv",
+      "expected_bytes": 40000,
+      "oid": "e89ba687bfce408171355a1e43815f06f4eb587a",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_108_Camera1.mp4",
+      "expected_bytes": 1526666,
+      "oid": "aeb93fb01ec5029ebba9d4c14d78bd28a6bc14d6",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_108_Camera2.mp4",
+      "expected_bytes": 1046987,
+      "oid": "8f9e5b1b0b2a2efd8596404007f2162b3ce53dd5",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_108_traj.csv",
+      "expected_bytes": 39949,
+      "oid": "6949cd9a234be9b52fcdc247bf137b5aebe6b170",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_109_Camera1.mp4",
+      "expected_bytes": 1521826,
+      "oid": "6cd3131f89a0a30775e327b27c907fc9ec62414f",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_109_Camera2.mp4",
+      "expected_bytes": 1012452,
+      "oid": "2b52dd479b4bae4991e6e92da5934890c092d3b7",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_109_traj.csv",
+      "expected_bytes": 39944,
+      "oid": "6977775fb2e624bcce2634a78a75d962eae47ff7",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_10_Camera1.mp4",
+      "expected_bytes": 1577993,
+      "oid": "8e3451c566fa3ca525d4c596ddec980da22a9251",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_10_Camera2.mp4",
+      "expected_bytes": 986756,
+      "oid": "9060b0b9adbca0020abd0692d624f6cdda7a899d",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_10_traj.csv",
+      "expected_bytes": 40016,
+      "oid": "3a1491b3ec7b86912082a83db50239ef71ddb2f9",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_110_Camera1.mp4",
+      "expected_bytes": 1582425,
+      "oid": "da4cade5bbb21f5616896efd8dabbee45ab0d464",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_110_Camera2.mp4",
+      "expected_bytes": 1002306,
+      "oid": "766f7d25dd5c6a063f75afcd75b768c4a4104bd6",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_110_traj.csv",
+      "expected_bytes": 39993,
+      "oid": "3c7b90e2f8be48a96917c145a83a7f87c018f425",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_111_Camera1.mp4",
+      "expected_bytes": 1579502,
+      "oid": "2df791e6cc2b882272de1fc00e42d57dc7496970",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_111_Camera2.mp4",
+      "expected_bytes": 1000528,
+      "oid": "3abb8cf631587ab9115c1dceecf68a8b7637ec19",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_111_traj.csv",
+      "expected_bytes": 39963,
+      "oid": "81538ad1e88dbe706b92ca42750adcda43451c11",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_112_Camera1.mp4",
+      "expected_bytes": 1535268,
+      "oid": "475545927648e56dec8107ab38e90ddaed7c2d05",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_112_Camera2.mp4",
+      "expected_bytes": 994075,
+      "oid": "65115873685cb3c0dbc9a851ebcd06f543426153",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_112_traj.csv",
+      "expected_bytes": 40087,
+      "oid": "7c0118b567f16d20df25c66946df5ba1667666e4",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_113_Camera1.mp4",
+      "expected_bytes": 1505592,
+      "oid": "805d25934fef89fd1274e9bed7b3338243401592",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_113_Camera2.mp4",
+      "expected_bytes": 1001555,
+      "oid": "69635e2a085cd5e1f520020d25e49bb31ab1e4c6",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_113_traj.csv",
+      "expected_bytes": 39782,
+      "oid": "8dc513733efc7b684a2c15822016f251e839ba84",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_114_Camera1.mp4",
+      "expected_bytes": 1508707,
+      "oid": "a48cb1fdc2f60b734b5e932e21518ea947217aa9",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_114_Camera2.mp4",
+      "expected_bytes": 1006318,
+      "oid": "b7f7725f44fca983930181e67d61f2a667812ab6",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_114_traj.csv",
+      "expected_bytes": 39674,
+      "oid": "ebfbb0cca4e1a42a9da296fd065c3756f7e66c52",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_115_Camera1.mp4",
+      "expected_bytes": 1573289,
+      "oid": "4cd7f257e0b584d7c6da473aa3ecfa27c5d2fa20",
+      "task": "Stamp"
+    },
+    {
+      "path": "Stamp/Stamp_115_Camera2.mp4",
+      "expected_bytes": 1018886,
+      "oid": "ddb0c3e1a07b1a6180d07d3c38d52e5f18615a2a",
+      "task": "Stamp"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_100_camera1.mp4",
+      "expected_bytes": 1689836,
+      "oid": "593d671d4e39ae066badab3346973b82b4fde900",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_100_camera2.mp4",
+      "expected_bytes": 1741470,
+      "oid": "8c90cb7112d0c7dc63db80a8c0a9ec77db952110",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_100_traj.csv",
+      "expected_bytes": 54067,
+      "oid": "8339ff3004672b8b69aba03b2a0f1e7b116ab8e2",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_101_camera1.mp4",
+      "expected_bytes": 1610356,
+      "oid": "1fe3cd443fb5ef9335eb60105ed3a08f26331d4e",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_101_camera2.mp4",
+      "expected_bytes": 1653225,
+      "oid": "9b25696996bf938a9004c2ca4912f654f13085fa",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_101_traj.csv",
+      "expected_bytes": 54194,
+      "oid": "68110e424acafd1c1793e449d66b852982fd63bf",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_102_camera1.mp4",
+      "expected_bytes": 1694092,
+      "oid": "d52eeca6e00f09eba7c217c7f56bd2a562af195b",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_102_camera2.mp4",
+      "expected_bytes": 1606708,
+      "oid": "f9b08bc8a70ec43dbb5f13867cedada37661b763",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_102_traj.csv",
+      "expected_bytes": 54136,
+      "oid": "94d27543275efa9c520550f8b27ca0e03ffe9b51",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_103_camera1.mp4",
+      "expected_bytes": 1696979,
+      "oid": "9f31865649e19a6021be1792dccce7df1f66488c",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_103_camera2.mp4",
+      "expected_bytes": 1683278,
+      "oid": "9646800c1dc53282f80644960a59c42a123cd7e7",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_103_traj.csv",
+      "expected_bytes": 53722,
+      "oid": "44847665f3b7cde4b49b7e021589b19a4c57ec11",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_104_camera1.mp4",
+      "expected_bytes": 1662641,
+      "oid": "0381ac1fd9cb7322d3801e3be9eeb7c52054a828",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_104_camera2.mp4",
+      "expected_bytes": 1681703,
+      "oid": "5fbec5d561f03107e897439cbfd07549ab837f36",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_104_traj.csv",
+      "expected_bytes": 54033,
+      "oid": "5070ee7d3023af107f9286af14af8f690e60fcee",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_105_camera1.mp4",
+      "expected_bytes": 1619427,
+      "oid": "19d75af3fb831b85a64965a9c42b5677efda424e",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_105_camera2.mp4",
+      "expected_bytes": 1662342,
+      "oid": "a961a010487feb35694010cefc743ea83bfeffd4",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_105_traj.csv",
+      "expected_bytes": 54083,
+      "oid": "c024c453ab3d89d3a08e144e9db38300689ea721",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_106_camera1.mp4",
+      "expected_bytes": 1679803,
+      "oid": "d4372b91f892cc1cd925e1df3eabe63bd8551edb",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_106_camera2.mp4",
+      "expected_bytes": 1649763,
+      "oid": "3249474d790b5da7b16d1b4fd3ebbbe3988da162",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_106_traj.csv",
+      "expected_bytes": 54115,
+      "oid": "93c313ee544537f45e5d5a196915b2d1bb2dbea9",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_107_camera1.mp4",
+      "expected_bytes": 1716663,
+      "oid": "22bf49264e84540e44ee00fe585db381626e369d",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_107_camera2.mp4",
+      "expected_bytes": 1726635,
+      "oid": "da2ea7091514329dc97379834e3f064f2588918a",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_107_traj.csv",
+      "expected_bytes": 54226,
+      "oid": "6399e213e4b1beac524d5ae35af4cabb1a50d858",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_108_camera1.mp4",
+      "expected_bytes": 1645645,
+      "oid": "5bbbd1ddbb65e4d586f928731844c5a246b7373a",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_108_camera2.mp4",
+      "expected_bytes": 1703483,
+      "oid": "0fd842982b0554f451dae9544691eb45df5f3862",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_108_traj.csv",
+      "expected_bytes": 54110,
+      "oid": "ff729dc1a43710c272c200bea59b9cfa83fb2adc",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_109_camera1.mp4",
+      "expected_bytes": 1660144,
+      "oid": "8b64088c12b620dd122751f3051eca7a4d7be0c6",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_109_camera2.mp4",
+      "expected_bytes": 1660300,
+      "oid": "79850a1483b654e837d60ae7cc8fa9fbdccce616",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_109_traj.csv",
+      "expected_bytes": 54085,
+      "oid": "0b364312a6ecab148c91fe858e29dd1f10ee756b",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_10_camera1.mp4",
+      "expected_bytes": 1695307,
+      "oid": "d045d7251a1c17de01872d81283448e391b4bac3",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_10_camera2.mp4",
+      "expected_bytes": 1649858,
+      "oid": "135be76f0969d22af99e6fa57d3b196b98d9c69c",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_10_traj.csv",
+      "expected_bytes": 54083,
+      "oid": "e088f9fc057220b1b73f72ff25b0d3c13b4a5887",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_110_camera1.mp4",
+      "expected_bytes": 1724171,
+      "oid": "0267c1069b96b503f28f9409f417941aee44b839",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_110_camera2.mp4",
+      "expected_bytes": 1661889,
+      "oid": "47c9919ff6fcc7ef6a4e1a5c8c1e2c8527e4c2f8",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_110_traj.csv",
+      "expected_bytes": 54087,
+      "oid": "d66517c0db1cfbce264833c51959f4dbfcde4910",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_111_camera1.mp4",
+      "expected_bytes": 1680942,
+      "oid": "7eebc68f6e7bfefe7edbbd0802ee50cc6a138707",
+      "task": "UsbPlug"
+    },
+    {
+      "path": "UsbPlug/UsbPlug_111_camera2.mp4",
+      "expected_bytes": 1688118,
+      "oid": "94837027c1d2ea4434f81e8b72d19c6aa6d76d6c",
+      "task": "UsbPlug"
+    }
+  ],
+  "expected_total_bytes": 192054263
+}

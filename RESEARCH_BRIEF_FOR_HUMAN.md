@@ -40,6 +40,12 @@ The resource gate passed conditionally through FreeTacMan. It provides public MI
 
 The independent `gpt-6-astra / medium` review accepted this only as an explicitly offline behavioral proxy. It rejected any claim that action prediction establishes closed-loop success or causal physical grounding. The focused idea search therefore recommends one question: whether tactile input has a phase-specific control value during contact entry, sustained contact, and release under leakage-resistant splits. The next authorized step is the **minimum offline scientific pilot** for that question. If action alignment, split independence, or phase labels fail, record `PIVOT — ACCESS`; if the tactile marginal disappears, record a null and do not add a new method.
 
+## Minimum tactile pilot result (2026-09-29)
+
+The pilot downloaded only 192,054,263 bytes from the pinned FreeTacMan release. A synchronization audit excluded nine episodes whose trajectory duration differed from the video by more than 1.5%; the corrected run used 35 qualified episodes, complete-episode splits, three seeds, a vision/proprioception baseline, genuine tactile, and shuffled tactile. On the primary episode-disjoint split, genuine tactile worsened contact action MAE in every seed (+0.0879, +0.0803, +0.1751; lower is better), and also worsened non-contact MAE. Shuffled tactile was worse still, showing correspondence matters but not that tactile improves control prediction.
+
+The final verdict is **FAIL — MINIMUM TACTILE SCIENTIFIC PILOT**. This is negative evidence against the frozen contact-conditioned hypothesis in this offline proxy. It does not mean tactile sensing is useless in general and does not justify larger models, redefining contact, downloading the full dataset, or claiming anything about closed-loop robot success. The independent Astra reviewer was unavailable; the actual artifact review was completed by `gpt-6-luna / max` and confirmed the negative result.
+
 ## Concepts to learn next
 
 The useful concepts here are covariate shift in behavior cloning, causal nuisance interventions, system identification, episode-disjoint train/test splits, context leakage, and the distinction between a diagnostic finding and a new mechanism.

@@ -1,0 +1,12 @@
+{
+  "python": "3.13.13",
+  "numpy": "2.5.3",
+  "imageio": "2.38.0",
+  "imageio_ffmpeg": "0.6.0",
+  "scikit_learn": "1.9.1",
+  "ffmpeg": "7.0.2-static",
+  "device": "CPU",
+  "gpu": false,
+  "simulator": false,
+  "physical_hardware": false
+}

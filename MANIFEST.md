@@ -112,3 +112,15 @@
 | 2026-09-29 | independent-review | TACTILE_BEHAVIORAL_PROXY_REPORT.md | reviewer-trace | Fresh gpt-6-astra medium review; conditional pass for offline behavioral proxy and explicit closed-loop limitation |
 | 2026-09-29 | /idea-discovery | idea-stage/TACTILE_IDEA_REPORT.md | idea-discovery | Focused tactile/physical-grounding search under validated proxy; two candidates, one recommended minimum pilot, no pilot executed |
 | 2026-09-29 | research-governance | .aris/runs/tactile-grounding-20260929.json | governance | Resumable tactile proxy and focused idea-discovery evidence; READY FOR MINIMUM SCIENTIFIC PILOT |
+| 2026-09-29 | tactile-minimum-pilot | tactile-pilot/resource_manifest.json | bounded-pilot | Frozen FreeTacMan revision, predeclared 3-task subset, expected modality and split boundary; committed before download |
+| 2026-09-29 | tactile-minimum-pilot | tactile-pilot/subset_manifest.json | bounded-pilot | 138 downloaded files with per-file SHA-256 and exact total 192054263 bytes |
+| 2026-09-29 | tactile-minimum-pilot | tactile-pilot/dataset_audit.json | bounded-pilot | 44-episode decoded modality, timestamp, contact-proxy, and synchronization audit; 35 qualified episodes |
+| 2026-09-29 | tactile-minimum-pilot | tactile-pilot/split_manifest.json | bounded-pilot | Frozen complete-episode primary and task-heldout splits; nine synchronization-unqualified episodes excluded before corrected training |
+| 2026-09-29 | tactile-minimum-pilot | tactile-pilot/pilot_config.json | bounded-pilot | Matched CPU MLP, three conditions, three seeds, action target and contact stratification configuration |
+| 2026-09-29 | tactile-minimum-pilot | tactile-pilot/smoke_test.md | bounded-pilot | Pre-training loader, synchronization, loss, prediction, and stratification smoke gate |
+| 2026-09-29 | tactile-minimum-pilot | tactile-pilot/seed_level_metrics.json | bounded-pilot | Corrected qualified-run seed-level contact/non-contact metrics and shuffled control |
+| 2026-09-29 | tactile-minimum-pilot | tactile-pilot/pilot_summary.json | bounded-pilot | Corrected tactile deltas relative to vision/proprio baseline for primary and task-heldout splits |
+| 2026-09-29 | tactile-minimum-pilot | TACTILE_MINIMUM_PILOT_REPORT.md | bounded-pilot | Final verdict FAIL — MINIMUM TACTILE SCIENTIFIC PILOT; frozen H1 negative evidence and interpretation limits |
+| 2026-09-29 | independent-review | tactile-pilot/INDEPENDENT_REVIEW.md | reviewer-trace | Astra medium unavailable; actual gpt-6-luna max artifact review confirmed FAIL after documentation correction |
+| 2026-09-29 | research-governance | tactile-pilot/run_state.json | governance | Complete minimum pilot state, download accounting, corrected metrics, and final verdict |
+| 2026-09-29 | research-governance | .aris/runs/tactile-minimum-pilot-20260929.json | governance | ARIS run state for the bounded tactile pilot; final FAIL and honest reviewer fallback metadata |

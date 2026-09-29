@@ -18,11 +18,11 @@
     "tasks": ["Stamp", "UsbPlug", "FragileCup"],
     "episodes": "All released complete episodes with numeric ids 10 and 100-115 for each selected task; no result-dependent selection.",
     "modalities": ["Camera1 MP4", "Camera2 MP4", "trajectory CSV"],
-    "camera_mapping": "Camera1 is treated as vision and Camera2 as visuo-tactile; must be verified from decoded frames before training.",
-    "split": "episode-disjoint within task; Stamp and UsbPlug train, FragileCup held out as task-shift test; first audit also reports within-task held-out episodes.",
+    "camera_mapping": "Decoded samples verified Camera1 is the visuo-tactile sensor image and Camera2 is the wrist/scene vision stream.",
+    "split": "Primary: numeric episode-disjoint 75/25 split within each task; secondary: Stamp and UsbPlug train with all FragileCup episodes held out as task-shift test.",
     "expected_download_bytes": "computed from API file metadata before download; must be recorded in subset_manifest.json",
     "preprocessing_version": "v1_frame_stats_trajectory_align",
-    "contact_definition_predeclared": "contact = trajectory timepoints after first sustained nonzero motion/interaction proxy is identified from tactile-frame temporal change; exact threshold frozen after data-only audit and before model fitting"
+    "contact_definition_predeclared": "contact = tactile Camera1 timepoints whose mean absolute pixel change from the first frame exceeds 0.012 (normalized 0-1 RGB), sustained for 3 frames; threshold chosen from the data-only audit before model fitting and then frozen"
   },
   "constraints": {
     "full_dataset_download": false,

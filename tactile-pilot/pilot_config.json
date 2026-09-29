@@ -1,0 +1,12 @@
+{
+  "feature": "8x8 RGB Camera2 visual + 7 TCP/euler/gripper proprio; Camera1 8x8 RGB tactile",
+  "target": "next-step delta of 3 TCP positions + 3 Euler angles + gripper distance",
+  "model": "sklearn MLPRegressor hidden_layer_sizes=(32,), Adam, batch_size=128, max_iter=35",
+  "conditions": ["vision_proprio", "vision_proprio_tactile", "vision_proprio_shuffled_tactile"],
+  "seeds": [0, 1, 2],
+  "splits": ["primary episode-disjoint 75/25 within task", "task-heldout Stamp+UsbPlug train, FragileCup test"],
+  "contact_threshold": 0.012,
+  "contact_sustained_frames": 3,
+  "cpu_only": true,
+  "gpu": false
+}
