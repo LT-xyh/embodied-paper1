@@ -107,3 +107,8 @@
 | 2026-09-29 | /idea-discovery | PROBLEM_SPACE_REPORT.md | problem-space-discovery | Twelve-space VLA landscape, three deep problem-space cards, novelty rejection, and conditional recommendation; final status READY FOR PROBLEM-SPACE COMMITMENT |
 | 2026-09-29 | independent-review | PROBLEM_SPACE_INDEPENDENT_REVIEW.md | reviewer-trace | Fresh independent gpt-6-astra medium review ranking tactile grounding, cross-embodiment, and test-time adaptation |
 | 2026-09-29 | research-governance | .aris/runs/vla-problem-space-20260929.json | governance | Resumable problem-space discovery record, evidence gate, and no-pilot boundary |
+| 2026-09-29 | tactile-proxy-gate | TACTILE_BEHAVIORAL_PROXY_REPORT.md | bounded-admission | Public tactile resource audit; FreeTacMan offline action/trajectory proxy; final PASS with explicit offline-only scope |
+| 2026-09-29 | tactile-proxy-gate | tactile_behavioral_proxy_results.json | bounded-admission | Machine-readable resource, behavioral-signal, hardware, and reproducibility audit; no downloads or experiments |
+| 2026-09-29 | independent-review | TACTILE_BEHAVIORAL_PROXY_REPORT.md | reviewer-trace | Fresh gpt-6-astra medium review; conditional pass for offline behavioral proxy and explicit closed-loop limitation |
+| 2026-09-29 | /idea-discovery | idea-stage/TACTILE_IDEA_REPORT.md | idea-discovery | Focused tactile/physical-grounding search under validated proxy; two candidates, one recommended minimum pilot, no pilot executed |
+| 2026-09-29 | research-governance | .aris/runs/tactile-grounding-20260929.json | governance | Resumable tactile proxy and focused idea-discovery evidence; READY FOR MINIMUM SCIENTIFIC PILOT |

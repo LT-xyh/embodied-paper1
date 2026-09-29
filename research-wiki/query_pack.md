@@ -43,7 +43,7 @@ For Paper-1, do not prioritize:
 - **Rater-context interaction in social navigation preferences**:
 - **Temporal Consequence Inversion**:
 - **Transition-surprise-triggered recurrent reset**:
-## Key Papers (24 total)
+## Key Papers (25 total)
 - [paper:alian2026_haptile_hapticinformed_visiontactilelanguageaction] HapTile: A Haptic-Informed Vision-Tactile-Language-Action Dataset for Contact-Rich Imitation Learning: Prior work relevant to the current VLA problem-space map; exact thesis to be refined from metadata and paper evidence.
 - [paper:chen2026_worldecho_robotic_world] WorldEcho: Do Robotic World Models Really Follow Actions?: Prior work relevant to the current VLA problem-space map; exact thesis to be refined from metadata and paper evidence.
 - [paper:domae2026_embodiment_gap_robot] The Embodiment Gap in Robot Foundation Models: Prior work relevant to the current VLA problem-space map; exact thesis to be refined from metadata and paper evidence.
@@ -52,7 +52,7 @@ For Paper-1, do not prioritize:
 - [paper:he2026_rct_robotcollected_touchvisionlanguage] RCT: A Robot-Collected Touch–Vision–Language Dataset for Tactile Generalization: Prior work relevant to the current VLA problem-space map; exact thesis to be refined from metadata and paper evidence.
 - [paper:hu2025_carol_contextaware_adaptation] CARoL: Context-aware Adaptation for Robot Learning: Prior work relevant to the current VLA problem-space map; exact thesis to be refined from metadata and paper evidence.
 - [paper:ji2026_vane_reliable_testtime] VANE: Reliable Test-Time Training for Vision-Language-Action Models: Prior work relevant to the current VLA problem-sp
-## Recent Relationships (10 total)
+## Recent Relationships (13 total)
   idea:ascc_action_swap_auxiliary --inspired_by--> paper:quevedo2025_worldgym_world_model
   idea:caea_score_identifiability --inspired_by--> paper:quevedo2025_worldgym_world_model
   idea:transition_surprise_reset --inspired_by--> paper:gao2026_gated_memory_policy
@@ -63,3 +63,5 @@ For Paper-1, do not prioritize:
   idea:caea_score_identifiability --tested_by--> exp:caea-score-gate
   idea:tci_temporal_consequence_inversion --tested_by--> exp:tci-identifiability
   idea:transition_surprise_reset --tested_by--> exp:transition-p0-runtime
+  idea:context_causal_bc --inspired_by--> paper:hu2025_carol_contextaware_adaptation
+  idea:tactile_behavioral_proxy --inspired_by--> pape

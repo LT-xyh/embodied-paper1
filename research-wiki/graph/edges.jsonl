@@ -9,3 +9,5 @@
 {"from": "idea:tci_temporal_consequence_inversion", "to": "exp:tci-identifiability", "type": "tested_by", "evidence": "exp tci-identifiability tests idea", "added": "2026-09-29T01:42:53Z"}
 {"from": "idea:transition_surprise_reset", "to": "exp:transition-p0-runtime", "type": "tested_by", "evidence": "exp transition-p0-runtime tests idea", "added": "2026-09-29T01:42:53Z"}
 {"from": "idea:context_causal_bc", "to": "paper:hu2025_carol_contextaware_adaptation", "type": "inspired_by", "evidence": "CARoL is the closest context-aware adaptation prior; this unresolved idea tests a causal imitation setting under crossed visual nuisance.", "added": "2026-09-29T01:46:49Z"}
+{"from": "idea:tactile_behavioral_proxy", "to": "paper:wu2026_freetacman_robotfree_visuotactile", "type": "inspired_by", "evidence": "idea tactile_behavioral_proxy inspired by paper", "added": "2026-09-29T02:23:11Z"}
+{"from": "idea:tactile_behavioral_proxy", "to": "exp:tactile-behavioral-proxy-gate", "type": "tested_by", "evidence": "exp tactile-behavioral-proxy-gate tests idea", "added": "2026-09-29T02:23:11Z"}

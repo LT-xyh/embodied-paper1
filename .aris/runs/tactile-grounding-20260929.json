@@ -1,0 +1,23 @@
+{
+  "run_id": "tactile-grounding-20260929",
+  "status": "READY FOR MINIMUM SCIENTIFIC PILOT",
+  "phases": ["proxy-audit", "independent-review", "focused-idea-discovery", "pilot-admission"],
+  "proxy_verdict": "PASS — TACTILE BEHAVIORAL PROXY",
+  "proxy": "FreeTacMan task-disjoint offline action and trajectory evaluation",
+  "reviewer": {
+    "model": "gpt-6-astra",
+    "reasoning": "medium",
+    "thread": "/root/tactile_proxy_reviewer",
+    "verdict": "conditional_pass_for_offline_behavioral_proxy"
+  },
+  "candidates": [
+    {"name": "Contact-conditional control value of tactile input", "status": "recommended"},
+    {"name": "Sensor- and task-disjoint tactile action transfer", "status": "backup"}
+  ],
+  "recommended_pilot": "Contact-conditional control value of tactile input",
+  "pilot_started": false,
+  "downloads": false,
+  "gpu": false,
+  "simulator": false,
+  "hardware": false
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-29",
+  "verdict": "PASS — TACTILE BEHAVIORAL PROXY",
+  "proxy": "task-disjoint offline action and trajectory evaluation on FreeTacMan",
+  "resource": {
+    "name": "FreeTacMan",
+    "public": true,
+    "license": "MIT",
+    "total_size_gb": 50.3,
+    "trajectories": ">10000",
+    "tasks": 50,
+    "synchronized_modalities": ["wrist_rgb", "visuotactile_video", "tcp_pose", "gripper_distance"],
+    "code": true,
+    "official_task_disjoint_split_verified": false,
+    "checkpoint_verified": false,
+    "new_hardware_for_consumption": false
+  },
+  "behavior_signal": {
+    "action_prediction": true,
+    "trajectory_prediction": true,
+    "offline_imitation_metric": true,
+    "closed_loop_simulator_success": false,
+    "real_robot_success_reproducible_without_hardware": false
+  },
+  "supporting_resources": {
+    "RCT": "perception-only supporting benchmark; CC BY 4.0; public splits/code",
+    "HapTile": "behavioral dataset and baselines described, public access details not independently verified",
+    "ForeTac-VLA": "recent real-world prior; public reproduction substrate not verified"
+  },
+  "minimum_protocol": {
+    "split": "episode-disjoint and task/category-disjoint where metadata permits",
+    "baselines": ["vision-only BC", "vision-plus-tactile BC"],
+    "metrics": ["one-step action error", "multi-step action error", "normalized trajectory distance"],
+    "seeds": 3,
+    "download_policy": "predeclared task subset only; record bytes and hashes"
+  },
+  "limitations": [
+    "offline action error is not closed-loop task success",
+    "full release is 50.3 GB and subset sizes need preflight measurement",
+    "official task-disjoint split and checkpoint were not verified",
+    "source data collection used custom tactile hardware, although consumption does not"
+  ],
+  "scientific_pilot_run": false,
+  "downloads_performed": false,
+  "gpu_used": false,
+  "simulator_used": false,
+  "reviewer": {
+    "model": "gpt-6-astra",
+    "reasoning": "medium",
+    "thread": "/root/tactile_proxy_reviewer",
+    "status": "conditional_pass_for_offline_behavioral_proxy",
+    "experiments_run": false,
+    "strongest_objection": "Logged-action prediction may reward demonstrator style and does not establish closed-loop success or causal physical grounding."
+  }
+}

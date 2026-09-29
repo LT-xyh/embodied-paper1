@@ -34,6 +34,12 @@ The recommended space is **tactile/physical grounding**, conditional on finding 
 
 The fallback is **cross-embodiment execution**, using a small frozen-policy study with independently manipulated visual, action, and kinematic factors. It remains high-impact but has a heavier interface and data burden. **Reliable test-time adaptation** is deferred because VANE, RoboTTT, and related work make direct novelty and runtime risk substantially higher. No new method, runtime repair, dataset download, training run, or simulator pilot is authorized by this result.
 
+## Tactile proxy commitment (2026-09-29)
+
+The resource gate passed conditionally through FreeTacMan. It provides public MIT-licensed visuo-tactile trajectories, TCP/gripper action channels, public preprocessing and policy code, and a task-organized release. The full release is about 50.3 GB, so the minimum pilot must use a predeclared 3–5-task subset with complete-episode and object/task-disjoint splits, frozen revisions, hashes, and byte counts. RCT remains a supporting perception benchmark; it does not contain action trajectories.
+
+The independent `gpt-6-astra / medium` review accepted this only as an explicitly offline behavioral proxy. It rejected any claim that action prediction establishes closed-loop success or causal physical grounding. The focused idea search therefore recommends one question: whether tactile input has a phase-specific control value during contact entry, sustained contact, and release under leakage-resistant splits. The next authorized step is the **minimum offline scientific pilot** for that question. If action alignment, split independence, or phase labels fail, record `PIVOT — ACCESS`; if the tactile marginal disappears, record a null and do not add a new method.
+
 ## Concepts to learn next
 
 The useful concepts here are covariate shift in behavior cloning, causal nuisance interventions, system identification, episode-disjoint train/test splits, context leakage, and the distinction between a diagnostic finding and a new mechanism.

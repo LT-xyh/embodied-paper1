@@ -41,3 +41,6 @@ _Append-only timeline._
 - `2026-09-29T01:45:50Z` ingest_paper: ingested paper:zhang2025_experiences_from_benchmarking (arxiv:2511.11298)
 - `2026-09-29T01:45:51Z` ingest_paper: ingested paper:jin2026_beyond_dense_futures (arxiv:2603.12553)
 - `2026-09-29T01:45:52Z` ingest_paper: ingested paper:yang2026_rise_selfimproving_robot (arxiv:2602.11075)
+- `2026-09-29T02:23:11Z` ingest_paper: ingested paper:wu2026_freetacman_robotfree_visuotactile (arxiv:2506.01941)
+- `2026-09-29T02:23:11Z` upsert_idea: added idea:tactile_behavioral_proxy [stage=proposed outcome=pending]
+- `2026-09-29T02:23:12Z` add_experiment: added exp:tactile-behavioral-proxy-gate [verdict=yes confidence=medium]
