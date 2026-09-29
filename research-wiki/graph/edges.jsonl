@@ -1,0 +1,11 @@
+{"from": "idea:ascc_action_swap_auxiliary", "to": "paper:quevedo2025_worldgym_world_model", "type": "inspired_by", "evidence": "idea ascc_action_swap_auxiliary inspired by paper", "added": "2026-09-29T01:40:50Z"}
+{"from": "idea:caea_score_identifiability", "to": "paper:quevedo2025_worldgym_world_model", "type": "inspired_by", "evidence": "idea caea_score_identifiability inspired by paper", "added": "2026-09-29T01:40:50Z"}
+{"from": "idea:transition_surprise_reset", "to": "paper:gao2026_gated_memory_policy", "type": "inspired_by", "evidence": "idea transition_surprise_reset inspired by paper", "added": "2026-09-29T01:40:51Z"}
+{"from": "idea:context_causal_bc", "to": "paper:hu2025_carol", "type": "inspired_by", "evidence": "idea context_causal_bc inspired by paper", "added": "2026-09-29T01:40:51Z"}
+{"from": "idea:armnet_censoring", "to": "paper:selvaraj2026_armnetbench_benchmark", "type": "inspired_by", "evidence": "idea armnet_censoring inspired by paper", "added": "2026-09-29T01:40:51Z"}
+{"from": "idea:armnet_censoring", "to": "exp:armnet-p0.5", "type": "tested_by", "evidence": "exp armnet-p0.5 tests idea", "added": "2026-09-29T01:42:12Z"}
+{"from": "idea:tci_temporal_consequence_inversion", "to": "exp:tci-bcrnn-gate", "type": "tested_by", "evidence": "exp tci-bcrnn-gate tests idea", "added": "2026-09-29T01:42:53Z"}
+{"from": "idea:caea_score_identifiability", "to": "exp:caea-score-gate", "type": "tested_by", "evidence": "exp caea-score-gate tests idea", "added": "2026-09-29T01:42:53Z"}
+{"from": "idea:tci_temporal_consequence_inversion", "to": "exp:tci-identifiability", "type": "tested_by", "evidence": "exp tci-identifiability tests idea", "added": "2026-09-29T01:42:53Z"}
+{"from": "idea:transition_surprise_reset", "to": "exp:transition-p0-runtime", "type": "tested_by", "evidence": "exp transition-p0-runtime tests idea", "added": "2026-09-29T01:42:53Z"}
+{"from": "idea:context_causal_bc", "to": "paper:hu2025_carol_contextaware_adaptation", "type": "inspired_by", "evidence": "CARoL is the closest context-aware adaptation prior; this unresolved idea tests a causal imitation setting under crossed visual nuisance.", "added": "2026-09-29T01:46:49Z"}

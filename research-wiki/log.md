@@ -2,3 +2,42 @@
 
 _Append-only timeline._
 - `2026-09-20T07:11:03Z` Wiki initialized
+- `2026-09-29T01:39:41Z` ingest_paper: ingested paper:domae2026_embodiment_gap_robot (arxiv:2608.18433)
+- `2026-09-29T01:39:42Z` ingest_paper: ingested paper:jing2026_learning_action_priors (arxiv:2606.26095)
+- `2026-09-29T01:39:44Z` ingest_paper: ingested paper:luo2026_beingh05_scaling_humancentric (arxiv:2601.12993)
+- `2026-09-29T01:39:45Z` ingest_paper: ingested paper:ji2026_vane_reliable_testtime (arxiv:2608.09448)
+- `2026-09-29T01:39:46Z` ingest_paper: ingested paper:jiang2026_robottt_testtime_training (arxiv:2607.15275)
+- `2026-09-29T01:39:47Z` ingest_paper: ingested paper:he2026_rct_robotcollected_touchvisionlanguage (arxiv:2606.31694)
+- `2026-09-29T01:39:48Z` ingest_paper: ingested paper:alian2026_haptile_hapticinformed_visiontactilelanguageaction (arxiv:2606.04825)
+- `2026-09-29T01:39:49Z` ingest_paper: ingested paper:tao2026_foretacvla_forecastingbased_tactilevisionlanguageaction (arxiv:2609.20980)
+- `2026-09-29T01:39:51Z` ingest_paper: ingested paper:yu2026_benchmarking_visionlanguageaction_models (arxiv:2606.08881)
+- `2026-09-29T01:39:52Z` ingest_paper: ingested paper:fan2025_longvla_unleashing_longhorizon (arxiv:2508.19958)
+- `2026-09-29T01:39:53Z` ingest_paper: ingested paper:quevedo2025_worldgym_world_model (arxiv:2506.00613)
+- `2026-09-29T01:39:54Z` ingest_paper: ingested paper:chen2026_worldecho_robotic_world (arxiv:2608.24885)
+- `2026-09-29T01:39:55Z` ingest_paper: ingested paper:hu2025_carol_contextaware_adaptation (arxiv:2506.07006)
+- `2026-09-29T01:39:56Z` ingest_paper: ingested paper:gao2026_gated_memory_policy (arxiv:2604.18933)
+- `2026-09-29T01:39:58Z` ingest_paper: ingested paper:papagiannis2024_miles_making_imitation (arxiv:2410.19693)
+- `2026-09-29T01:39:59Z` ingest_paper: ingested paper:selvaraj2026_armnetbench_benchmark (arxiv:2607.24481)
+- `2026-09-29T01:40:50Z` upsert_idea: added idea:ascc_action_swap_auxiliary [stage=archived outcome=negative]
+- `2026-09-29T01:40:50Z` upsert_idea: added idea:caea_score_identifiability [stage=archived outcome=negative]
+- `2026-09-29T01:40:51Z` upsert_idea: added idea:tci_temporal_consequence_inversion [stage=archived outcome=negative]
+- `2026-09-29T01:40:51Z` upsert_idea: added idea:bounded_action_bc [stage=archived outcome=negative]
+- `2026-09-29T01:40:51Z` upsert_idea: added idea:transition_surprise_reset [stage=archived outcome=negative]
+- `2026-09-29T01:40:51Z` upsert_idea: added idea:context_causal_bc [stage=proposed outcome=pending]
+- `2026-09-29T01:40:51Z` upsert_idea: added idea:armnet_censoring [stage=archived outcome=negative]
+- `2026-09-29T01:40:51Z` upsert_idea: added idea:socnav_rater_context [stage=archived outcome=negative]
+- `2026-09-29T01:40:51Z` upsert_idea: added idea:action_affordance_geometry [stage=archived outcome=negative]
+- `2026-09-29T01:40:52Z` upsert_idea: added idea:reset_distribution_ranking [stage=archived outcome=negative]
+- `2026-09-29T01:42:12Z` add_experiment: added exp:armnet-p0.5 [verdict=no confidence=high]
+- `2026-09-29T01:42:53Z` add_experiment: added exp:tci-bcrnn-gate [verdict=no confidence=high]
+- `2026-09-29T01:42:53Z` add_experiment: added exp:caea-score-gate [verdict=no confidence=high]
+- `2026-09-29T01:42:53Z` add_experiment: added exp:tci-identifiability [verdict=no confidence=high]
+- `2026-09-29T01:42:53Z` add_experiment: added exp:transition-p0-runtime [verdict=partial confidence=high]
+- `2026-09-29T01:45:44Z` ingest_paper: ingested paper:zhang2025_vlaarena_opensource_framework (arxiv:2512.22539)
+- `2026-09-29T01:45:46Z` ingest_paper: ingested paper:morgan2026_colosseum_benchmarking_generalization (arxiv:2605.27759)
+- `2026-09-29T01:45:47Z` ingest_paper: ingested paper:zhao2026_instructmove_textindispensable_benchmark (arxiv:2608.22990)
+- `2026-09-29T01:45:48Z` ingest_paper: ingested paper:lin2024_data_scaling_laws (arxiv:2410.18647)
+- `2026-09-29T01:45:49Z` ingest_paper: ingested paper:yoon2026_how_mitigate_distribution (arxiv:2605.25414)
+- `2026-09-29T01:45:50Z` ingest_paper: ingested paper:zhang2025_experiences_from_benchmarking (arxiv:2511.11298)
+- `2026-09-29T01:45:51Z` ingest_paper: ingested paper:jin2026_beyond_dense_futures (arxiv:2603.12553)
+- `2026-09-29T01:45:52Z` ingest_paper: ingested paper:yang2026_rise_selfimproving_robot (arxiv:2602.11075)

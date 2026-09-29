@@ -1,0 +1,16 @@
+{
+  "run_id": "vla-problem-space-20260929",
+  "status": "READY FOR PROBLEM-SPACE COMMITMENT",
+  "phases": ["wiki-memory", "broad-landscape", "problem-space-cards", "targeted-deepening", "independent-review", "shortlist"],
+  "wiki": {"papers": 24, "ideas": 10, "experiments": 5, "query_pack_chars": 4356},
+  "survivors": [
+    {"name": "Contact-rich tactile and physical grounding", "rank": 1, "status": "conditional"},
+    {"name": "Cross-embodiment execution gap", "rank": 2, "status": "survives"},
+    {"name": "Reliable test-time adaptation and continual VLA deployment", "rank": 3, "status": "survives"}
+  ],
+  "recommendation": "Contact-rich tactile and physical grounding, conditional on a public behavior-level proxy",
+  "reviewer": {"model": "gpt-6-astra", "reasoning": "medium", "thread": "/root/problem_space_reviewer", "experiments_run": false},
+  "scientific_pilot_run": false,
+  "large_downloads": false,
+  "gpu_jobs": false
+}

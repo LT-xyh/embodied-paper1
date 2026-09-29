@@ -102,3 +102,8 @@
 | 2026-09-29 | structural-reset | STRUCTURAL_RESET_INDEPENDENT_REVIEW.md | reviewer-trace | Independent requested gpt-6-astra medium review; Context-Causal BC CAUTION, representation geometry and reset ranking ZERO |
 | 2026-09-29 | structural-reset | .aris/runs/structural-reset-20260928.json | governance | Structural reset stage record and final blocked admission state |
 | 2026-09-29 | research-governance | RESEARCH_BRIEF_FOR_HUMAN.md | human-learning | Updated landscape, partial state-only preflight, renderer boundary, and broader-scope next step |
+| 2026-09-29 | research-wiki | research-wiki/index.md | knowledge-base | Refreshed VLA literature map with 24 paper records, 10 idea records, and 5 experiment records; metadata-only, no large downloads |
+| 2026-09-29 | research-wiki | research-wiki/query_pack.md | knowledge-base | Persistent query pack for the VLA problem-space discovery cycle |
+| 2026-09-29 | /idea-discovery | PROBLEM_SPACE_REPORT.md | problem-space-discovery | Twelve-space VLA landscape, three deep problem-space cards, novelty rejection, and conditional recommendation; final status READY FOR PROBLEM-SPACE COMMITMENT |
+| 2026-09-29 | independent-review | PROBLEM_SPACE_INDEPENDENT_REVIEW.md | reviewer-trace | Fresh independent gpt-6-astra medium review ranking tactile grounding, cross-embodiment, and test-time adaptation |
+| 2026-09-29 | research-governance | .aris/runs/vla-problem-space-20260929.json | governance | Resumable problem-space discovery record, evidence gate, and no-pilot boundary |

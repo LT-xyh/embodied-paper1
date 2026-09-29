@@ -26,6 +26,14 @@ The structural reset on 2026-09-29 mapped policy diagnostics, robustness, long-h
 
 The final reset verdict is **BLOCKED — BROADER RESEARCH SCOPE REQUIRED**. A future search must open an external empirical object or first qualify a vision/renderer substrate. It must not rename TCI, add another memory/reset rule, tune action horizons, route gradients, change action support, or swap a loss.
 
+## Current problem-space discovery result (2026-09-29)
+
+The broader VLA discovery cycle mapped twelve structurally different problem spaces and then deepened three: tactile/physical grounding, cross-embodiment execution, and reliable test-time adaptation. An independent `gpt-6-astra / medium` review ranked tactile/physical grounding first, cross-embodiment execution second, and test-time adaptation third. This is a problem-space decision, not a method or pilot authorization.
+
+The recommended space is **tactile/physical grounding**, conditional on finding a public behavior-level proxy that can test whether future-contact or contact-sequence information improves closed-loop decisions on held-out materials or contact sequences. RCT provides a useful leakage-controlled tactile retrieval substrate, while HapTile and ForeTac-VLA show that synchronized tactile/action data and future tactile prediction are active directions. The immediate kill rule is to reject this space if the available data cannot connect representation quality to behavior, or if a short comparison against current-frame and short-history baselines shows no robust held-out-material or held-out-contact benefit.
+
+The fallback is **cross-embodiment execution**, using a small frozen-policy study with independently manipulated visual, action, and kinematic factors. It remains high-impact but has a heavier interface and data burden. **Reliable test-time adaptation** is deferred because VANE, RoboTTT, and related work make direct novelty and runtime risk substantially higher. No new method, runtime repair, dataset download, training run, or simulator pilot is authorized by this result.
+
 ## Concepts to learn next
 
 The useful concepts here are covariate shift in behavior cloning, causal nuisance interventions, system identification, episode-disjoint train/test splits, context leakage, and the distinction between a diagnostic finding and a new mechanism.
