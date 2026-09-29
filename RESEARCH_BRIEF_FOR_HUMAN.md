@@ -22,8 +22,10 @@ The only conditional survivor, support-corrected bounded BC, was rejected by an 
 
 ## What happens next
 
-The repository now preserves a complete zero-candidate re-ideation report and reviewer receipt. A future search must change the scientific object rather than rename TCI, add another memory/reset rule, tune action horizons, or swap a loss. Before substantial implementation, any new candidate must define an identifiable measurement, a direct prior boundary, and a cheap closed-loop kill test.
+The structural reset on 2026-09-29 mapped policy diagnostics, robustness, long-horizon behavior, temporal abstraction, multimodal grounding, non-ASCC context, data quality, failure analysis, embodiment transfer, representation behavior, inference-time adaptation, and evaluation sampling. Context-Causal BC is the only conditional survivor. It still needs a crossed texture-by-dynamics intervention, episode-disjoint leakage controls, and a renderer-qualified preflight. The CPU state-only preflight measured dynamics labels successfully, but EGL and OSMesa rendering failed, so no visual causal pilot is authorized.
+
+The final reset verdict is **BLOCKED — BROADER RESEARCH SCOPE REQUIRED**. A future search must open an external empirical object or first qualify a vision/renderer substrate. It must not rename TCI, add another memory/reset rule, tune action horizons, route gradients, change action support, or swap a loss.
 
 ## Concepts to learn next
 
-The useful concepts here are covariate shift in behavior cloning, bounded action distributions, recurrent-policy state, intervention controls, independent state-level train/test splits, and the distinction between an engineering fix and a scientific mechanism.
+The useful concepts here are covariate shift in behavior cloning, causal nuisance interventions, system identification, episode-disjoint train/test splits, context leakage, and the distinction between a diagnostic finding and a new mechanism.

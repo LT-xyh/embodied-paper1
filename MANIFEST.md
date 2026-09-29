@@ -98,3 +98,7 @@
 | 2026-09-28 | independent-review | p0-support-bounded-bc/INDEPENDENT_REIDEATION_REVIEW.md | reviewer-trace | gpt-6-luna max independent review; candidates A/B/C rejected, final verdict ZERO |
 | 2026-09-28 | research-governance | RESEARCH_BRIEF_FOR_HUMAN.md | human-learning | Plain-language update documenting the TCI scientific null and zero-candidate structural re-ideation |
 | 2026-09-28 | research-governance | idea-stage/STRUCTURAL_BLOCK_REPORT_20260928.md | structural-block | Evidence chain for the zero-candidate Track-A search; no scientific pilot authorized |
+| 2026-09-29 | structural-reset | idea-stage/STRUCTURAL_RESET_REPORT_20260928.md | structural-research | Broad structural reset across embodied-AI research frames; Context-Causal BC remains CAUTION, two candidates abandoned, final verdict BLOCKED — BROADER RESEARCH SCOPE REQUIRED |
+| 2026-09-29 | structural-reset | STRUCTURAL_RESET_INDEPENDENT_REVIEW.md | reviewer-trace | Independent requested gpt-6-astra medium review; Context-Causal BC CAUTION, representation geometry and reset ranking ZERO |
+| 2026-09-29 | structural-reset | .aris/runs/structural-reset-20260928.json | governance | Structural reset stage record and final blocked admission state |
+| 2026-09-29 | research-governance | RESEARCH_BRIEF_FOR_HUMAN.md | human-learning | Updated landscape, partial state-only preflight, renderer boundary, and broader-scope next step |

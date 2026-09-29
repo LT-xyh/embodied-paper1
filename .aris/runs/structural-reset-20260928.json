@@ -1,0 +1,14 @@
+{
+  "run_id": "structural-reset-20260928",
+  "branch": "idea/structural-reset-20260928",
+  "base_commit": "c61bd215b6e910faa0975779bfe0d66e97fadb78",
+  "stages": ["landscape", "candidate-screen", "measurement-preflight", "independent-review", "final-report"],
+  "candidate_status": {
+    "Context-Causal BC": "CAUTION_UNRESOLVED",
+    "Action-Affordance Representation Geometry": "ABANDON",
+    "Reset-Distribution Policy Ranking": "ABANDON"
+  },
+  "verdict": "BLOCKED — BROADER RESEARCH SCOPE REQUIRED",
+  "scientific_pilot_executed": false,
+  "review_route": {"model_requested": "gpt-6-astra", "reasoning": "medium", "thread": "/root/structural_reset_review", "deployment_identifier": "unavailable_in_agent_receipt"}
+}
