@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-29",
+  "pilot_branch_base": "89b8d5b3a74e06829534e4e5341246ab998b0730",
+  "code": {
+    "repository": "https://github.com/OpenDriveLab/FreeTacMan.git",
+    "revision": "9285740a5d33385d3a9cf5ccdb185e3387b547bd",
+    "license": "Apache-2.0 (repository code; dataset card separately reports MIT data license)"
+  },
+  "dataset": {
+    "repository": "https://huggingface.co/datasets/OpenDriveLab/FreeTacMan",
+    "revision": "030316fb41d6fa1e58cccb4bbe0f6fddbb932671",
+    "license": "MIT",
+    "full_release_size_bytes": 50300000000,
+    "full_release_size_note": "Hugging Face dataset card reports approximately 50.3 GB; exact byte total not used for pilot.",
+    "download_url_template": "https://huggingface.co/datasets/OpenDriveLab/FreeTacMan/resolve/030316fb41d6fa1e58cccb4bbe0f6fddbb932671/{path}?download=true"
+  },
+  "predeclared_subset": {
+    "tasks": ["Stamp", "UsbPlug", "FragileCup"],
+    "episodes": "All released complete episodes with numeric ids 10 and 100-115 for each selected task; no result-dependent selection.",
+    "modalities": ["Camera1 MP4", "Camera2 MP4", "trajectory CSV"],
+    "camera_mapping": "Camera1 is treated as vision and Camera2 as visuo-tactile; must be verified from decoded frames before training.",
+    "split": "episode-disjoint within task; Stamp and UsbPlug train, FragileCup held out as task-shift test; first audit also reports within-task held-out episodes.",
+    "expected_download_bytes": "computed from API file metadata before download; must be recorded in subset_manifest.json",
+    "preprocessing_version": "v1_frame_stats_trajectory_align",
+    "contact_definition_predeclared": "contact = trajectory timepoints after first sustained nonzero motion/interaction proxy is identified from tactile-frame temporal change; exact threshold frozen after data-only audit and before model fitting"
+  },
+  "constraints": {
+    "full_dataset_download": false,
+    "new_hardware": false,
+    "simulator": false,
+    "gpu": false,
+    "large_vla": false
+  },
+  "source_audit": {
+    "api_query": "https://huggingface.co/api/datasets/OpenDriveLab/FreeTacMan/tree/main?recursive=true&expand=true",
+    "repository_head_query": "git ls-remote https://github.com/OpenDriveLab/FreeTacMan.git HEAD refs/heads/main",
+    "frozen_before_download": true
+  }
+}
